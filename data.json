@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T09:50:00.289Z",
+  "updated": "2026-07-29T08:30:00.000Z",
   "source": "https://www.city.yatsushiro.lg.jp/kiji00326750/index.html",
   "cats": [
     {
@@ -247,26 +247,58 @@
       "pin": true
     },
     {
-      "t": "English",
-      "u": "https://www.city.yatsushiro.lg.jp.e.xl.hp.transer.com/kiji00326750/index.html",
+      "t": "避難所開設情報",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326737/index.html",
       "ex": "",
-      "cat": "sonota",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false
+    },
+    {
+      "t": "断水のお知らせ（7月28日現在）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326740/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": true,
+      "pin": false
+    },
+    {
+      "t": "都市ガスの停止について（7月28日現在）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326741/index.html",
+      "ex": "",
+      "cat": "denki",
       "urgent": false,
       "pin": false
     },
     {
-      "t": "中文(简化字)",
-      "u": "https://www.city.yatsushiro.lg.jp.c.xl.hp.transer.com/kiji00326750/index.html",
+      "t": "7月29日（水曜日）以降のもえるごみの収集について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
       "ex": "",
-      "cat": "sonota",
+      "cat": "gomi",
       "urgent": false,
       "pin": false
     },
     {
-      "t": "中文(繁體字)",
-      "u": "https://www.city.yatsushiro.lg.jp.t.xl.hp.transer.com/kiji00326750/index.html",
+      "t": "「エコエイトやつしろ」への持ち込みについて【7月28日（火曜日）時点】",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326742/index.html",
       "ex": "",
-      "cat": "sonota",
+      "cat": "gomi",
+      "urgent": false,
+      "pin": false
+    },
+    {
+      "t": "令和8年熊本地震に伴う八代市公共交通（バス・乗合タクシー）の運休について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326748/index.html",
+      "ex": "",
+      "cat": "kotsu",
+      "urgent": true,
+      "pin": false
+    },
+    {
+      "t": "健康推進課よりお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326751/index.html",
+      "ex": "",
+      "cat": "karada",
       "urgent": false,
       "pin": false
     },
@@ -287,86 +319,6 @@
       "pin": false
     },
     {
-      "t": "被災者支援に関する総合相談窓口の設置について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326749/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "保険証がなくても介護サービスを受けられます",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326778/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "マイナ保険証、資格確認書がなくても医療機関等を受信できます",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326779/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "健康推進課よりお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326751/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "7月29日（水曜日） 以降のもえるごみの収集について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
-      "ex": "",
-      "cat": "gomi",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "「エコエイトやつしろ」への持ち込み停止・緑地広場の利用停止について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326742/index.html",
-      "ex": "",
-      "cat": "gomi",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "令和８年熊本地震に伴う八代市公共交通（バス・乗合タクシー）の運休について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326748/index.html",
-      "ex": "",
-      "cat": "kotsu",
-      "urgent": true,
-      "pin": false
-    },
-    {
-      "t": "断水のお知らせ(R8.07.28 現在)",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326740/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": true,
-      "pin": false
-    },
-    {
-      "t": "【給水所情報】",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": true,
-      "pin": false
-    },
-    {
-      "t": "避難所開設情報",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326737/index.html",
-      "ex": "",
-      "cat": "hinan",
-      "urgent": true,
-      "pin": false
-    },
-    {
       "t": "7月29日（水曜日）市内の保育園や子育て施設は休園します",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326743/index.html",
       "ex": "",
@@ -383,24 +335,16 @@
       "pin": false
     },
     {
-      "t": "令和8年熊本地震に伴う「八代市西松江城老人憩いの家」臨時休館のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00322606/index.html",
+      "t": "令和8年熊本地震に係るペットの相談窓口について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326764/index.html",
       "ex": "",
-      "cat": "shisetsu",
+      "cat": "pet",
       "urgent": false,
       "pin": false
     },
     {
-      "t": "鏡文化センターの休館及び旧八代市厚生会館に係る市民対話の延期について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326771/index.html",
-      "ex": "",
-      "cat": "shisetsu",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "商工政策課所管施設（勤労者向け施設）の臨時休館（利用停止）および今後の利用再開について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326757/index.html",
+      "t": "【図書館】令和8年熊本地震被災による休館について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326772/index.html",
       "ex": "",
       "cat": "shisetsu",
       "urgent": false,
@@ -431,8 +375,24 @@
       "pin": false
     },
     {
-      "t": "【図書館】令和８年熊本地震被災による休館について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326772/index.html",
+      "t": "商工政策課所管施設（勤労者向け施設）の臨時休館（利用停止）および今後の利用再開について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326757/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false
+    },
+    {
+      "t": "令和8年熊本地震に伴う「八代市西松江城老人憩いの家」臨時休館のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00322606/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false
+    },
+    {
+      "t": "鏡文化センターの休館及び旧八代市厚生会館に係る市民対話の延期について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326476/index.html",
       "ex": "",
       "cat": "shisetsu",
       "urgent": false,
@@ -453,103 +413,8 @@
       "cat": "sonota",
       "urgent": false,
       "pin": false
-    },
-    {
-      "t": "令和８年熊本地震に係るペットの相談窓口について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326764/index.html",
-      "ex": "",
-      "cat": "pet",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326766/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "令和８年熊本地震に伴う企業様からの物資提供のお願い",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "【令和8年熊本地震】ふるさと納税による支援寄附金の受付について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00324662/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false
     }
   ],
-  "shelters": [
-    "代陽コミュニティセンター",
-    "第一中学校",
-    "代陽小学校",
-    "八代コミュニティセンター",
-    "八代小学校",
-    "八代トヨオカ地建アリーナ",
-    "太田郷コミュニティセンター",
-    "第二中学校",
-    "植柳コミュニティセンター",
-    "植柳小学校",
-    "麦島コミュニティセンター",
-    "麦島小学校",
-    "第三中学校",
-    "八代支援学校",
-    "松高コミュニティセンター",
-    "松高小学校",
-    "大島公民館",
-    "八千把コミュニティセンター",
-    "八千把小学校",
-    "第四中学校",
-    "高田コミュニティセンター",
-    "高田小学校",
-    "八代市保健センター",
-    "第五中学校",
-    "金剛コミュニティセンター",
-    "金剛小学校",
-    "第六中学校",
-    "郡築コミュニティセンター",
-    "郡築小学校",
-    "第七中学校",
-    "昭和コミュニティセンター",
-    "昭和小学校",
-    "宮地東コミュニティセンター",
-    "宮地コミュニティセンター",
-    "宮地小学校",
-    "第八中学校",
-    "龍峯コミュニティセンター",
-    "日奈久コミュニティセンター",
-    "日奈久小学校",
-    "日奈久中学校",
-    "二見コミュニティセンター",
-    "二見小学校",
-    "二見中学校",
-    "今泉地区公民館",
-    "みんなの家（中津道）",
-    "鮎帰社会教育センター",
-    "田上社会教育センター",
-    "深水生活改善センター",
-    "坂本コミュニティセンター",
-    "久多良木多目的集会施設",
-    "さかもと青少年センター分館",
-    "鏡小学校",
-    "千丁コミュニティセンター",
-    "鏡コミュニティセンター",
-    "鏡わかあゆ高等支援学校",
-    "文政小学校",
-    "有佐小学校",
-    "東陽コミュニティセンター及び東陽スポーツセンター",
-    "泉コミュニティセンター",
-    "泉第八小学校",
-    "板木・保口集会所",
-    "旧泉第一小学校"
-  ],
+  "shelters": [],
   "errors": []
 }
