@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>やつしろ困りごとまとめ｜地震のあとの暮らしの情報</title>
+<meta name="description" content="地震のあとの困りごとから、八代市のお知らせを探せます。避難所・水・電気・ごみ・り災証明など。市民がつくった非公式ページです。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gogoroadste.github.io/yatsushiro-info/">
+<meta property="og:title" content="やつしろ困りごとまとめ">
+<meta property="og:description" content="避難所は？水は？ごみは？り災証明は？ 八代市のお知らせを困りごとから探せます（非公式）。">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#12161a">
+<style>
+:root{
+  --ink:#12161a; --sub:#4a545e; --paper:#fff; --wash:#f4f6f8;
+  --line:#d5dbe0; --line-strong:#aab4bd;
+  --blue:#0b4f9e; --blue-bg:#eaf1fa;
+  --red:#b3231f; --red-bg:#fdeceb;
+  --amber:#8a5a00; --amber-bg:#fff4dd;
+  --green:#14663d; --green-bg:#e6f4ec;
+  --fs:17px; --radius:10px;
+}
+html[data-size="l"]{--fs:20px}
+html[data-size="xl"]{--fs:24px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--wash);color:var(--ink);
+  font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic Medium",Meiryo,system-ui,sans-serif;
+  font-size:var(--fs);line-height:1.65}
+a{color:var(--blue)}
+.wrap{max-width:760px;margin:0 auto;padding:0 14px 96px}
+
+.top{background:var(--ink);color:#fff;padding:14px 0 16px}
+.top .wrap{padding-bottom:0}
+.top h1{font-size:1.25em;margin:0 0 2px;letter-spacing:.02em;line-height:1.35}
+.top .sub{font-size:.8em;color:#c3ccd4;margin:0}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.btn{font:inherit;font-size:.85em;background:#fff;color:var(--ink);border:1px solid var(--line-strong);
+  border-radius:8px;padding:9px 13px;min-height:44px;cursor:pointer}
+.btn:hover{background:var(--wash)}
+.btn-ghost{background:transparent;color:#fff;border-color:#5c6871}
+.btn-ghost:hover{background:#242c33}
+.btn-primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+.btn-primary:hover{background:#093f7d}
+.sizes{display:flex;margin-left:auto}
+.sizes .btn{border-radius:0;margin-left:-1px}
+.sizes .btn:first-child{border-radius:8px 0 0 8px;margin-left:0}
+.sizes .btn:last-child{border-radius:0 8px 8px 0}
+.sizes .btn[aria-pressed="true"]{background:#fff;color:var(--ink);border-color:#fff;font-weight:700}
+
+.emergency{background:var(--red-bg);border:2px solid var(--red);border-radius:var(--radius);padding:12px 14px;margin:16px 0}
+.emergency h2{font-size:.95em;margin:0 0 8px;color:var(--red)}
+.tels{display:flex;flex-wrap:wrap;gap:8px}
+.tel{display:flex;flex-direction:column;flex:1 1 150px;text-decoration:none;background:#fff;
+  border:1px solid var(--line-strong);border-radius:8px;padding:10px 12px;min-height:56px;justify-content:center}
+.tel span{font-size:.78em;color:var(--sub)}
+.tel strong{font-size:1.12em;color:var(--blue);letter-spacing:.04em}
+
+.official{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--blue);color:#fff;
+  text-decoration:none;font-weight:700;padding:16px;border-radius:var(--radius);margin:16px 0;min-height:60px;text-align:center}
+.official:hover{background:#093f7d}
+
+.freshness{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--paper);
+  border:1px solid var(--line);border-left:5px solid var(--green);border-radius:8px;
+  padding:10px 13px;margin:14px 0;font-size:.85em}
+.freshness.stale{border-left-color:var(--amber);background:var(--amber-bg)}
+.freshness .msg{flex:1;min-width:200px}
+
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);margin:16px 0;overflow:hidden}
+.panel-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;padding:12px 14px 10px;border-bottom:1px solid var(--line)}
+.panel-head h2{margin:0;font-size:1em}
+.panel-head .asof{font-size:.75em;color:var(--sub);margin-left:auto}
+.grid-status{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.st{padding:12px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.st .k{font-size:.8em;color:var(--sub);display:block}
+.st .v{font-weight:700;font-size:1.05em;display:inline-block;padding:2px 8px;border-radius:5px;margin-top:3px}
+.v.bad{background:var(--red-bg);color:var(--red)}
+.v.warn{background:var(--amber-bg);color:var(--amber)}
+.v.ok{background:var(--green-bg);color:var(--green)}
+.st .note{display:block;font-size:.78em;color:var(--sub);margin-top:3px}
+
+.shelters{padding:12px 14px}
+.shelters ul{margin:0;padding:0;list-style:none;columns:2;column-gap:16px;font-size:.9em}
+.shelters li{break-inside:avoid;padding:3px 0 3px 16px;position:relative}
+.shelters li::before{content:"";position:absolute;left:2px;top:.72em;width:6px;height:6px;background:var(--green);border-radius:50%}
+@media (max-width:520px){.shelters ul{columns:1}}
+
+.sec-title{font-size:.9em;color:var(--sub);margin:22px 0 8px;font-weight:700}
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:8px}
+.cat{font:inherit;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+  padding:12px 6px;min-height:82px;cursor:pointer;text-align:center;line-height:1.3;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.cat:hover{border-color:var(--blue);background:var(--blue-bg)}
+.cat[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.cat[aria-pressed="true"] .n{color:#c3ccd4}
+.cat .ico{font-size:1.5em;line-height:1}
+.cat .lb{font-size:.85em;font-weight:700}
+.cat .n{font-size:.72em;color:var(--sub)}
+
+.search{display:flex;gap:8px;margin:14px 0 6px}
+.search input{flex:1;font:inherit;padding:12px;min-height:48px;border:1px solid var(--line-strong);border-radius:8px;background:#fff}
+.search input:focus{outline:3px solid var(--blue);outline-offset:1px}
+
+.count{font-size:.82em;color:var(--sub);margin:10px 2px}
+.card{display:block;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--blue);
+  border-radius:8px;padding:13px 14px;margin-bottom:9px;text-decoration:none;color:inherit}
+.card:hover{border-color:var(--blue);background:var(--blue-bg)}
+.card.urgent{border-left-color:var(--red)}
+.card .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:5px}
+.chip{font-size:.72em;background:var(--wash);border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--sub)}
+.chip.u{background:var(--red-bg);border-color:var(--red);color:var(--red);font-weight:700}
+.card .ttl{font-weight:700;line-height:1.45}
+.card .ex{font-size:.83em;color:var(--sub);margin-top:4px}
+.card .go{font-size:.78em;color:var(--blue);margin-top:6px;display:block}
+.empty{background:var(--paper);border:1px dashed var(--line-strong);border-radius:var(--radius);padding:24px 16px;text-align:center;color:var(--sub)}
+
+details.tool{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);margin:18px 0;overflow:hidden}
+details.tool>summary{padding:13px 14px;cursor:pointer;font-weight:700;font-size:.92em;min-height:48px;display:flex;align-items:center}
+details.tool>summary:hover{background:var(--wash)}
+.tool-body{padding:0 14px 14px;border-top:1px solid var(--line)}
+.tool-body textarea{width:100%;min-height:120px;font:inherit;font-size:.9em;padding:11px;
+  border:1px solid var(--line-strong);border-radius:8px;margin-top:12px;resize:vertical}
+.result{margin-top:12px;background:var(--wash);border:1px solid var(--line);border-radius:8px;padding:12px}
+.result h4{margin:0 0 6px;font-size:.9em}
+.spin{display:inline-block;width:13px;height:13px;border:2px solid var(--line-strong);border-top-color:var(--blue);
+  border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.spin{animation:none}}
+
+.disclaimer{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px;margin-top:24px;font-size:.82em;color:var(--sub);line-height:1.7}
+.disclaimer strong{color:var(--ink)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.top :focus-visible{outline-color:#7fb3ef}
+
+@media print{
+  :root{--fs:11pt}
+  body{background:#fff}
+  .top{background:#fff;color:#000;border-bottom:3px solid #000}
+  .top .sub{color:#333}
+  .toolbar,.search,details.tool,.cats,.sec-title,.official,.freshness{display:none!important}
+  .card{break-inside:avoid;border:1px solid #666;border-left:4px solid #000}
+  .card .go{display:none}
+  .card::after{content:attr(data-url);display:block;font-size:8pt;color:#333;word-break:break-all;margin-top:4px}
+  .shelters ul{columns:3}
+  .wrap{max-width:100%;padding:0}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <h1>やつしろ困りごとまとめ</h1>
+    <p class="sub">地震のあとの困りごとから、八代市のお知らせを探せます（市民がつくった非公式ページ）</p>
+    <div class="toolbar">
+      <button class="btn btn-ghost" id="share">このページを共有する</button>
+      <button class="btn btn-ghost" id="print">紙に印刷する</button>
+      <div class="sizes" role="group" aria-label="文字の大きさ">
+        <button class="btn btn-ghost" data-size="m" aria-pressed="true">標準</button>
+        <button class="btn btn-ghost" data-size="l" aria-pressed="false">大</button>
+        <button class="btn btn-ghost" data-size="xl" aria-pressed="false">特大</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="emergency">
+    <h2>いのちに関わるとき</h2>
+    <div class="tels">
+      <a class="tel" href="tel:119"><span>火事・救急・救助</span><strong>119</strong></a>
+      <a class="tel" href="tel:110"><span>事件・事故</span><strong>110</strong></a>
+      <a class="tel" href="tel:0965334111"><span>八代市役所 代表</span><strong>0965-33-4111</strong></a>
+    </div>
+  </section>
+
+  <a class="official" href="https://www.city.yatsushiro.lg.jp/kiji00326750/index.html" target="_blank" rel="noopener">
+    八代市の公式ページを開く（いちばん確実です）
+  </a>
+
+  <div class="freshness" id="fresh" role="status" aria-live="polite">
+    <span class="msg" id="freshmsg"><span class="spin"></span> 読み込んでいます…</span>
+  </div>
+
+  <section class="panel" aria-labelledby="board-h">
+    <div class="panel-head">
+      <h2 id="board-h">くらしの状況</h2>
+      <span class="asof" id="board-asof"></span>
+    </div>
+    <div class="grid-status" id="board"></div>
+  </section>
+
+  <section class="panel" id="shelter-panel" hidden aria-labelledby="sh-h">
+    <div class="panel-head">
+      <h2 id="sh-h">いま開いている避難所</h2>
+      <span class="asof" id="sh-asof"></span>
+    </div>
+    <div class="shelters">
+      <ul id="shelter-list"></ul>
+      <p style="font-size:.8em;color:var(--sub);margin:10px 0 0">
+        向かう前に、市の
+        <a href="https://www.city.yatsushiro.lg.jp/bousai/list01014.html" target="_blank" rel="noopener">開設・混雑状況</a>
+        か市役所（<a href="tel:0965334111">0965-33-4111</a>）でご確認ください。
+      </p>
+    </div>
+  </section>
+
+  <h2 class="sec-title">こまっていることを選んでください</h2>
+  <div class="cats" id="cats"></div>
+
+  <div class="search">
+    <label for="q" style="position:absolute;left:-9999px">キーワードでさがす</label>
+    <input id="q" type="search" placeholder="キーワードでさがす（例：水、ごみ、バス）" autocomplete="off">
+  </div>
+
+  <p class="count" id="count"></p>
+  <div id="list"></div>
+
+  <details class="tool">
+    <summary>市のお知らせ文を貼り付けて仕分ける（更新担当者むけ）</summary>
+    <div class="tool-body">
+      <p style="font-size:.85em;color:var(--sub);margin:12px 0 0">
+        防災メールやLINEで届いた文章を貼ると、どのカテゴリに入るか、緊急度はどれくらいかを判定します。判定は自動なので、掲載前にかならず目視で確認してください。
+      </p>
+      <textarea id="paste" placeholder="ここにお知らせの文章を貼り付けてください"></textarea>
+      <div style="margin-top:10px"><button class="btn btn-primary" id="classify">仕分ける</button></div>
+      <div id="result"></div>
+    </div>
+  </details>
+
+  <div class="disclaimer">
+    <strong>このページについて</strong><br>
+    八代市が発表した情報へのリンクを、市民の困りごと別に並べ替えた<strong>非公式</strong>のページです。市が作った情報を、探しやすく並べ直しているだけで、内容そのものを書き換えてはいません。<br><br>
+    <strong>避難所の開設状況・断水の範囲・給水所の場所は、時間ごとに変わります。</strong>行動を決める前に、かならず市の公式ページか市役所（<a href="tel:0965334111">0965-33-4111</a>）でご確認ください。<br><br>
+    通信が不安定な場所でも開けるよう、外部の画像やフォントを読み込まない作りにしています。一度開けば、電波が切れても同じ画面を見ることができます。
+  </div>
+</main>
+
+<script>
+"use strict";
+
+/* data.json が読めなかったときの最低限の控え。ここだけは必ず表示されます。 */
+const FALLBACK = {
+  updated: null,
+  cats: [
+    {id:"hinan",ico:"🏫",label:"避難所",kw:["避難所","開設"]},
+    {id:"mizu",ico:"🚰",label:"水・トイレ",kw:["断水","給水","水道","トイレ"]},
+    {id:"denki",ico:"💡",label:"電気・ガス",kw:["停電","ガス","電気"]},
+    {id:"gomi",ico:"🗑️",label:"ごみ・片づけ",kw:["ごみ","収集","エコエイト"]},
+    {id:"karada",ico:"🏥",label:"体・こころ",kw:["健康","医療","入浴"]},
+    {id:"okane",ico:"📋",label:"お金・証明",kw:["罹災証明","り災証明","支援金","申請","窓口"]},
+    {id:"sumai",ico:"🏠",label:"住まい",kw:["住宅","仮設","修理"]},
+    {id:"kotsu",ico:"🚌",label:"移動・道路",kw:["バス","道路","運休"]},
+    {id:"kodomo",ico:"👶",label:"子ども・学校",kw:["保育","学校","休園"]},
+    {id:"shisetsu",ico:"🏛️",label:"施設の休み",kw:["休館","利用停止"]},
+    {id:"pet",ico:"🐕",label:"ペット",kw:["ペット","動物"]},
+    {id:"sonota",ico:"📢",label:"その他",kw:[]}
+  ],
+  items: [
+    {t:"避難所の開設・混雑状況",u:"https://www.city.yatsushiro.lg.jp/bousai/list01014.html",ex:"いま開いている避難所と混み具合。",cat:"hinan",urgent:true,pin:true},
+    {t:"八代市 緊急情報（一覧）",u:"https://www.city.yatsushiro.lg.jp/kinkyu.html",ex:"市からの緊急のお知らせ。",cat:"hinan",urgent:true,pin:true},
+    {t:"り災証明について",u:"https://www.city.yatsushiro.lg.jp/bousai/list01013.html",ex:"支援金や保険の手続きに必要になります。",cat:"okane",urgent:true,pin:true},
+    {t:"令和8年熊本地震 関連情報（市の一覧）",u:"https://www.city.yatsushiro.lg.jp/kiji00326750/index.html",ex:"市が出しているお知らせのまとめ。",cat:"sonota",urgent:true,pin:true}
+  ],
+  shelters: []
+};
+
+/* 手で書き換える欄：ライフラインの状況 */
+const BOARD = [
+  {k:"水道",              v:"一部で断水",       cls:"bad",  note:"範囲は市の断水情報で確認"},
+  {k:"都市ガス",          v:"一部で停止",       cls:"bad",  note:"復旧まで時間がかかります"},
+  {k:"もえるごみ",        v:"収集の予定を確認", cls:"warn", note:"通常と異なります"},
+  {k:"バス・乗合タクシー",v:"運休あり",         cls:"warn", note:"路線ごとに違います"},
+  {k:"保育園・子育て施設",v:"休園",             cls:"bad",  note:"7月29日時点"},
+  {k:"市の施設",          v:"多くが臨時休館",   cls:"warn", note:"図書館・博物館など"}
+];
+const BOARD_ASOF = "2026年7月29日時点";
+
+let DATA = FALLBACK, CATMAP = {}, activeCat = null, query = "";
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+
+function classify(text){
+  const s = String(text||"");
+  let best="sonota", bestScore=0;
+  for(const c of DATA.cats){
+    let score=0;
+    for(const k of (c.kw||[])) if(s.includes(k)) score += k.length>=3?2:1;
+    if(score>bestScore){bestScore=score;best=c.id;}
+  }
+  return {cat:best, score:bestScore};
+}
+
+function renderBoard(){
+  $("board").innerHTML = BOARD.map(b =>
+    `<div class="st"><span class="k">${esc(b.k)}</span><span class="v ${b.cls}">${esc(b.v)}</span><span class="note">${esc(b.note)}</span></div>`
+  ).join("");
+  $("board-asof").textContent = BOARD_ASOF;
+}
+
+function renderShelters(){
+  const list = DATA.shelters || [];
+  if(!list.length){ $("shelter-panel").hidden = true; return; }
+  $("shelter-panel").hidden = false;
+  $("shelter-list").innerHTML = list.map(n => `<li>${esc(n)}</li>`).join("");
+  $("sh-asof").textContent = DATA.updated ? `${new Date(DATA.updated).toLocaleString("ja-JP")} 確認` : "";
+}
+
+function renderFresh(){
+  const bar = $("fresh");
+  if(!DATA.updated){
+    bar.className = "freshness stale";
+    $("freshmsg").innerHTML = `いまは最新データを読み込めませんでした。下の入口から <a href="https://www.city.yatsushiro.lg.jp/kiji00326750/index.html" target="_blank" rel="noopener">八代市の公式ページ</a> をご確認ください。`;
+    return;
+  }
+  const mins = Math.max(0, Math.round((Date.now() - new Date(DATA.updated)) / 60000));
+  const when = mins < 1 ? "たった今" : mins < 60 ? `${mins}分前` : `${Math.floor(mins/60)}時間${mins%60}分前`;
+  const stale = mins > 60;
+  bar.className = "freshness" + (stale ? " stale" : "");
+  $("freshmsg").innerHTML = stale
+    ? `最後に八代市のページを見に行ったのは <strong>${when}</strong> です。更新が止まっている可能性があるため、公式ページもあわせてご確認ください。`
+    : `八代市のページを <strong>${when}</strong> に確認しました（10分おきに自動で見に行っています）。`;
+}
+
+function renderCats(){
+  const counts = {};
+  for(const it of DATA.items) counts[it.cat] = (counts[it.cat]||0)+1;
+  const all = `<button class="cat" data-cat="" aria-pressed="${activeCat===null}">
+      <span class="ico">📚</span><span class="lb">すべて</span><span class="n">${DATA.items.length}件</span></button>`;
+  const rest = DATA.cats.filter(c=>counts[c.id]).map(c=>
+    `<button class="cat" data-cat="${c.id}" aria-pressed="${activeCat===c.id}">
+      <span class="ico">${c.ico}</span><span class="lb">${esc(c.label)}</span><span class="n">${counts[c.id]}件</span>
+    </button>`).join("");
+  $("cats").innerHTML = all + rest;
+  $("cats").querySelectorAll(".cat").forEach(b=>{
+    b.onclick = ()=>{ const v=b.dataset.cat; activeCat=(v===""||activeCat===v)?null:v; renderCats(); renderList(); };
+  });
+}
+
+function renderList(){
+  let list = DATA.items.slice();
+  if(activeCat) list = list.filter(i=>i.cat===activeCat);
+  const q = query.trim();
+  if(q) list = list.filter(i=>(i.t+(i.ex||"")).includes(q));
+  list.sort((a,b)=>(b.pin-a.pin)||(b.urgent-a.urgent));
+
+  $("count").textContent = list.length ? `${list.length}件のお知らせ` : "";
+  if(!list.length){
+    $("list").innerHTML = `<div class="empty">あてはまるお知らせが見つかりませんでした。<br>「すべて」を選ぶか、公式ページをご覧ください。</div>`;
+    return;
+  }
+  $("list").innerHTML = list.map(i=>{
+    const c = CATMAP[i.cat] || {ico:"📢", label:"その他"};
+    return `<a class="card${i.urgent?" urgent":""}" href="${esc(i.u)}" data-url="${esc(i.u)}" target="_blank" rel="noopener">
+      <span class="meta"><span class="chip">${c.ico} ${esc(c.label)}</span>${i.pin?'<span class="chip u">つねに最新</span>':""}</span>
+      <span class="ttl">${esc(i.t)}</span>
+      ${i.ex?`<span class="ex">${esc(i.ex)}</span>`:""}
+      <span class="go">→ 八代市の公式ページで読む</span>
+    </a>`;
+  }).join("");
+}
+
+function apply(){
+  CATMAP = Object.fromEntries(DATA.cats.map(c=>[c.id,c]));
+  renderFresh(); renderShelters(); renderCats(); renderList();
+}
+
+async function load(){
+  try{
+    const res = await fetch("./data.json?t=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) throw 0;
+    const d = await res.json();
+    if(d && Array.isArray(d.items) && d.items.length){ DATA = d; }
+  }catch(e){ /* 控えのまま表示 */ }
+  apply();
+}
+
+async function classifyPasted(){
+  const text = $("paste").value.trim();
+  if(!text){ $("result").innerHTML = `<div class="result">文章を貼り付けてから「仕分ける」を押してください。</div>`; return; }
+  const local = classify(text);
+  const c = CATMAP[local.cat];
+  const urgent = ["断水","給水","停電","避難所","開設","通行止","運休","休校","休園","救助","土砂","炊き出し"].some(k=>text.includes(k));
+  $("result").innerHTML = `<div class="result">
+    <h4>仕分けの結果</h4>
+    <p style="margin:0">カテゴリ：<strong>${c.ico} ${esc(c.label)}</strong>${local.score?"":"（手がかりが少ないため「その他」にしました）"}<br>
+    緊急度：<strong>${urgent?"高い（先頭に出します）":"通常"}</strong></p>
+    <p id="ai" style="margin:10px 0 0;font-size:.85em;color:var(--sub)"><span class="spin"></span> 要約を作っています…</p></div>`;
+  try{
+    const res = await fetch("https://api.anthropic.com/v1/messages",{
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({model:"claude-sonnet-4-6",max_tokens:1000,messages:[{role:"user",content:
+`次は八代市が被災者向けに出したお知らせです。JSONのみで答えてください（前置き・コードフェンス禁止）。
+{"category":"避難所|水・トイレ|電気・ガス|ごみ・片づけ|体・こころ|お金・証明|住まい|移動・道路|子ども・学校|施設の休み|ペット|その他","urgent":true/false,"summary":"やさしい日本語で1〜2文。原文にない事実は絶対に足さない。日時・場所・電話番号は原文どおり写す"}
+
+---
+${text.slice(0,4000)}`}]})
+    });
+    const data = await res.json();
+    const txt = (data.content||[]).filter(x=>x.type==="text").map(x=>x.text).join("").replace(/```json|```/g,"").trim();
+    const j = JSON.parse(txt);
+    $("ai").innerHTML = `<strong style="color:var(--ink)">AIによる判定</strong>：${esc(j.category||"")}${j.urgent?"／緊急":""}<br>
+      <strong style="color:var(--ink)">やさしい日本語の要約（自動生成・要確認）</strong><br>${esc(j.summary||"")}`;
+  }catch(e){
+    $("ai").textContent = "AIによる要約は使えませんでした。上の仕分け結果はそのままお使いいただけます。";
+  }
+}
+
+renderBoard();
+apply();
+load();
+setInterval(load, 5*60*1000);
+
+$("q").addEventListener("input", e=>{ query=e.target.value; renderList(); });
+$("print").onclick = ()=>window.print();
+$("classify").onclick = classifyPasted;
+$("share").onclick = async ()=>{
+  const url = location.href;
+  const payload = {title:"やつしろ困りごとまとめ", text:"避難所・水・ごみ・り災証明。八代市のお知らせを困りごとから探せます", url};
+  try{
+    if(navigator.share){ await navigator.share(payload); return; }
+    await navigator.clipboard.writeText(url);
+    $("share").textContent = "リンクをコピーしました";
+    setTimeout(()=>{$("share").textContent="このページを共有する";}, 2500);
+  }catch(e){}
+};
+document.querySelectorAll(".sizes .btn").forEach(b=>{
+  b.onclick = ()=>{
+    document.documentElement.dataset.size = b.dataset.size;
+    document.querySelectorAll(".sizes .btn").forEach(x=>x.setAttribute("aria-pressed", String(x===b)));
+  };
+});
+</script>
+</body>
+</html>
