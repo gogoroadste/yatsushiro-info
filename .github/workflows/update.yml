@@ -24,7 +24,11 @@ jobs:
         with:
           node-version: "20"
 
+      # 失敗しても止めない。「失敗した」という記録を data.json に残して
+      # 保存するところまで進めないと、サイト側に警告を出せないため。
       - name: 取り込む
+        id: fetch
+        continue-on-error: true
         run: node scripts/fetch.mjs
 
       - name: 変更があれば保存する
@@ -37,4 +41,15 @@ jobs:
             git push
           else
             echo "変更なし"
+          fi
+
+      # 保存が終わってから赤くする。Actions の一覧で失敗が一目で分かるように。
+      - name: 取得できたか判定する
+        run: |
+          if grep -q '"ok": true' data.json; then
+            echo "取得に成功しています"
+          else
+            echo "::error::八代市のページを取得できませんでした。data.json の errors を確認してください。"
+            grep -A5 '"errors"' data.json || true
+            exit 1
           fi
