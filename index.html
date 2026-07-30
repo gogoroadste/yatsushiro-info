@@ -116,14 +116,6 @@ a{color:var(--blue)}
 .card .go{font-size:.78em;color:var(--blue);margin-top:6px;display:block}
 .empty{background:var(--paper);border:1px dashed var(--line-strong);border-radius:var(--radius);padding:24px 16px;text-align:center;color:var(--sub)}
 
-details.tool{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);margin:18px 0;overflow:hidden}
-details.tool>summary{padding:13px 14px;cursor:pointer;font-weight:700;font-size:.92em;min-height:48px;display:flex;align-items:center}
-details.tool>summary:hover{background:var(--wash)}
-.tool-body{padding:0 14px 14px;border-top:1px solid var(--line)}
-.tool-body textarea{width:100%;min-height:120px;font:inherit;font-size:.9em;padding:11px;
-  border:1px solid var(--line-strong);border-radius:8px;margin-top:12px;resize:vertical}
-.result{margin-top:12px;background:var(--wash);border:1px solid var(--line);border-radius:8px;padding:12px}
-.result h4{margin:0 0 6px;font-size:.9em}
 .spin{display:inline-block;width:13px;height:13px;border:2px solid var(--line-strong);border-top-color:var(--blue);
   border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px}
 @keyframes sp{to{transform:rotate(360deg)}}
@@ -140,7 +132,7 @@ details.tool>summary:hover{background:var(--wash)}
   body{background:#fff}
   .top{background:#fff;color:#000;border-bottom:3px solid #000}
   .top .sub{color:#333}
-  .toolbar,.search,details.tool,.cats,.sec-title,.official,.freshness{display:none!important}
+  .toolbar,.search,.cats,.sec-title,.official,.freshness{display:none!important}
   .card{break-inside:avoid;border:1px solid #666;border-left:4px solid #000}
   .card .go{display:none}
   .card::after{content:attr(data-url);display:block;font-size:8pt;color:#333;word-break:break-all;margin-top:4px}
@@ -220,17 +212,6 @@ details.tool>summary:hover{background:var(--wash)}
   <p class="count" id="count"></p>
   <div id="list"></div>
 
-  <details class="tool">
-    <summary>市のお知らせ文を貼り付けて仕分ける（更新担当者むけ）</summary>
-    <div class="tool-body">
-      <p style="font-size:.85em;color:var(--sub);margin:12px 0 0">
-        防災メールやLINEで届いた文章を貼ると、どのカテゴリに入るか、緊急度はどれくらいかを判定します。判定は自動なので、掲載前にかならず目視で確認してください。
-      </p>
-      <textarea id="paste" placeholder="ここにお知らせの文章を貼り付けてください"></textarea>
-      <div style="margin-top:10px"><button class="btn btn-primary" id="classify">仕分ける</button></div>
-      <div id="result"></div>
-    </div>
-  </details>
 
   <div class="disclaimer">
     <strong>このページについて</strong><br>
@@ -247,18 +228,18 @@ details.tool>summary:hover{background:var(--wash)}
 const FALLBACK = {
   updated: null,
   cats: [
-    {id:"hinan",ico:"🏫",label:"避難所",kw:["避難所","開設"]},
-    {id:"mizu",ico:"🚰",label:"水・トイレ",kw:["断水","給水","水道","トイレ"]},
-    {id:"denki",ico:"💡",label:"電気・ガス",kw:["停電","ガス","電気"]},
-    {id:"gomi",ico:"🗑️",label:"ごみ・片づけ",kw:["ごみ","収集","エコエイト"]},
-    {id:"karada",ico:"🏥",label:"体・こころ",kw:["健康","医療","入浴"]},
-    {id:"okane",ico:"📋",label:"お金・証明",kw:["罹災証明","り災証明","支援金","申請","窓口"]},
-    {id:"sumai",ico:"🏠",label:"住まい",kw:["住宅","仮設","修理"]},
-    {id:"kotsu",ico:"🚌",label:"移動・道路",kw:["バス","道路","運休"]},
-    {id:"kodomo",ico:"👶",label:"子ども・学校",kw:["保育","学校","休園"]},
-    {id:"shisetsu",ico:"🏛️",label:"施設の休み",kw:["休館","利用停止"]},
-    {id:"pet",ico:"🐕",label:"ペット",kw:["ペット","動物"]},
-    {id:"sonota",ico:"📢",label:"その他",kw:[]}
+    {id:"hinan",ico:"🏫",label:"避難所"},
+    {id:"mizu",ico:"🚰",label:"水・トイレ"},
+    {id:"denki",ico:"💡",label:"電気・ガス"},
+    {id:"gomi",ico:"🗑️",label:"ごみ・片づけ"},
+    {id:"karada",ico:"🏥",label:"体・こころ"},
+    {id:"okane",ico:"📋",label:"お金・証明"},
+    {id:"sumai",ico:"🏠",label:"住まい"},
+    {id:"kotsu",ico:"🚌",label:"移動・道路"},
+    {id:"kodomo",ico:"👶",label:"子ども・学校"},
+    {id:"shisetsu",ico:"🏛️",label:"施設の休み"},
+    {id:"pet",ico:"🐕",label:"ペット"},
+    {id:"sonota",ico:"📢",label:"その他"}
   ],
   items: [
     {t:"避難所の開設・混雑状況",u:"https://www.city.yatsushiro.lg.jp/bousai/list01014.html",ex:"いま開いている避難所と混み具合。",cat:"hinan",urgent:true,pin:true},
@@ -283,17 +264,6 @@ const BOARD_ASOF = "2026年7月29日時点";
 let DATA = FALLBACK, CATMAP = {}, activeCat = null, query = "";
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-
-function classify(text){
-  const s = String(text||"");
-  let best="sonota", bestScore=0;
-  for(const c of DATA.cats){
-    let score=0;
-    for(const k of (c.kw||[])) if(s.includes(k)) score += k.length>=3?2:1;
-    if(score>bestScore){bestScore=score;best=c.id;}
-  }
-  return {cat:best, score:bestScore};
-}
 
 function renderBoard(){
   $("board").innerHTML = BOARD.map(b =>
@@ -379,37 +349,6 @@ async function load(){
   apply();
 }
 
-async function classifyPasted(){
-  const text = $("paste").value.trim();
-  if(!text){ $("result").innerHTML = `<div class="result">文章を貼り付けてから「仕分ける」を押してください。</div>`; return; }
-  const local = classify(text);
-  const c = CATMAP[local.cat];
-  const urgent = ["断水","給水","停電","避難所","開設","通行止","運休","休校","休園","救助","土砂","炊き出し"].some(k=>text.includes(k));
-  $("result").innerHTML = `<div class="result">
-    <h4>仕分けの結果</h4>
-    <p style="margin:0">カテゴリ：<strong>${c.ico} ${esc(c.label)}</strong>${local.score?"":"（手がかりが少ないため「その他」にしました）"}<br>
-    緊急度：<strong>${urgent?"高い（先頭に出します）":"通常"}</strong></p>
-    <p id="ai" style="margin:10px 0 0;font-size:.85em;color:var(--sub)"><span class="spin"></span> 要約を作っています…</p></div>`;
-  try{
-    const res = await fetch("https://api.anthropic.com/v1/messages",{
-      method:"POST", headers:{"Content-Type":"application/json"},
-      body: JSON.stringify({model:"claude-sonnet-4-6",max_tokens:1000,messages:[{role:"user",content:
-`次は八代市が被災者向けに出したお知らせです。JSONのみで答えてください（前置き・コードフェンス禁止）。
-{"category":"避難所|水・トイレ|電気・ガス|ごみ・片づけ|体・こころ|お金・証明|住まい|移動・道路|子ども・学校|施設の休み|ペット|その他","urgent":true/false,"summary":"やさしい日本語で1〜2文。原文にない事実は絶対に足さない。日時・場所・電話番号は原文どおり写す"}
-
----
-${text.slice(0,4000)}`}]})
-    });
-    const data = await res.json();
-    const txt = (data.content||[]).filter(x=>x.type==="text").map(x=>x.text).join("").replace(/```json|```/g,"").trim();
-    const j = JSON.parse(txt);
-    $("ai").innerHTML = `<strong style="color:var(--ink)">AIによる判定</strong>：${esc(j.category||"")}${j.urgent?"／緊急":""}<br>
-      <strong style="color:var(--ink)">やさしい日本語の要約（自動生成・要確認）</strong><br>${esc(j.summary||"")}`;
-  }catch(e){
-    $("ai").textContent = "AIによる要約は使えませんでした。上の仕分け結果はそのままお使いいただけます。";
-  }
-}
-
 renderBoard();
 apply();
 load();
@@ -417,7 +356,6 @@ setInterval(load, 5*60*1000);
 
 $("q").addEventListener("input", e=>{ query=e.target.value; renderList(); });
 $("print").onclick = ()=>window.print();
-$("classify").onclick = classifyPasted;
 $("share").onclick = async ()=>{
   const url = location.href;
   const payload = {title:"やつしろ困りごとまとめ", text:"避難所・水・ごみ・り災証明。八代市のお知らせを困りごとから探せます", url};
