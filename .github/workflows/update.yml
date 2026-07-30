@@ -1,0 +1,40 @@
+name: 八代市の情報を取り込む
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # 10分おき（GitHub側の混雑で遅れることがあります）
+  workflow_dispatch:          # 手動実行ボタン
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 取り込む
+        run: node scripts/fetch.mjs
+
+      - name: 変更があれば保存する
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data.json)" ]; then
+            git add data.json
+            git commit -m "データ更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "変更なし"
+          fi
