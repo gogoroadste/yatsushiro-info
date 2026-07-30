@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T10:18:23.431Z",
+  "updated": "2026-07-30T16:07:02.583Z",
   "source": "https://www.city.yatsushiro.lg.jp/kiji00326750/index.html",
   "cats": [
     {
@@ -311,14 +311,6 @@
       "pin": false
     },
     {
-      "t": "健康推進課よりお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326751/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false
-    },
-    {
       "t": "7月29日（水曜日） 以降のもえるごみの収集について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
       "ex": "",
@@ -359,6 +351,14 @@
       "pin": false
     },
     {
+      "t": "上水道を使用されている御家庭、事業所等のみなさんへ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326787/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false
+    },
+    {
       "t": "避難所開設情報",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326737/index.html",
       "ex": "",
@@ -379,6 +379,14 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326744/index.html",
       "ex": "",
       "cat": "shisetsu",
+      "urgent": false,
+      "pin": false
+    },
+    {
+      "t": "健康推進課よりお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326751/index.html",
+      "ex": "",
+      "cat": "karada",
       "urgent": false,
       "pin": false
     },
@@ -439,6 +447,38 @@
       "pin": false
     },
     {
+      "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326766/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false
+    },
+    {
+      "t": "【令和8年熊本地震】ふるさと納税による支援寄附金の受付について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00324662/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false
+    },
+    {
+      "t": "令和８年熊本地震に伴う企業様からの物資提供のお願い",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false
+    },
+    {
+      "t": "支援物資等の受入窓口 問合せ先一覧",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326786/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false
+    },
+    {
       "t": "令和8年熊本地震に伴う「第59回八代くま川祭り」の開催中止について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326756/index.html",
       "ex": "",
@@ -463,26 +503,18 @@
       "pin": false
     },
     {
-      "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326766/index.html",
+      "t": "📌災害時における避難・車中泊可能な公園のご案内",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326775/index.html",
       "ex": "",
-      "cat": "okane",
+      "cat": "hinan",
       "urgent": false,
       "pin": false
     },
     {
-      "t": "令和８年熊本地震に伴う企業様からの物資提供のお願い",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
+      "t": "外国人市民（がいこくじん しみん）のみなさんへ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326780/index.html",
       "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false
-    },
-    {
-      "t": "【令和8年熊本地震】ふるさと納税による支援寄附金の受付について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00324662/index.html",
-      "ex": "",
-      "cat": "okane",
+      "cat": "sonota",
       "urgent": false,
       "pin": false
     }
@@ -495,6 +527,7 @@
     "八代小学校",
     "八代トヨオカ地建アリーナ",
     "太田郷コミュニティセンター",
+    "太田郷小学校",
     "第二中学校",
     "植柳コミュニティセンター",
     "植柳小学校",
@@ -539,8 +572,8 @@
     "坂本コミュニティセンター",
     "久多良木多目的集会施設",
     "さかもと青少年センター分館",
-    "鏡小学校",
     "千丁コミュニティセンター",
+    "鏡小学校",
     "鏡コミュニティセンター",
     "鏡わかあゆ高等支援学校",
     "文政小学校",
