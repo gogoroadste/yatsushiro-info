@@ -62,6 +62,16 @@ a{color:var(--blue)}
   text-decoration:none;font-weight:700;padding:16px;border-radius:var(--radius);margin:16px 0;min-height:60px;text-align:center}
 .official:hover{background:#093f7d}
 
+.qr{display:none;gap:14px;align-items:center;background:var(--paper);border:1px solid var(--line);
+  border-radius:var(--radius);padding:12px 14px;margin:16px 0}
+.qr.on{display:flex}
+.qr-img{flex:0 0 auto;line-height:0}
+.qr-img svg{display:block;width:104px;height:104px;border:1px solid var(--line)}
+.qr-txt{min-width:0}
+.qr-txt strong{display:block;font-size:.92em}
+.qr-txt p{margin:3px 0 5px;font-size:.8em;color:var(--sub);line-height:1.5}
+.qr-txt code{font-size:.74em;color:var(--sub);word-break:break-all;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+
 .freshness{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--paper);
   border:1px solid var(--line);border-left:5px solid var(--green);border-radius:8px;
   padding:10px 13px;margin:14px 0;font-size:.85em}
@@ -80,6 +90,13 @@ a{color:var(--blue)}
 .v.warn{background:var(--amber-bg);color:var(--amber)}
 .v.ok{background:var(--green-bg);color:var(--green)}
 .st .note{display:block;font-size:.78em;color:var(--sub);margin-top:3px}
+
+.bouhan{padding:12px 14px}
+.bouhan ol{margin:0;padding-left:1.3em;font-size:.9em}
+.bouhan li{margin-bottom:6px}
+.bouhan .who{background:var(--amber-bg);border-left:4px solid var(--amber);border-radius:6px;padding:9px 11px;margin:10px 0 0;font-size:.85em}
+.bouhan .rumor{background:var(--wash);border:1px dashed var(--line-strong);border-radius:6px;padding:10px 11px;margin-top:10px;font-size:.83em;color:var(--sub);line-height:1.6}
+.bouhan .rumor strong{color:var(--ink)}
 
 .shelters{padding:12px 14px}
 .shelters ul{margin:0;padding:0;list-style:none;columns:2;column-gap:16px;font-size:.9em}
@@ -110,6 +127,7 @@ a{color:var(--blue)}
 .card.urgent{border-left-color:var(--red)}
 .card .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:5px}
 .chip{font-size:.72em;background:var(--wash);border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--sub)}
+.chip.src{background:#eef3f7;border-color:var(--line-strong);color:var(--sub)}
 .chip.u{background:var(--red-bg);border-color:var(--red);color:var(--red);font-weight:700}
 .card .ttl{font-weight:700;line-height:1.45}
 .card .ex{font-size:.83em;color:var(--sub);margin-top:4px}
@@ -137,6 +155,10 @@ a{color:var(--blue)}
   .card .go{display:none}
   .card::after{content:attr(data-url);display:block;font-size:8pt;color:#333;word-break:break-all;margin-top:4px}
   .shelters ul{columns:3}
+  .qr.on{display:flex;border:2px solid #000;page-break-inside:avoid}
+  .qr-img svg{width:42mm;height:42mm}
+  .qr-txt strong{font-size:14pt}
+  .qr-txt code{font-size:10pt;color:#000}
   .wrap{max-width:100%;padding:0}
 }
 </style>
@@ -174,6 +196,15 @@ a{color:var(--blue)}
     八代市の公式ページを開く（いちばん確実です）
   </a>
 
+  <section class="qr" id="qrcard" aria-labelledby="qr-h">
+    <div class="qr-img" id="qrbox"></div>
+    <div class="qr-txt">
+      <strong id="qr-h">人に教えるとき・貼り出すとき</strong>
+      <p>スマホのカメラで読み取ると、この画面が開きます。印刷して避難所に貼ることもできます。</p>
+      <code id="qrurl"></code>
+    </div>
+  </section>
+
   <div class="freshness" id="fresh" role="status" aria-live="polite">
     <span class="msg" id="freshmsg"><span class="spin"></span> 読み込んでいます…</span>
   </div>
@@ -184,6 +215,35 @@ a{color:var(--blue)}
       <span class="asof" id="board-asof"></span>
     </div>
     <div class="grid-status" id="board"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="bh-h">
+    <div class="panel-head">
+      <h2 id="bh-h">🚨 だまされないために</h2>
+      <span class="asof">警察庁・国民生活センターの注意喚起より</span>
+    </div>
+    <div class="bouhan">
+      <p style="margin:0 0 8px;font-size:.87em">実際に起きている手口です。<strong>心当たりのない訪問・電話には、その場で答えないでください。</strong></p>
+      <ol>
+        <li><strong>屋根や家の点検</strong>と言って訪ねてくる。応じると高額な工事や、頼んでいないブルーシート代を請求される</li>
+        <li><strong>市役所や支援団体をかたって義援金</strong>を求める。現金・電子マネー・暗号資産を要求されたら詐欺です</li>
+        <li><strong>家族や友人を装って</strong>「被災して困っている」と送金を求める</li>
+        <li><strong>警察官・公的機関の職員を装って</strong>送金や身分証の送付を求める</li>
+        <li>効くと称して<strong>承認されていない薬や健康食品</strong>を売りつける</li>
+      </ol>
+      <p class="who"><strong>ねらわれやすいのは</strong>　在宅している被災者（とくに独居の高齢者）、家族を心配している人、寄付をしようとしている人です。修理業者は<strong>その場で契約せず</strong>、家族や市の窓口に一度相談してください。</p>
+      <div class="tels" style="margin-top:10px">
+        <a class="tel" href="tel:110"><span>いま被害に遭っている</span><strong>110</strong></a>
+        <a class="tel" href="tel:%239110"><span>警察に相談したい</span><strong>#9110</strong></a>
+        <a class="tel" href="tel:188"><span>契約・商法のトラブル</span><strong>188</strong></a>
+      </div>
+      <div class="rumor">
+        <strong>未確認の情報について</strong><br>
+        「窃盗団が来ている」「偽の自衛官がいる」といった話が広まることがありますが、<strong>このページでは確認できていない情報は載せません</strong>。
+        過去の災害では、こうした噂が誤りだったり、特定の人たちへの攻撃につながったりしました。
+        不審な人を見かけたら、広める前に <a href="tel:110">110番</a> か <a href="tel:%239110">#9110</a> に伝えてください。それが最も早く、確実です。
+      </div>
+    </div>
   </section>
 
   <section class="panel" id="shelter-panel" hidden aria-labelledby="sh-h">
@@ -227,25 +287,32 @@ a{color:var(--blue)}
 /* data.json が読めなかったときの最低限の控え。ここだけは必ず表示されます。 */
 const FALLBACK = {
   updated: null,
+  ok: false,
   cats: [
     {id:"hinan",ico:"🏫",label:"避難所"},
     {id:"mizu",ico:"🚰",label:"水・トイレ"},
     {id:"denki",ico:"💡",label:"電気・ガス"},
+    {id:"mise",ico:"🏪",label:"お店・給油"},
     {id:"gomi",ico:"🗑️",label:"ごみ・片づけ"},
     {id:"karada",ico:"🏥",label:"体・こころ"},
     {id:"okane",ico:"📋",label:"お金・証明"},
+    {id:"bouhan",ico:"🚨",label:"防犯・詐欺"},
     {id:"sumai",ico:"🏠",label:"住まい"},
     {id:"kotsu",ico:"🚌",label:"移動・道路"},
     {id:"kodomo",ico:"👶",label:"子ども・学校"},
     {id:"shisetsu",ico:"🏛️",label:"施設の休み"},
     {id:"pet",ico:"🐕",label:"ペット"},
+    {id:"shien",ico:"🚚",label:"支援・物資"},
+    {id:"volunteer",ico:"🤝",label:"ボランティア"},
     {id:"sonota",ico:"📢",label:"その他"}
   ],
   items: [
     {t:"避難所の開設・混雑状況",u:"https://www.city.yatsushiro.lg.jp/bousai/list01014.html",ex:"いま開いている避難所と混み具合。",cat:"hinan",urgent:true,pin:true},
     {t:"八代市 緊急情報（一覧）",u:"https://www.city.yatsushiro.lg.jp/kinkyu.html",ex:"市からの緊急のお知らせ。",cat:"hinan",urgent:true,pin:true},
-    {t:"り災証明について",u:"https://www.city.yatsushiro.lg.jp/bousai/list01013.html",ex:"支援金や保険の手続きに必要になります。",cat:"okane",urgent:true,pin:true},
-    {t:"令和8年熊本地震 関連情報（市の一覧）",u:"https://www.city.yatsushiro.lg.jp/kiji00326750/index.html",ex:"市が出しているお知らせのまとめ。",cat:"sonota",urgent:true,pin:true}
+    {t:"給油所の営業状況をさがす（資源エネルギー庁）",u:"https://www.enecho-ss.meti.go.jp/",ex:"いま給油できるスタンドが地図に出ます。",cat:"mise",urgent:true,pin:true,src:"エネ庁"},
+    {t:"八代市社会福祉協議会",u:"https://www.yatsushiro-shakyo.jp/",ex:"災害ボランティアセンターの運営。片づけの依頼はこちら。",cat:"volunteer",urgent:true,pin:true,src:"社協"},
+    {t:"全社協 被災地支援・災害ボランティア情報",u:"https://www.saigaivc.com/",ex:"全国のボランティアセンター開設状況。",cat:"volunteer",urgent:true,pin:true,src:"全社協"},
+    {t:"令和8年熊本地震 関連情報（市の一覧）",u:"https://www.city.yatsushiro.lg.jp/kiji00326750/index.html",ex:"市が出しているお知らせのまとめ。",cat:"sonota",urgent:true,pin:true,src:"八代市"}
   ],
   shelters: []
 };
@@ -265,6 +332,219 @@ let DATA = FALLBACK, CATMAP = {}, activeCat = null, query = "";
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 
+/* ================================================================
+   QRコード生成（外部サービス不使用・バイトモード・レベルM・型番1〜6）
+   参照実装と全モジュール一致、OpenCVでの復号を型番1〜6で確認済み。
+   ================================================================ */
+// QRコード生成（外部ライブラリなし / バイトモード / 誤り訂正レベルM / 型番1〜6）
+// 型番6まででURL106バイトまで入るため、GitHub PagesのURLには十分。
+// 型番7以上で必要になる「型番情報ビット」を避けられるので、実装が小さく済む。
+
+function makeQR(text){
+  // ---- GF(256) ----
+  const EXP = new Uint8Array(512), LOG = new Uint8Array(256);
+  for (let i = 0, x = 1; i < 255; i++){ EXP[i] = x; LOG[x] = i; x <<= 1; if (x & 0x100) x ^= 0x11d; }
+  for (let i = 255; i < 512; i++) EXP[i] = EXP[i - 255];
+  const mul = (a, b) => (a && b) ? EXP[LOG[a] + LOG[b]] : 0;
+
+  // ---- 型番ごとの諸元 [1ブロックあたりのEC語数, ブロック数, 総コード語数] ----
+  const SPEC = { 1:[10,1,26], 2:[16,1,44], 3:[26,1,70], 4:[18,2,100], 5:[24,2,134], 6:[16,4,172] };
+  const ALIGN = { 1:0, 2:18, 3:22, 4:26, 5:30, 6:34 };
+
+  const bytes = new TextEncoder().encode(text);
+
+  // ---- 収まる最小の型番を選ぶ ----
+  let ver = 0, spec = null;
+  for (let v = 1; v <= 6; v++){
+    const [ecPer, nb, total] = SPEC[v];
+    const dataCw = total - ecPer * nb;
+    if (bytes.length <= dataCw - 2){ ver = v; spec = SPEC[v]; break; }  // 2 = モード4bit + 文字数8bit
+  }
+  if (!ver) return null;   // 入りきらない場合は呼び出し側でURL文字列を表示する
+
+  const [ecPer, nBlocks, totalCw] = spec;
+  const dataCw = totalCw - ecPer * nBlocks;
+  const size = 17 + 4 * ver;
+
+  // ---- ビット列を組む ----
+  const bits = [];
+  const push = (val, len) => { for (let i = len - 1; i >= 0; i--) bits.push((val >> i) & 1); };
+  push(0b0100, 4);          // バイトモード
+  push(bytes.length, 8);    // 文字数（型番1〜9は8ビット）
+  for (const b of bytes) push(b, 8);
+  for (let i = 0; i < 4 && bits.length < dataCw * 8; i++) bits.push(0);  // 終端
+  while (bits.length % 8) bits.push(0);
+  const data = new Uint8Array(dataCw);
+  for (let i = 0; i < bits.length; i += 8){
+    let v = 0; for (let j = 0; j < 8; j++) v = (v << 1) | bits[i + j];
+    data[i / 8] = v;
+  }
+  for (let i = Math.ceil(bits.length / 8), t = 0; i < dataCw; i++, t++) data[i] = t % 2 ? 0x11 : 0xEC;
+
+  // ---- リードソロモン ----
+  const genPoly = n => {
+    let g = [1];
+    for (let i = 0; i < n; i++){
+      const next = new Array(g.length + 1).fill(0);
+      for (let j = 0; j < g.length; j++){ next[j] ^= g[j]; next[j + 1] ^= mul(g[j], EXP[i]); }
+      g = next;
+    }
+    return g;
+  };
+  const G = genPoly(ecPer);
+  const perBlock = dataCw / nBlocks;
+  const dBlocks = [], eBlocks = [];
+  for (let b = 0; b < nBlocks; b++){
+    const blk = data.slice(b * perBlock, (b + 1) * perBlock);
+    const buf = new Uint8Array(perBlock + ecPer);
+    buf.set(blk);
+    for (let i = 0; i < perBlock; i++){
+      const c = buf[i];
+      if (!c) continue;
+      for (let j = 0; j < G.length; j++) buf[i + j] ^= mul(G[j], c);
+    }
+    dBlocks.push(blk); eBlocks.push(buf.slice(perBlock));
+  }
+  // インターリーブ（型番1〜6のレベルMは全ブロック同サイズなので単純に交互）
+  const finalCw = [];
+  for (let i = 0; i < perBlock; i++) for (const b of dBlocks) finalCw.push(b[i]);
+  for (let i = 0; i < ecPer;    i++) for (const b of eBlocks) finalCw.push(b[i]);
+
+  // ---- матрица ----
+  const m = Array.from({length: size}, () => new Array(size).fill(null)); // null=未使用
+  const setF = (r, c, v) => { if (r >= 0 && r < size && c >= 0 && c < size) m[r][c] = v; };
+
+  const finder = (r, c) => {
+    for (let i = -1; i <= 7; i++) for (let j = -1; j <= 7; j++){
+      const on = (i >= 0 && i <= 6 && (j === 0 || j === 6)) ||
+                 (j >= 0 && j <= 6 && (i === 0 || i === 6)) ||
+                 (i >= 2 && i <= 4 && j >= 2 && j <= 4);
+      setF(r + i, c + j, on ? 1 : 0);
+    }
+  };
+  finder(0, 0); finder(0, size - 7); finder(size - 7, 0);
+
+  for (let i = 8; i < size - 8; i++){ m[6][i] = i % 2 ? 0 : 1; m[i][6] = i % 2 ? 0 : 1; }  // タイミング
+
+  if (ALIGN[ver]){
+    const a = ALIGN[ver];
+    for (let i = -2; i <= 2; i++) for (let j = -2; j <= 2; j++)
+      m[a + i][a + j] = (Math.abs(i) === 2 || Math.abs(j) === 2 || (i === 0 && j === 0)) ? 1 : 0;
+  }
+
+  m[size - 8][8] = 1;  // 常に暗いモジュール
+
+  // 形式情報の領域を予約
+  for (let i = 0; i < 9; i++){ if (m[8][i] === null) m[8][i] = 2; if (m[i][8] === null) m[i][8] = 2; }
+  for (let i = 0; i < 8; i++){ if (m[8][size-1-i] === null) m[8][size-1-i] = 2; if (m[size-1-i][8] === null) m[size-1-i][8] = 2; }
+
+  // ---- データ配置（右下から上下ジグザグ） ----
+  let bi = 0, up = true;
+  const bitAt = k => (finalCw[k >> 3] >> (7 - (k & 7))) & 1;
+  for (let col = size - 1; col > 0; col -= 2){
+    if (col === 6) col--;   // タイミング列は飛ばす
+    for (let n = 0; n < size; n++){
+      const row = up ? size - 1 - n : n;
+      for (const c of [col, col - 1]){
+        if (m[row][c] !== null) continue;
+        m[row][c] = bi < finalCw.length * 8 ? bitAt(bi) : 0;
+        m[row][c] |= 4;     // データ領域の印（マスク対象）
+        bi++;
+      }
+    }
+    up = !up;
+  }
+
+  // ---- マスク（8種類を試して最も減点の少ないものを選ぶ） ----
+  const maskFn = [
+    (r,c)=>(r+c)%2===0, (r,c)=>r%2===0, (r,c)=>c%3===0, (r,c)=>(r+c)%3===0,
+    (r,c)=>(Math.floor(r/2)+Math.floor(c/3))%2===0, (r,c)=>(r*c)%2+(r*c)%3===0,
+    (r,c)=>((r*c)%2+(r*c)%3)%2===0, (r,c)=>((r+c)%2+(r*c)%3)%2===0
+  ];
+  const fmtBits = mask => {
+    let d = (0b00 << 3) | mask;          // レベルM = 00
+    let v = d << 10;
+    for (let i = 4; i >= 0; i--) if (v & (1 << (i + 10))) v ^= 0x537 << i;
+    return ((d << 10) | v) ^ 0x5412;
+  };
+
+  const render = mask => {
+    const g = m.map(row => row.map(v => v === null ? 0 : (v & 4 ? v & 1 : v & 1)));
+    for (let r = 0; r < size; r++) for (let c = 0; c < size; c++)
+      if (m[r][c] !== null && (m[r][c] & 4) && maskFn[mask](r, c)) g[r][c] ^= 1;
+    const f = fmtBits(mask);
+    for (let i = 0; i < 15; i++){
+      const b = (f >> i) & 1;
+      // 1つ目（左上のファインダ周り）: 縦に0〜8、そこから横へ
+      if (i < 6)        g[i][8] = b;
+      else if (i === 6) g[7][8] = b;
+      else if (i === 7) g[8][8] = b;
+      else if (i === 8) g[8][7] = b;
+      else              g[8][14 - i] = b;
+      // 2つ目（右上と左下に分割）
+      if (i < 8) g[8][size - 1 - i] = b;
+      else       g[size - 15 + i][8] = b;
+    }
+    g[size - 8][8] = 1;
+    return g;
+  };
+
+  const penalty = g => {
+    let p = 0;
+    for (const line of [...g, ...g[0].map((_, i) => g.map(r => r[i]))]){
+      let run = 1;
+      for (let i = 1; i < size; i++){
+        if (line[i] === line[i-1]) run++;
+        else { if (run >= 5) p += 3 + (run - 5); run = 1; }
+      }
+      if (run >= 5) p += 3 + (run - 5);
+    }
+    for (let r = 0; r < size - 1; r++) for (let c = 0; c < size - 1; c++)
+      if (g[r][c] === g[r][c+1] && g[r][c] === g[r+1][c] && g[r][c] === g[r+1][c+1]) p += 3;
+    const P1 = [1,0,1,1,1,0,1,0,0,0,0];
+    const P2 = [0,0,0,0,1,0,1,1,1,0,1];   // 逆向きも対象
+    const hit = (line, i, pat) => pat.every((v, k) => line[i+k] === v);
+    for (const line of [...g, ...g[0].map((_, i) => g.map(r => r[i]))])
+      for (let i = 0; i + 11 <= size; i++){
+        if (hit(line, i, P1)) p += 40;
+        if (hit(line, i, P2)) p += 40;
+      }
+    let dark = 0;
+    for (const row of g) for (const v of row) dark += v;
+    p += Math.floor(Math.abs(dark * 100 / (size * size) - 50) / 5) * 10;
+    return p;
+  };
+
+  let best = null, bestP = Infinity;
+  for (let mask = 0; mask < 8; mask++){
+    const g = render(mask), p = penalty(g);
+    if (p < bestP){ bestP = p; best = g; }
+  }
+  return { size, modules: best, version: ver };
+}
+
+function qrSVG(q, quiet){
+  const n = q.size + quiet * 2;
+  let d = "";
+  for (let r = 0; r < q.size; r++)
+    for (let c = 0; c < q.size; c++)
+      if (q.modules[r][c]) d += `M${c + quiet} ${r + quiet}h1v1h-1z`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${n} ${n}" shape-rendering="crispEdges" `
+       + `role="img" aria-label="このページを開くQRコード">`
+       + `<rect width="${n}" height="${n}" fill="#fff"/><path d="${d}" fill="#000"/></svg>`;
+}
+
+function renderQR(){
+  // 手元のファイルを直接開いているときは、他人に渡せるURLではないので出さない
+  if (location.protocol === "file:" || !location.hostname) return;
+  const url = location.origin + location.pathname;
+  const q = makeQR(url);
+  if (!q) return;                       // 長すぎる場合は出さない（URL文字列は下に残る）
+  $("qrbox").innerHTML = qrSVG(q, 4);
+  $("qrurl").textContent = url;
+  $("qrcard").classList.add("on");
+}
+
 function renderBoard(){
   $("board").innerHTML = BOARD.map(b =>
     `<div class="st"><span class="k">${esc(b.k)}</span><span class="v ${b.cls}">${esc(b.v)}</span><span class="note">${esc(b.note)}</span></div>`
@@ -281,19 +561,30 @@ function renderShelters(){
 }
 
 function renderFresh(){
-  const bar = $("fresh");
+  const bar = $("fresh"), msg = $("freshmsg");
+  const SRC = "https://www.city.yatsushiro.lg.jp/kiji00326750/index.html";
+
   if(!DATA.updated){
     bar.className = "freshness stale";
-    $("freshmsg").innerHTML = `いまは最新データを読み込めませんでした。下の入口から <a href="https://www.city.yatsushiro.lg.jp/kiji00326750/index.html" target="_blank" rel="noopener">八代市の公式ページ</a> をご確認ください。`;
+    msg.innerHTML = `いまは最新データを読み込めませんでした。<a href="${SRC}" target="_blank" rel="noopener">八代市の公式ページ</a>をご確認ください。`;
     return;
   }
   const mins = Math.max(0, Math.round((Date.now() - new Date(DATA.updated)) / 60000));
-  const when = mins < 1 ? "たった今" : mins < 60 ? `${mins}分前` : `${Math.floor(mins/60)}時間${mins%60}分前`;
-  const stale = mins > 60;
-  bar.className = "freshness" + (stale ? " stale" : "");
-  $("freshmsg").innerHTML = stale
-    ? `最後に八代市のページを見に行ったのは <strong>${when}</strong> です。更新が止まっている可能性があるため、公式ページもあわせてご確認ください。`
-    : `八代市のページを <strong>${when}</strong> に確認しました（10分おきに自動で見に行っています）。`;
+  const ago  = mins < 1 ? "たった今" : mins < 60 ? `${mins}分前` : `${Math.floor(mins/60)}時間${mins%60}分前`;
+
+  // 直近の取得に失敗している場合は、成功時刻を出したうえで必ず警告する
+  if(DATA.ok === false){
+    bar.className = "freshness stale";
+    msg.innerHTML = `<strong>いま八代市のページを読み取れていません。</strong>下の内容は <strong>${ago}</strong> のもので、それ以降の発表が反映されていない可能性があります。かならず <a href="${SRC}" target="_blank" rel="noopener">公式ページ</a>をご確認ください。`;
+    return;
+  }
+  if(mins > 60){
+    bar.className = "freshness stale";
+    msg.innerHTML = `最後に八代市のページを確認したのは <strong>${ago}</strong> です。更新が止まっている可能性があるため、公式ページもあわせてご確認ください。`;
+    return;
+  }
+  bar.className = "freshness";
+  msg.innerHTML = `八代市のページを <strong>${ago}</strong> に確認しました（10分おきに自動で見に行っています）。`;
 }
 
 function renderCats(){
@@ -326,7 +617,7 @@ function renderList(){
   $("list").innerHTML = list.map(i=>{
     const c = CATMAP[i.cat] || {ico:"📢", label:"その他"};
     return `<a class="card${i.urgent?" urgent":""}" href="${esc(i.u)}" data-url="${esc(i.u)}" target="_blank" rel="noopener">
-      <span class="meta"><span class="chip">${c.ico} ${esc(c.label)}</span>${i.pin?'<span class="chip u">つねに最新</span>':""}</span>
+      <span class="meta"><span class="chip">${c.ico} ${esc(c.label)}</span>${i.src&&i.src!=="八代市"?`<span class="chip src">${esc(i.src)}</span>`:""}${i.pin?'<span class="chip u">つねに最新</span>':""}</span>
       <span class="ttl">${esc(i.t)}</span>
       ${i.ex?`<span class="ex">${esc(i.ex)}</span>`:""}
       <span class="go">→ 八代市の公式ページで読む</span>
@@ -350,6 +641,7 @@ async function load(){
 }
 
 renderBoard();
+renderQR();
 apply();
 load();
 setInterval(load, 5*60*1000);
