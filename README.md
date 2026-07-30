@@ -57,8 +57,9 @@ git push -u origin main
 `cls` は `bad`（赤）/ `warn`（黄）/ `ok`（緑）。
 
 ### 分類がおかしいとき
-`scripts/classify.mjs` のキーワードを足し引きします。ここを直せばサイト側にも反映されます。
+`scripts/classify.mjs` のキーワードを足し引きし、Actionsを再実行します。
 語が長いほど強く効きます（3文字以上=2点、それ未満=1点）。
+分類はすべてサーバー側（Actions）で行うため、サイトに手入力する場所はありません。
 
 ---
 
