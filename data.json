@@ -1,15 +1,15 @@
 {
-  "updated": "2026-07-31T07:41:25.118Z",
-  "checked": "2026-07-31T07:41:25.118Z",
+  "updated": "2026-07-31T13:21:15.087Z",
+  "checked": "2026-07-31T13:21:15.087Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 39
+      "count": 45
     },
     "kinkyu": {
       "ok": true,
-      "count": 62
+      "count": 46
     },
     "shakyo": {
       "ok": true,
@@ -434,15 +434,6 @@
       "src": "八代市"
     },
     {
-      "t": "延長窓口休止のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326752/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
       "t": "八代市からのお知らせ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326754/index.html",
       "ex": "",
@@ -488,6 +479,15 @@
       "src": "八代市"
     },
     {
+      "t": "り災証明書・被災証明書について（令和8年熊本地震）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00324826/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "7月29日（水曜日） 以降のもえるごみの収集について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
       "ex": "",
@@ -524,7 +524,7 @@
       "src": "八代市"
     },
     {
-      "t": "【給水所情報】（7月31日時点）",
+      "t": "【給水所情報】8月1日㈯",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
       "ex": "",
       "cat": "mizu",
@@ -551,8 +551,44 @@
       "src": "八代市"
     },
     {
+      "t": "生活用水の配布について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326797/index.html",
+      "ex": "",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "避難所開設情報",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326737/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "避難所・車中泊で健康に過ごすために",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326796/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "避難所開設状況",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326798/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "避難所の再編について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326799/index.html",
       "ex": "",
       "cat": "hinan",
       "urgent": true,
@@ -625,6 +661,15 @@
     {
       "t": "体育施設の臨時休館（利用停止）および今後の利用再開について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326760/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "体育施設等の9月分利用予約の受付停止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326795/index.html",
       "ex": "",
       "cat": "shisetsu",
       "urgent": false,
@@ -751,6 +796,15 @@
     {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326780/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "令和８年８月の休日当番医の変更について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326609/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
@@ -906,13 +960,10 @@
     "植柳小学校",
     "麦島コミュニティセンター",
     "麦島小学校",
-    "第三中学校",
     "八代支援学校",
     "松高コミュニティセンター",
     "松高小学校",
-    "大島公民館",
     "八千把コミュニティセンター",
-    "八千把小学校",
     "第四中学校",
     "高田コミュニティセンター",
     "高田小学校",
@@ -922,7 +973,6 @@
     "金剛小学校",
     "第六中学校",
     "郡築コミュニティセンター",
-    "郡築小学校",
     "第七中学校",
     "昭和コミュニティセンター",
     "昭和小学校",
@@ -933,18 +983,9 @@
     "龍峯コミュニティセンター",
     "日奈久コミュニティセンター",
     "日奈久小学校",
-    "日奈久中学校",
     "二見コミュニティセンター",
-    "二見小学校",
-    "二見中学校",
     "今泉地区公民館",
-    "みんなの家（中津道）",
-    "鮎帰社会教育センター",
-    "田上社会教育センター",
-    "深水生活改善センター",
     "坂本コミュニティセンター",
-    "久多良木多目的集会施設",
-    "さかもと青少年センター分館",
     "千丁コミュニティセンター",
     "鏡小学校",
     "鏡コミュニティセンター",
@@ -952,9 +993,6 @@
     "文政小学校",
     "有佐小学校",
     "東陽コミュニティセンター及び東陽スポーツセンター",
-    "泉コミュニティセンター",
-    "泉第八小学校",
-    "板木・保口集会所",
     "旧泉第一小学校"
   ],
   "errors": []
