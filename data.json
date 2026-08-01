@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-01T11:13:38.705Z",
-  "checked": "2026-08-01T11:13:38.705Z",
+  "updated": "2026-08-01T11:48:33.463Z",
+  "checked": "2026-08-01T11:48:33.463Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 44
+      "count": 45
     },
     "kinkyu": {
       "ok": true,
@@ -802,6 +802,15 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326802/index.html",
       "ex": "",
       "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "くまもと被災者支援ナビについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326806/index.html",
+      "ex": "",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
