@@ -275,7 +275,7 @@ a{color:var(--blue)}
 
   <div class="disclaimer">
     <strong>このページについて</strong><br>
-    八代市が発表した情報へのリンクを、市民の困りごと別に並べ替えた<strong>非公式</strong>のページです。市が作った情報を、探しやすく並べ直しているだけで、内容そのものを書き換えてはいません。<br><br>
+    八代市をはじめ、社会福祉協議会・熊本県・国の機関が発表した情報へのリンクを、市民の困りごと別に並べ替えた<strong>非公式</strong>のページです。内容そのものは書き換えていません。<strong>どこの発表かは各項目に表示しています。</strong>八代市以外のものには、発表元の名前が付いています。<br><br>
     <strong>避難所の開設状況・断水の範囲・給水所の場所は、時間ごとに変わります。</strong>行動を決める前に、かならず市の公式ページか市役所（<a href="tel:0965334111">0965-33-4111</a>）でご確認ください。<br><br>
     通信が不安定な場所でも開けるよう、外部の画像やフォントを読み込まない作りにしています。一度開けば、電波が切れても同じ画面を見ることができます。
   </div>
@@ -602,6 +602,35 @@ function renderCats(){
   });
 }
 
+/* リンク先がどこの誰のページかを、URLから判定して表示する。
+   非公式サイトである以上、市の発表と他機関の発表を混同させてはいけない。 */
+const SITES = [
+  [/(^|\.)city\.yatsushiro\.lg\.jp$/,   "八代市"],
+  [/(^|\.)yatsushiro-shakyo\.jp$/,       "八代市社会福祉協議会"],
+  [/(^|\.)saigaivc\.com$/,               "全国社会福祉協議会"],
+  [/(^|\.)pref\.kumamoto\.jp$/,         "熊本県"],
+  [/(^|\.)kokusen\.go\.jp$/,            "国民生活センター"],
+  [/(^|\.)enecho-ss\.meti\.go\.jp$/,   "資源エネルギー庁"],
+  [/(^|\.)meti\.go\.jp$/,               "経済産業省"],
+  [/(^|\.)mod\.go\.jp$/,                "防衛省 統合幕僚監部"],
+  [/(^|\.)npa\.go\.jp$/,                "警察庁"]
+];
+function siteOf(url){
+  try {
+    const o = new URL(url);
+    // 熊本県警のページは熊本県のサイト内にあるため、パスで見分ける
+    if(/(^|\.)pref\.kumamoto\.jp$/.test(o.hostname) && /\/site\/police\//.test(o.pathname)) return "熊本県警察";
+    for(const [re, name] of SITES) if(re.test(o.hostname)) return name;
+    return o.hostname.replace(/^www\./, "");
+  } catch { return ""; }
+}
+function goLabel(url){
+  const name = siteOf(url);
+  const pdf  = /\.pdf(\?|$)/i.test(url);
+  if(!name) return "→ ひらく";
+  return `→ ${name}のページ${pdf ? "（PDF）" : ""}をひらく`;
+}
+
 function renderList(){
   let list = DATA.items.slice();
   if(activeCat) list = list.filter(i=>i.cat===activeCat);
@@ -617,10 +646,10 @@ function renderList(){
   $("list").innerHTML = list.map(i=>{
     const c = CATMAP[i.cat] || {ico:"📢", label:"その他"};
     return `<a class="card${i.urgent?" urgent":""}" href="${esc(i.u)}" data-url="${esc(i.u)}" target="_blank" rel="noopener">
-      <span class="meta"><span class="chip">${c.ico} ${esc(c.label)}</span>${i.src&&i.src!=="八代市"?`<span class="chip src">${esc(i.src)}</span>`:""}${i.pin?'<span class="chip u">つねに最新</span>':""}</span>
+      <span class="meta"><span class="chip">${c.ico} ${esc(c.label)}</span>${siteOf(i.u)!=="八代市"?`<span class="chip src">${esc(siteOf(i.u))}</span>`:""}${i.pin?'<span class="chip u">つねに最新</span>':""}</span>
       <span class="ttl">${esc(i.t)}</span>
       ${i.ex?`<span class="ex">${esc(i.ex)}</span>`:""}
-      <span class="go">→ 八代市の公式ページで読む</span>
+      <span class="go">${esc(goLabel(i.u))}</span>
     </a>`;
   }).join("");
 }
