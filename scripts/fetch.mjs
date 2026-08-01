@@ -86,6 +86,9 @@ const clean = t => t.replace(/<[^>]*>/g, "").replace(/&nbsp;/g, " ")
                     .replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
 
 // ページ内のリンクを {タイトル, URL} で拾う。pattern に合う href だけを対象にする。
+// 市サイトの自動翻訳（transer.com）へのリンクはお知らせではないので除外する
+const EXCLUDE_HOST = /transer\.com$|translate\.google|\.bing\.com$/i;
+
 function links(html, base, pattern){
   const out = [], seen = new Set();
   const re = /<a\s[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi;
@@ -94,6 +97,7 @@ function links(html, base, pattern){
     let url;
     try { url = new URL(m[1], base).href; } catch { continue; }
     if (!pattern.test(url) || seen.has(url)) continue;
+    try { if (EXCLUDE_HOST.test(new URL(url).hostname)) continue; } catch { continue; }
     const t = clean(m[2]);
     if (!t || t.length < 4) continue;
     seen.add(url);
@@ -125,8 +129,14 @@ function extractShelters(html){
 // 社協サイトは福祉全般を扱うため、災害に関係する見出しだけに絞る
 const SHAKYO_KEEP = /災害|ボランティア|地震|義援金|募金|支援|被災/;
 
+// ただし他の災害（能登・青森・大槌町・海外など）の義援金受付は、
+// 八代市の被災者が今すぐ必要とする情報ではないので除外する。
+// 「令和8年熊本地震」と、災害名のつかないボランティア関連だけを残す。
+const OTHER_DISASTER = /能登|青森|大槌|台風|林野火災|ベネズエラ|大雨|東方沖|佐賀関|共同募金|赤い羽根/;
+const THIS_QUAKE     = /令和[8８]年熊本|熊本地震|八代市災害/;
+
 // 統幕は艦艇の動向など無関係な発表が大半なので、今回の地震のものだけに絞る
-const MOD_KEEP = /熊本(地震|県)|令和８年熊本|令和8年熊本/;
+const MOD_KEEP = /令和[8８]年熊本地震|熊本地震/;
 
 async function readPrev(){
   try { return JSON.parse(await readFile(OUT, "utf8")); } catch { return null; }
@@ -167,7 +177,8 @@ async function main(){
   console.log("八代市社会福祉協議会");
   try {
     const found = links(await get(SHAKYO, "社協"), SHAKYO, /yatsushiro-shakyo\.jp\/.+\.(html|pdf)$/i)
-      .filter(a => SHAKYO_KEEP.test(a.t));
+      .filter(a => SHAKYO_KEEP.test(a.t))
+      .filter(a => THIS_QUAKE.test(a.t) || !OTHER_DISASTER.test(a.t));
     shakyoItems = found.map(a => ({ ...a, src: "社協" }));
     status.shakyo = { ok: true, count: found.length };
     console.log(`  災害関連のリンク ${found.length}件`);
