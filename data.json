@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T11:45:55.834Z",
-  "checked": "2026-08-02T11:45:55.834Z",
+  "updated": "2026-08-02T15:45:52.074Z",
+  "checked": "2026-08-02T15:45:52.074Z",
   "ok": true,
   "sources": {
     "city": {
@@ -17,7 +17,7 @@
     },
     "mod": {
       "ok": true,
-      "count": 5
+      "count": 6
     }
   },
   "cats": [
@@ -510,7 +510,7 @@
       "src": "八代市"
     },
     {
-      "t": "【給水所情報】8月2日（日曜日）",
+      "t": "【給水所情報】8月3日（月曜日）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
       "ex": "",
       "cat": "mizu",
@@ -886,6 +886,15 @@
       "urgent": false,
       "pin": false,
       "src": "社協"
+    },
+    {
+      "t": "令和８年熊本地震に係る災害派遣について(8.2)",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260802_01.pdf",
+      "ex": "8月2日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊"
     },
     {
       "t": "令和８年熊本地震に係る災害派遣について(8.1)",
