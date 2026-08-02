@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-02T07:54:49.134Z",
-  "checked": "2026-08-02T07:54:49.134Z",
+  "updated": "2026-08-02T11:45:55.834Z",
+  "checked": "2026-08-02T11:45:55.834Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 48
+      "count": 50
     },
     "kinkyu": {
       "ok": true,
@@ -474,7 +474,7 @@
       "src": "八代市"
     },
     {
-      "t": "「エコエイトやつしろ」への持ち込み停止・緑地広場の利用停止について",
+      "t": "「エコエイトやつしろ」への持ち込み再開について（8月3日（月曜日）から）※災害廃棄物以外",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326742/index.html",
       "ex": "",
       "cat": "gomi",
@@ -485,6 +485,15 @@
     {
       "t": "災害廃棄物仮置場の設置について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
+      "ex": "",
+      "cat": "gomi",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "資源物の収集実施について（８月３日～）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326811/index.html",
       "ex": "",
       "cat": "gomi",
       "urgent": false,
@@ -836,6 +845,15 @@
     {
       "t": "【熊本県弁護士会】熊本地震に関する無料電話相談・無料面談相談について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326808/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "小野市長から市民の皆さまへ",
+      "u": "https://www.city.yatsushiro.lg.jp/shicho/kiji00326810/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
