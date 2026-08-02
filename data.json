@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-01T23:42:30.107Z",
-  "checked": "2026-08-01T23:42:30.107Z",
+  "updated": "2026-08-02T07:54:49.134Z",
+  "checked": "2026-08-02T07:54:49.134Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 45
+      "count": 48
     },
     "kinkyu": {
       "ok": true,
@@ -501,7 +501,7 @@
       "src": "八代市"
     },
     {
-      "t": "【給水所情報】8月1日㈯",
+      "t": "【給水所情報】8月2日（日曜日）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
       "ex": "",
       "cat": "mizu",
@@ -541,6 +541,15 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326804/index.html",
       "ex": "",
       "cat": "denki",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "試験通水の実施について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326807/index.html",
+      "ex": "",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
@@ -735,6 +744,15 @@
       "src": "八代市"
     },
     {
+      "t": "企業様からの物資提供の搬送先変更について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326809/index.html",
+      "ex": "",
+      "cat": "shien",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "市内の給油見通しについて（お知らせ）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326793/index.html",
       "ex": "",
@@ -809,6 +827,15 @@
     {
       "t": "くまもと被災者支援ナビについて",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326806/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "【熊本県弁護士会】熊本地震に関する無料電話相談・無料面談相談について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326808/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
