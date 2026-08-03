@@ -563,28 +563,36 @@ function renderShelters(){
 function renderFresh(){
   const bar = $("fresh"), msg = $("freshmsg");
   const SRC = "https://www.city.yatsushiro.lg.jp/kiji00326750/index.html";
+  const link = `<a href="${SRC}" target="_blank" rel="noopener">八代市の公式ページ</a>`;
 
   if(!DATA.updated){
     bar.className = "freshness stale";
-    msg.innerHTML = `いまは最新データを読み込めませんでした。<a href="${SRC}" target="_blank" rel="noopener">八代市の公式ページ</a>をご確認ください。`;
+    msg.innerHTML = `いまは最新データを読み込めませんでした。${link}をご確認ください。`;
     return;
   }
   const mins = Math.max(0, Math.round((Date.now() - new Date(DATA.updated)) / 60000));
   const ago  = mins < 1 ? "たった今" : mins < 60 ? `${mins}分前` : `${Math.floor(mins/60)}時間${mins%60}分前`;
 
-  // 直近の取得に失敗している場合は、成功時刻を出したうえで必ず警告する
+  // 直近の取得に失敗している場合は、何時間前の内容かを示したうえで必ず警告する
   if(DATA.ok === false){
     bar.className = "freshness stale";
-    msg.innerHTML = `<strong>いま八代市のページを読み取れていません。</strong>下の内容は <strong>${ago}</strong> のもので、それ以降の発表が反映されていない可能性があります。かならず <a href="${SRC}" target="_blank" rel="noopener">公式ページ</a>をご確認ください。`;
+    msg.innerHTML = `<strong>いま八代市のページを読み取れていません。</strong>下の内容は <strong>${ago}</strong> のもので、それ以降の発表が反映されていません。かならず${link}をご確認ください。`;
     return;
   }
-  if(mins > 60){
+  // 自動更新はGitHub側の混雑で数時間あくことがある。
+  // 「古いかもしれない」ことを、時間の長さに応じて段階的に伝える。
+  if(mins >= 360){
     bar.className = "freshness stale";
-    msg.innerHTML = `最後に八代市のページを確認したのは <strong>${ago}</strong> です。更新が止まっている可能性があるため、公式ページもあわせてご確認ください。`;
+    msg.innerHTML = `<strong>この内容は ${ago} のものです。</strong>半日ちかく更新されていないため、新しい発表が反映されていない可能性があります。${link}で最新をご確認ください。`;
+    return;
+  }
+  if(mins >= 120){
+    bar.className = "freshness stale";
+    msg.innerHTML = `この内容は <strong>${ago}</strong> のものです。給水所や避難所は変わっている可能性があるので、${link}もあわせてご確認ください。`;
     return;
   }
   bar.className = "freshness";
-  msg.innerHTML = `八代市のページを <strong>${ago}</strong> に確認しました（10分おきに自動で見に行っています）。`;
+  msg.innerHTML = `八代市のページを <strong>${ago}</strong> に確認しました。自動で見に行っていますが、混み具合により数時間あくことがあります。`;
 }
 
 function renderCats(){
