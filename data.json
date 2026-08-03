@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T11:11:39.724Z",
-  "checked": "2026-08-03T11:11:39.724Z",
+  "updated": "2026-08-03T17:29:32.681Z",
+  "checked": "2026-08-03T17:29:32.681Z",
   "ok": true,
   "sources": {
     "city": {
@@ -17,7 +17,7 @@
     },
     "mod": {
       "ok": true,
-      "count": 6
+      "count": 7
     }
   },
   "cats": [
@@ -895,6 +895,15 @@
       "urgent": false,
       "pin": false,
       "src": "社協"
+    },
+    {
+      "t": "令和８年熊本地震に係る災害派遣について(8.3)",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260803_02.pdf",
+      "ex": "8月3日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊"
     },
     {
       "t": "令和８年熊本地震に係る災害派遣について(8.2)",
