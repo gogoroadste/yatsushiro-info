@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-04T07:56:00.994Z",
-  "checked": "2026-08-04T07:56:00.994Z",
+  "updated": "2026-08-04T16:03:25.894Z",
+  "checked": "2026-08-04T16:03:25.894Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 69
+      "count": 70
     },
     "kinkyu": {
       "ok": true,
@@ -483,6 +483,15 @@
       "src": "八代市"
     },
     {
+      "t": "令和8年熊本地震後の要介護認定申請について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326835/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "7月29日（水曜日） 以降のもえるごみの収集について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
       "ex": "",
@@ -528,7 +537,7 @@
       "src": "八代市"
     },
     {
-      "t": "【給水所情報】8月3日（月曜日）",
+      "t": "【給水所情報】8月5日（水曜日）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
       "ex": "",
       "cat": "mizu",
@@ -645,8 +654,17 @@
       "src": "八代市"
     },
     {
-      "t": "被災建築物応急危険度判定の実施について（令和8年熊本地震）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326802/index.html",
+      "t": "被災建築物応急危険度判定について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326840/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "令和8年熊本地震に伴う応急仮設建築物の取扱いについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00324773/index.html",
       "ex": "",
       "cat": "sumai",
       "urgent": false,
@@ -1023,15 +1041,6 @@
       "src": "八代市"
     },
     {
-      "t": "令和8年熊本地震に伴う応急仮設建築物の取扱いについて",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00324773/index.html",
-      "ex": "",
-      "cat": "sumai",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
       "t": "ボランティアセンター",
       "u": "https://www.yatsushiro-shakyo.jp/volunteer.html",
       "ex": "",
@@ -1059,9 +1068,9 @@
       "src": "社協"
     },
     {
-      "t": "令和８年熊本地震に係る災害派遣について(8.3)",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260803_02.pdf",
-      "ex": "8月3日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "t": "令和８年熊本地震に係る災害派遣について(8.4) 2026年08月03日 公表 令和８年熊本地震に係る災害派遣について(8.3)",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260804_01.pdf",
+      "ex": "8月4日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
