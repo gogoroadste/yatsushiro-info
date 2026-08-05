@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-05T12:37:13.107Z",
-  "checked": "2026-08-05T12:37:13.107Z",
+  "updated": "2026-08-05T16:21:41.124Z",
+  "checked": "2026-08-05T16:21:41.124Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 75
+      "count": 77
     },
     "kinkyu": {
       "ok": true,
@@ -564,7 +564,7 @@
       "src": "八代市"
     },
     {
-      "t": "【給水所情報】8月5日（水曜日）",
+      "t": "【給水情報】8月６日(木曜日)",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
       "ex": "",
       "cat": "mizu",
@@ -587,6 +587,15 @@
       "ex": "",
       "cat": "mizu",
       "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "断水の一部解消について（日奈久地区）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326857/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": true,
       "pin": false,
       "src": "八代市"
     },
@@ -1086,6 +1095,15 @@
       "src": "八代市"
     },
     {
+      "t": "災害に便乗した犯罪に関する注意喚起",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326855/index.html",
+      "ex": "",
+      "cat": "bouhan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "ボランティアセンター",
       "u": "https://www.yatsushiro-shakyo.jp/volunteer.html",
       "ex": "",
@@ -1122,8 +1140,8 @@
       "src": "社協"
     },
     {
-      "t": "ロシア海軍艦艇の動向について（スラバ、ウダロイⅠ、ステレグ３隻／宗谷海峡東進） 2026年08月04日 公表 令和８年熊本地震に係る災害派遣について(8.4) 2026年08月03日 公表 令和８年熊本地震に係る災害派遣について(8.3)",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260805_01.pdf",
+      "t": "令和８年熊本地震に係る災害派遣について(8.5) 2026年08月05日 公表 ロシア海軍艦艇の動向について（スラバ、ウダロイⅠ、ステレグ３隻／宗谷海峡東進） 2026年08月04日 公表 令和８年熊本地震に係る災害派遣について(8.4) 2026年08月03日 公表 令和８年熊本地震に係る災害派遣について(8.3)",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260805_02.pdf",
       "ex": "8月5日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
