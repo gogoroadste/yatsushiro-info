@@ -1,19 +1,19 @@
 {
-  "updated": "2026-08-05T00:25:19.916Z",
-  "checked": "2026-08-05T00:25:19.916Z",
+  "updated": "2026-08-05T06:15:30.091Z",
+  "checked": "2026-08-05T06:15:30.091Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 72
+      "count": 75
     },
     "kinkyu": {
       "ok": true,
-      "count": 43
+      "count": 41
     },
     "shakyo": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "mod": {
       "ok": true,
@@ -501,6 +501,15 @@
       "src": "八代市"
     },
     {
+      "t": "【り災・被災証明】に関する「よくある質問」について【令和８年熊本地震】",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326850/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "7月29日（水曜日） 以降のもえるごみの収集について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
       "ex": "",
@@ -683,6 +692,15 @@
     {
       "t": "令和8年熊本地震に伴う応急仮設建築物の取扱いについて",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324773/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "住まいに関する意向調査へのご協力のお願い",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326845/index.html",
       "ex": "",
       "cat": "sumai",
       "urgent": false,
@@ -1059,11 +1077,29 @@
       "src": "八代市"
     },
     {
+      "t": "災害応援に従事する皆様及び関係機関の皆様の駐車場について（お願い）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326838/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "ボランティアセンター",
       "u": "https://www.yatsushiro-shakyo.jp/volunteer.html",
       "ex": "",
       "cat": "volunteer",
       "urgent": false,
+      "pin": false,
+      "src": "社協"
+    },
+    {
+      "t": "八代市災害ボランティアセンターの特設サイトは上記のバナーをクリックしてください",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": true,
       "pin": false,
       "src": "社協"
     },
@@ -1175,7 +1211,6 @@
     "郡築コミュニティセンター",
     "第七中学校",
     "昭和コミュニティセンター",
-    "昭和小学校",
     "宮地東コミュニティセンター",
     "宮地コミュニティセンター",
     "第八中学校",
@@ -1183,7 +1218,6 @@
     "日奈久コミュニティセンター",
     "日奈久小学校",
     "二見コミュニティセンター",
-    "今泉地区公民館",
     "坂本コミュニティセンター",
     "千丁コミュニティセンター",
     "鏡小学校",
