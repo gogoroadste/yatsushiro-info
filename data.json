@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-05T06:19:34.353Z",
-  "checked": "2026-08-05T06:19:34.353Z",
+  "updated": "2026-08-05T06:23:38.255Z",
+  "checked": "2026-08-05T06:23:38.255Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 75
+      "count": 76
     },
     "kinkyu": {
       "ok": true,
@@ -1081,6 +1081,15 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326838/index.html",
       "ex": "",
       "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "熊本地震ペット救護本部によるペット（犬・猫）の一時預かりについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326847/index.html",
+      "ex": "",
+      "cat": "pet",
       "urgent": false,
       "pin": false,
       "src": "八代市"
