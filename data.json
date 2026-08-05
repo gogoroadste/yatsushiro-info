@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-04T21:02:58.523Z",
-  "checked": "2026-08-04T21:02:58.523Z",
+  "updated": "2026-08-05T00:17:11.388Z",
+  "checked": "2026-08-05T00:17:11.388Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 70
+      "count": 72
     },
     "kinkyu": {
       "ok": true,
@@ -492,6 +492,15 @@
       "src": "八代市"
     },
     {
+      "t": "八代市消費生活センター延長窓口の中止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326843/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "7月29日（水曜日） 以降のもえるごみの収集について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
       "ex": "",
@@ -523,6 +532,15 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326811/index.html",
       "ex": "",
       "cat": "gomi",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "資源集積所の「ガラス・陶磁器」について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326844/index.html",
+      "ex": "",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
