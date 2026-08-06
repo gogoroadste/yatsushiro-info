@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-05T23:51:04.816Z",
-  "checked": "2026-08-05T23:51:04.816Z",
+  "updated": "2026-08-06T08:04:09.082Z",
+  "checked": "2026-08-06T08:04:09.082Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 77
+      "count": 79
     },
     "kinkyu": {
       "ok": true,
@@ -411,8 +411,17 @@
       "pin": true
     },
     {
-      "t": "八代市からのお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326754/index.html",
+      "t": "小野市長から市民の皆さまへ",
+      "u": "https://www.city.yatsushiro.lg.jp/shicho/kiji00326810/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "令和８年熊本地震に係る「被災者支援に関する各種制度」について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326858/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
@@ -424,6 +433,15 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326749/index.html",
       "ex": "",
       "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "八代市からのお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326754/index.html",
+      "ex": "",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
@@ -510,6 +528,15 @@
       "src": "八代市"
     },
     {
+      "t": "災害廃棄物仮置場の設置について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
+      "ex": "",
+      "cat": "gomi",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "7月29日（水曜日） 以降のもえるごみの収集について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
       "ex": "",
@@ -521,15 +548,6 @@
     {
       "t": "「エコエイトやつしろ」への持ち込み再開について（8月3日（月曜日）から）※災害廃棄物以外",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326742/index.html",
-      "ex": "",
-      "cat": "gomi",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "災害廃棄物仮置場の設置について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
       "cat": "gomi",
       "urgent": false,
@@ -710,6 +728,15 @@
     {
       "t": "住まいに関する意向調査へのご協力のお願い",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326845/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "令和８年熊本地震で被災した住宅の被害の拡大を防止するための緊急の修理（ブルーシート展張等）について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326859/index.html",
       "ex": "",
       "cat": "sumai",
       "urgent": false,
@@ -1034,15 +1061,6 @@
     {
       "t": "【熊本県弁護士会】熊本地震に関する無料電話相談・無料面談相談について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326808/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "小野市長から市民の皆さまへ",
-      "u": "https://www.city.yatsushiro.lg.jp/shicho/kiji00326810/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
