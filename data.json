@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-06T08:12:17.161Z",
-  "checked": "2026-08-06T08:12:17.161Z",
+  "updated": "2026-08-06T09:51:21.594Z",
+  "checked": "2026-08-06T09:51:21.594Z",
   "ok": true,
   "sources": {
     "city": {
@@ -442,6 +442,15 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326749/index.html",
       "ex": "",
       "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "【熊本県弁護士会】熊本地震に関する無料電話相談・無料面談相談について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326808/index.html",
+      "ex": "",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
@@ -1059,24 +1068,6 @@
       "src": "八代市"
     },
     {
-      "t": "くまもと被災者支援ナビについて",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326806/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "【熊本県弁護士会】熊本地震に関する無料電話相談・無料面談相談について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326808/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
       "t": "献血中止について（令和8年8月実施分）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326573/index.html",
       "ex": "",
@@ -1142,6 +1133,15 @@
     {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326780/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "くまもと被災者支援ナビについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326806/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
