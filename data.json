@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-06T08:04:09.082Z",
-  "checked": "2026-08-06T08:04:09.082Z",
+  "updated": "2026-08-06T08:08:13.699Z",
+  "checked": "2026-08-06T08:08:13.699Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 79
+      "count": 82
     },
     "kinkyu": {
       "ok": true,
@@ -429,7 +429,16 @@
       "src": "八代市"
     },
     {
-      "t": "【1Fへ移動しました】被災者支援に関する総合相談窓口の設置について",
+      "t": "広報やつしろ 災害臨時号 vol.1（令和8年熊本地震）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326837/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "被災者支援に関する総合相談窓口の設置について（1Fへ移動しました）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326749/index.html",
       "ex": "",
       "cat": "okane",
@@ -438,7 +447,25 @@
       "src": "八代市"
     },
     {
-      "t": "八代市からのお知らせ",
+      "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "【り災・被災証明】に関する「よくある質問」について【令和８年熊本地震】",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326850/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "【重要】家に入る前にまず安全確認を",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326754/index.html",
       "ex": "",
       "cat": "sonota",
@@ -447,8 +474,35 @@
       "src": "八代市"
     },
     {
+      "t": "令和８年熊本地震に伴う本庁舎の窓口対応について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326790/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "延長窓口の休止について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326783/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "八代市消費生活センター延長窓口の中止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326843/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "令和８年熊本地震による証明書等の交付手数料の免除について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326862/index.html",
       "ex": "",
       "cat": "okane",
       "urgent": false,
@@ -474,24 +528,6 @@
       "src": "八代市"
     },
     {
-      "t": "令和８年熊本地震に伴う本庁舎の窓口対応について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326790/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
       "t": "令和８年熊本地震に伴う確認申請等の取扱いについて",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326800/index.html",
       "ex": "",
@@ -503,24 +539,6 @@
     {
       "t": "令和8年熊本地震後の要介護認定申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326835/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "八代市消費生活センター延長窓口の中止について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326843/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "【り災・被災証明】に関する「よくある質問」について【令和８年熊本地震】",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326850/index.html",
       "ex": "",
       "cat": "okane",
       "urgent": false,
@@ -663,6 +681,15 @@
       "src": "八代市"
     },
     {
+      "t": "📌災害時における避難・車中泊可能な公園のご案内",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326775/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "避難所・車中泊で健康に過ごすために",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326796/index.html",
       "ex": "",
@@ -737,6 +764,15 @@
     {
       "t": "令和８年熊本地震で被災した住宅の被害の拡大を防止するための緊急の修理（ブルーシート展張等）について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326859/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "令和8年熊本地震に伴う住宅の応急修理について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326747/index.html",
       "ex": "",
       "cat": "sumai",
       "urgent": false,
@@ -978,20 +1014,11 @@
       "src": "八代市"
     },
     {
-      "t": "広報やつしろ 災害臨時号 vol.1（令和8年熊本地震）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326837/index.html",
+      "t": "ボランティア活動車両の高速道路無料措置について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326865/index.html",
       "ex": "",
-      "cat": "sonota",
+      "cat": "volunteer",
       "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "市内の給油見通しについて（お知らせ）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326793/index.html",
-      "ex": "",
-      "cat": "mise",
-      "urgent": true,
       "pin": false,
       "src": "八代市"
     },
@@ -1018,24 +1045,6 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326764/index.html",
       "ex": "",
       "cat": "pet",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "📌災害時における避難・車中泊可能な公園のご案内",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326775/index.html",
-      "ex": "",
-      "cat": "hinan",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "外国人市民（がいこくじん しみん）のみなさんへ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326780/index.html",
-      "ex": "",
-      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
@@ -1117,6 +1126,24 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326855/index.html",
       "ex": "",
       "cat": "bouhan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "市内の給油見通しについて（お知らせ）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326793/index.html",
+      "ex": "",
+      "cat": "mise",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "外国人市民（がいこくじん しみん）のみなさんへ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326780/index.html",
+      "ex": "",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
