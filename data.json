@@ -1,19 +1,19 @@
 {
-  "updated": "2026-08-07T01:52:38.337Z",
-  "checked": "2026-08-07T01:52:38.337Z",
+  "updated": "2026-08-07T06:01:24.439Z",
+  "checked": "2026-08-07T06:01:24.439Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 86
+      "count": 87
     },
     "kinkyu": {
       "ok": true,
-      "count": 41
+      "count": 0
     },
     "shakyo": {
       "ok": true,
-      "count": 4
+      "count": 2
     },
     "mod": {
       "ok": true,
@@ -420,6 +420,15 @@
       "src": "八代市"
     },
     {
+      "t": "令和８年熊本地震に伴う企業様からの物資提供のお願い",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
+      "ex": "",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "令和８年熊本地震に係る「被災者支援に関する各種制度」について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326858/index.html",
       "ex": "",
@@ -636,11 +645,20 @@
       "src": "八代市"
     },
     {
-      "t": "上水道を使用されている御家庭、事業所等のみなさんへ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326787/index.html",
+      "t": "【第４報】試験通水の実施について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326849/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "断水の一部解消について（日奈久地区）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326857/index.html",
       "ex": "",
       "cat": "mizu",
-      "urgent": false,
+      "urgent": true,
       "pin": false,
       "src": "八代市"
     },
@@ -654,11 +672,11 @@
       "src": "八代市"
     },
     {
-      "t": "断水の一部解消について（日奈久地区）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326857/index.html",
+      "t": "上水道を使用されている御家庭、事業所等のみなさんへ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326787/index.html",
       "ex": "",
       "cat": "mizu",
-      "urgent": true,
+      "urgent": false,
       "pin": false,
       "src": "八代市"
     },
@@ -685,15 +703,6 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326804/index.html",
       "ex": "",
       "cat": "denki",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "【第3報】試験通水の実施について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326832/index.html",
-      "ex": "",
-      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市"
@@ -1014,15 +1023,6 @@
       "src": "八代市"
     },
     {
-      "t": "令和８年熊本地震に伴う企業様からの物資提供のお願い",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
-      "ex": "",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
       "t": "支援物資等の受入窓口 問合せ先一覧",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326786/index.html",
       "ex": "",
@@ -1149,6 +1149,15 @@
       "src": "八代市"
     },
     {
+      "t": "【中止】「八代市ＡＩオンデマンド交通実証運行業務委託に係る公募型プロポーザルの中止」について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326537/index.html",
+      "ex": "",
+      "cat": "bouhan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326780/index.html",
       "ex": "",
@@ -1203,27 +1212,9 @@
       "src": "社協"
     },
     {
-      "t": "八代市災害ボランティアセンターの閉所と今後のお知らせ（特設サイト）",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R07_saigai_vc_home.html",
-      "ex": "",
-      "cat": "volunteer",
-      "urgent": true,
-      "pin": false,
-      "src": "社協"
-    },
-    {
-      "t": "八代市自立相談支援センター直通電話番号について",
-      "u": "https://www.yatsushiro-shakyo.jp/pdf/jiritusoudan_tel.pdf",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "社協"
-    },
-    {
-      "t": "熊本県宇城市における林野火災に係る災害派遣について 2026年08月06日 公表 令和８年熊本地震に係る災害派遣について(8.6) 2026年08月05日 公表 令和８年熊本地震に係る災害派遣について(8.5) 2026年08月05日 公表 ロシア海軍艦艇の動向について（スラバ、ウダロイⅠ、ステレグ３隻／宗谷海峡東進） 2026年08月04日 公表 令和８年熊本地震に係る災害派遣について(8.4) 2026年08月03日 公表 令和８年熊本地震に係る災害派遣について(8.3)",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260806_02.pdf",
-      "ex": "8月6日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "t": "熊本県宇城市における林野火災に係る災害派遣について(終報) 2026年08月06日 公表 熊本県宇城市における林野火災に係る災害派遣について 2026年08月06日 公表 令和８年熊本地震に係る災害派遣について(8.6) 2026年08月05日 公表 令和８年熊本地震に係る災害派遣について(8.5) 2026年08月05日 公表 ロシア海軍艦艇の動向について（スラバ、ウダロイⅠ、ステレグ３隻／宗谷海峡東進） 2026年08月04日 公表 令和８年熊本地震に係る災害派遣について(8.4) 2026年08月03日 公表 令和８年熊本地震に係る災害派遣について(8.3)",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260807_01.pdf",
+      "ex": "8月7日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
@@ -1284,48 +1275,6 @@
       "src": "自衛隊"
     }
   ],
-  "shelters": [
-    "代陽コミュニティセンター",
-    "第一中学校",
-    "八代コミュニティセンター",
-    "八代小学校",
-    "八代トヨオカ地建アリーナ",
-    "太田郷コミュニティセンター",
-    "第二中学校",
-    "植柳コミュニティセンター",
-    "植柳小学校",
-    "麦島コミュニティセンター",
-    "麦島小学校",
-    "八代支援学校",
-    "松高コミュニティセンター",
-    "松高小学校",
-    "八千把コミュニティセンター",
-    "第四中学校",
-    "高田コミュニティセンター",
-    "八代市保健センター",
-    "第五中学校",
-    "金剛コミュニティセンター",
-    "金剛小学校",
-    "第六中学校",
-    "郡築コミュニティセンター",
-    "第七中学校",
-    "昭和コミュニティセンター",
-    "宮地東コミュニティセンター",
-    "宮地コミュニティセンター",
-    "第八中学校",
-    "龍峯コミュニティセンター",
-    "日奈久コミュニティセンター",
-    "日奈久小学校",
-    "二見コミュニティセンター",
-    "坂本コミュニティセンター",
-    "千丁コミュニティセンター",
-    "鏡小学校",
-    "鏡中学校",
-    "鏡コミュニティセンター",
-    "鏡わかあゆ高等支援学校",
-    "文政小学校",
-    "有佐小学校",
-    "東陽コミュニティセンター及び東陽スポーツセンター"
-  ],
+  "shelters": [],
   "errors": []
 }
