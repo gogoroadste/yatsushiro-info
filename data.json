@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T12:04:52.978Z",
-  "checked": "2026-08-07T12:04:52.978Z",
+  "updated": "2026-08-07T12:08:57.094Z",
+  "checked": "2026-08-07T12:08:57.094Z",
   "ok": true,
   "sources": {
     "city": {
@@ -645,7 +645,7 @@
       "src": "八代市"
     },
     {
-      "t": "【給水情報】8月7日(金曜日)",
+      "t": "給水所情報(毎日更新)",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
       "ex": "",
       "cat": "mizu",
