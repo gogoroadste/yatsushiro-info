@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-07T06:20:24.299Z",
-  "checked": "2026-08-07T06:20:24.299Z",
+  "updated": "2026-08-07T09:37:58.391Z",
+  "checked": "2026-08-07T09:37:58.391Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 87
+      "count": 88
     },
     "kinkyu": {
       "ok": true,
@@ -13,7 +13,7 @@
     },
     "shakyo": {
       "ok": true,
-      "count": 2
+      "count": 4
     },
     "mod": {
       "ok": true,
@@ -546,8 +546,17 @@
       "src": "八代市"
     },
     {
-      "t": "マイナ保険証、資格確認書がなくても医療機関等を受診できます",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326779/index.html",
+      "t": "マイナ保険証等や現金がなくても医療機関等の受診や介護サービスを利用できます",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326863/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "医療機関の診療状況について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326856/index.html",
       "ex": "",
       "cat": "karada",
       "urgent": false,
@@ -1203,7 +1212,25 @@
       "src": "社協"
     },
     {
-      "t": "八代市災害ボランティアセンターの特設サイトは上記のバナーをクリックしてください",
+      "t": "災害ボランティアセンターのボランティア募集について",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_volunteer.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": true,
+      "pin": false,
+      "src": "社協"
+    },
+    {
+      "t": "「令和8年熊本地震災害義援金」の受付が開始されました",
+      "u": "https://www.yatsushiro-shakyo.jp/oshirase_nisseki_R08kumamotojishin.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "社協"
+    },
+    {
+      "t": "八代市災害ボランティアセンターの特設サイトを開設しました",
       "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
       "ex": "",
       "cat": "volunteer",
