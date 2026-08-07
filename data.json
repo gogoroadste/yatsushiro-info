@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-06T09:59:31.591Z",
-  "checked": "2026-08-06T09:59:31.591Z",
+  "updated": "2026-08-07T01:44:29.579Z",
+  "checked": "2026-08-07T01:44:29.579Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 82
+      "count": 86
     },
     "kinkyu": {
       "ok": true,
@@ -456,6 +456,15 @@
       "src": "八代市"
     },
     {
+      "t": "令和８年熊本地震に係るペットの相談窓口について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326764/index.html",
+      "ex": "",
+      "cat": "pet",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -555,6 +564,15 @@
       "src": "八代市"
     },
     {
+      "t": "令和８年熊本地震によって被災された方の定期予防接種のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326803/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "災害廃棄物仮置場の設置について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
@@ -609,7 +627,7 @@
       "src": "八代市"
     },
     {
-      "t": "【給水情報】8月６日(木曜日)",
+      "t": "【給水情報】8月7日(金曜日)",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326773/index.html",
       "ex": "",
       "cat": "mizu",
@@ -681,6 +699,15 @@
       "src": "八代市"
     },
     {
+      "t": "【令和8年熊本地震】八代市公共下水道・農業集落排水・公共浄化槽等に関する状況について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326861/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "避難所開設状況",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326798/index.html",
       "ex": "",
@@ -722,6 +749,15 @@
       "ex": "",
       "cat": "pet",
       "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "熊本地震ペット救護本部によるペット（犬・猫）の一時預かりについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326847/index.html",
+      "ex": "",
+      "cat": "pet",
+      "urgent": false,
       "pin": false,
       "src": "八代市"
     },
@@ -951,6 +987,15 @@
       "src": "八代市"
     },
     {
+      "t": "クーリングシェルター（指定暑熱避難施設）・Yatsushiro涼み処（熱中症予防休憩所）を開設しています",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00322098/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326766/index.html",
       "ex": "",
@@ -1050,15 +1095,6 @@
       "src": "八代市"
     },
     {
-      "t": "令和８年熊本地震に係るペットの相談窓口について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326764/index.html",
-      "ex": "",
-      "cat": "pet",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
       "t": "令和８年８月の休日当番医の変更について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326609/index.html",
       "ex": "",
@@ -1095,38 +1131,20 @@
       "src": "八代市"
     },
     {
-      "t": "災害応援に従事する皆様及び関係機関の皆様の駐車場について（お願い）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326838/index.html",
+      "t": "【開催中止】夏休み特別企画 ネイティブ発音のコツとアメリカ文化を知ろう！with Ken！",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326451/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "【重要】地震発生に伴う農業委員会業務の一部停止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326851/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "熊本地震ペット救護本部によるペット（犬・猫）の一時預かりについて",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326847/index.html",
-      "ex": "",
-      "cat": "pet",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "災害に便乗した犯罪に関する注意喚起",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326855/index.html",
-      "ex": "",
-      "cat": "bouhan",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市"
-    },
-    {
-      "t": "市内の給油見通しについて（お知らせ）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326793/index.html",
-      "ex": "",
-      "cat": "mise",
-      "urgent": true,
       "pin": false,
       "src": "八代市"
     },
@@ -1142,6 +1160,24 @@
     {
       "t": "くまもと被災者支援ナビについて",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326806/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "災害に便乗した犯罪に関する注意喚起",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326855/index.html",
+      "ex": "",
+      "cat": "bouhan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "災害応援に従事する皆様及び関係機関の皆様の駐車場について（お願い）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326838/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
@@ -1185,9 +1221,9 @@
       "src": "社協"
     },
     {
-      "t": "令和８年熊本地震に係る災害派遣について(8.5) 2026年08月05日 公表 ロシア海軍艦艇の動向について（スラバ、ウダロイⅠ、ステレグ３隻／宗谷海峡東進） 2026年08月04日 公表 令和８年熊本地震に係る災害派遣について(8.4) 2026年08月03日 公表 令和８年熊本地震に係る災害派遣について(8.3)",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260805_02.pdf",
-      "ex": "8月5日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "t": "熊本県宇城市における林野火災に係る災害派遣について 2026年08月06日 公表 令和８年熊本地震に係る災害派遣について(8.6) 2026年08月05日 公表 令和８年熊本地震に係る災害派遣について(8.5) 2026年08月05日 公表 ロシア海軍艦艇の動向について（スラバ、ウダロイⅠ、ステレグ３隻／宗谷海峡東進） 2026年08月04日 公表 令和８年熊本地震に係る災害派遣について(8.4) 2026年08月03日 公表 令和８年熊本地震に係る災害派遣について(8.3)",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260806_02.pdf",
+      "ex": "8月6日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
