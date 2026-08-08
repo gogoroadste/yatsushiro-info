@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-08T06:34:45.058Z",
-  "checked": "2026-08-08T06:34:45.058Z",
+  "updated": "2026-08-08T08:08:46.680Z",
+  "checked": "2026-08-08T08:08:46.680Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 94
+      "count": 96
     },
     "kinkyu": {
       "ok": true,
@@ -712,6 +712,24 @@
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326823/index.html",
       "ex": "",
       "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "令和8年熊本地震 飲料水の現況調査",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326877/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "災害に伴う飲料水の無料配布について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326876/index.html",
+      "ex": "",
+      "cat": "mizu",
       "urgent": false,
       "pin": false,
       "src": "八代市"
