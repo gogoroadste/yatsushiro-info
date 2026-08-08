@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-08T00:09:53.251Z",
-  "checked": "2026-08-08T00:09:53.251Z",
+  "updated": "2026-08-08T03:59:50.523Z",
+  "checked": "2026-08-08T03:59:50.523Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 91
+      "count": 94
     },
     "kinkyu": {
       "ok": true,
@@ -1104,6 +1104,15 @@
       "src": "八代市"
     },
     {
+      "t": "災害サポート・レンタカーの貸出がはじまります！",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326874/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
       "t": "令和8年熊本地震に伴う「第59回八代くま川祭り」の開催中止について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326756/index.html",
       "ex": "",
@@ -1187,6 +1196,24 @@
     {
       "t": "熊響ファミリーコンサートチケット発売延期",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326728/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "中小企業への支援策（国・県の融資制度及び相談窓口等）について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326774/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市"
+    },
+    {
+      "t": "セーフティネット保証4号（令和八年熊本地震）について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326866/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
