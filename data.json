@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-19T10:01:06.171Z",
-  "checked": "2026-08-19T10:01:06.171Z",
+  "updated": "2026-08-19T10:14:17.641Z",
+  "checked": "2026-08-19T10:14:17.641Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 128
+      "count": 127
     },
     "kinkyu": {
       "ok": true,
@@ -1020,16 +1020,6 @@
       "n": 326797
     },
     {
-      "t": "手押しポンプが使えます",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326823/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326823
-    },
-    {
       "t": "令和8年熊本地震 飲料水の現況調査",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326877/index.html",
       "ex": "",
@@ -1070,7 +1060,7 @@
       "n": 32223
     },
     {
-      "t": "手押しポンプの利用が可能です(飲用可）",
+      "t": "手押しポンプの利用が可能です",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326923/index.html",
       "ex": "",
       "cat": "mizu",
