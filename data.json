@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-19T12:04:48.920Z",
-  "checked": "2026-08-19T12:04:48.920Z",
+  "updated": "2026-08-19T14:04:42.433Z",
+  "checked": "2026-08-19T14:04:42.433Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 127
+      "count": 129
     },
     "kinkyu": {
       "ok": true,
@@ -620,6 +620,16 @@
       "n": 326934
     },
     {
+      "t": "司法書士による無料法律相談会",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326941/index.html",
+      "ex": "",
+      "cat": "soudan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326941
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -740,6 +750,16 @@
       "n": 326906
     },
     {
+      "t": "令和８年熊本地震に伴う確認申請等の取扱いについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326800/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326800
+    },
+    {
       "t": "令和８年熊本地震による証明書等の交付手数料の免除について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326862/index.html",
       "ex": "",
@@ -788,16 +808,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326856
-    },
-    {
-      "t": "令和８年熊本地震に伴う確認申請等の取扱いについて",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326800/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326800
     },
     {
       "t": "令和８年熊本地震によって被災された方の定期予防接種のお知らせ",
@@ -860,11 +870,11 @@
       "n": 326948
     },
     {
-      "t": "災害廃棄物仮置場の設置について",
+      "t": "災害廃棄物仮置場の設置について（新たに北新地グラウンド仮置場開設します）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
       "cat": "gomi",
-      "urgent": false,
+      "urgent": true,
       "pin": false,
       "src": "八代市",
       "n": 324627
@@ -1758,6 +1768,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326922
+    },
+    {
+      "t": "避難所・避難先では、性被害や性暴力、DVなどが発生するリスクが高まります",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326947/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 326947
     },
     {
       "t": "ボランティアセンター",
