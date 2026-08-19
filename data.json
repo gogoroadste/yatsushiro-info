@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19T08:02:20.109Z",
-  "checked": "2026-08-19T08:02:20.109Z",
+  "updated": "2026-08-19T08:06:25.023Z",
+  "checked": "2026-08-19T08:06:25.023Z",
   "ok": true,
   "sources": {
     "city": {
@@ -790,16 +790,6 @@
       "n": 326856
     },
     {
-      "t": "令和8年お盆期間中の診療状況をお知らせします",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326730/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326730
-    },
-    {
       "t": "令和８年熊本地震に伴う確認申請等の取扱いについて",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326800/index.html",
       "ex": "",
@@ -858,6 +848,16 @@
       "pin": false,
       "src": "八代市",
       "n": 324966
+    },
+    {
+      "t": "災害弔慰金・災害障がい見舞金について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326948/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326948
     },
     {
       "t": "災害廃棄物仮置場の設置について",
