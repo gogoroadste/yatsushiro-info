@@ -1,0 +1,81 @@
+name: 八代市の情報を取り込む
+
+on:
+  schedule:
+    # GitHubの無料枠では */10 と書いても混雑時に数時間まとめて間引かれる。
+    # 1つの cron に頼らず、5分ずらした複数の cron を並べて発火機会を増やす。
+    # （同時に走っても concurrency で直列化されるので二重更新にはならない）
+    - cron: "3,13,23,33,43,53 * * * *"
+    - cron: "8,18,28,38,48,58 * * * *"
+  workflow_dispatch:          # 手動実行ボタン
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: gitの設定
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # 失敗しても止めない。「失敗した」という記録を data.json に残して
+      # 保存するところまで進めないと、サイト側に警告を出せないため。
+      # スケジュールが数時間飛ばされることがあるため、1回の起動の中で
+      # 時間をおいて3回取りに行き、そのたびに保存する。
+      # これで「最後に確認した時刻」の遅れを実質的に縮める。
+      - name: 取り込む（1回目）
+        id: fetch
+        continue-on-error: true
+        run: node scripts/fetch.mjs
+
+      - name: 変更があれば保存する
+        run: |
+          if [ -n "$(git status --porcelain data.json)" ]; then
+            git add data.json
+            git commit -m "データ更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "変更なし"
+          fi
+
+      - name: 待って取り込む（2回目・3回目）
+        continue-on-error: true
+        run: |
+          for i in 2 3; do
+            sleep 240
+            echo "--- ${i}回目 ---"
+            node scripts/fetch.mjs || true
+            if [ -n "$(git status --porcelain data.json)" ]; then
+              git add data.json
+              git commit -m "データ更新 $(TZ=Asia/Tokyo date '+%m-%d %H:%M')"
+              git push || true
+            else
+              echo "変更なし"
+            fi
+          done
+
+      # 保存が終わってから赤くする。Actions の一覧で失敗が一目で分かるように。
+      - name: 取得できたか判定する
+        run: |
+          if grep -q '"ok": true' data.json; then
+            echo "取得に成功しています"
+          else
+            echo "::error::八代市のページを取得できませんでした。data.json の errors を確認してください。"
+            grep -A5 '"errors"' data.json || true
+            exit 1
+          fi
