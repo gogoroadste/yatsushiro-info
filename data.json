@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-20T08:12:57.197Z",
-  "checked": "2026-08-20T08:12:57.197Z",
+  "updated": "2026-08-20T09:18:00.740Z",
+  "checked": "2026-08-20T09:18:00.740Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 133
+      "count": 124
     },
     "kinkyu": {
       "ok": true,
@@ -520,16 +520,6 @@
       "n": 326930
     },
     {
-      "t": "令和８年熊本地震に伴う企業様からの物資提供のお願い",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
-      "ex": "",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326767
-    },
-    {
       "t": "支援物資等の受入窓口 問合せ先一覧",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326786/index.html",
       "ex": "",
@@ -658,16 +648,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326850
-    },
-    {
-      "t": "【重要】家に入る前にまず安全確認を",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326754/index.html",
-      "ex": "",
-      "cat": "sumai",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326754
     },
     {
       "t": "り災証明書のための住家被害認定調査を行っています",
@@ -880,16 +860,6 @@
       "n": 326867
     },
     {
-      "t": "令和８年熊本地震により被災した合併処理浄化槽の補助制度",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00324966/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 324966
-    },
-    {
       "t": "災害弔慰金・災害障がい見舞金について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326948/index.html",
       "ex": "",
@@ -908,16 +878,6 @@
       "pin": false,
       "src": "八代市",
       "n": 324627
-    },
-    {
-      "t": "7月29日（水曜日） 以降のもえるごみの収集について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326738/index.html",
-      "ex": "",
-      "cat": "gomi",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326738
     },
     {
       "t": "「エコエイトやつしろ」への持ち込み再開について（8月3日（月曜日）から）※災害廃棄物以外",
@@ -1010,16 +970,6 @@
       "n": 326881
     },
     {
-      "t": "断水の一部解消について（日奈久地区）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326857/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326857
-    },
-    {
       "t": "八代市上水道の被災状況と今後の対応について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326789/index.html",
       "ex": "",
@@ -1030,26 +980,6 @@
       "n": 326789
     },
     {
-      "t": "上水道を使用されている御家庭、事業所等のみなさんへ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326787/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326787
-    },
-    {
-      "t": "生活用水の配布について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326797/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326797
-    },
-    {
       "t": "令和8年熊本地震 飲料水の現況調査",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326877/index.html",
       "ex": "",
@@ -1058,26 +988,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326877
-    },
-    {
-      "t": "（八代地区で都市ガスをご使用の方へ）九州ガスからのお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326804/index.html",
-      "ex": "",
-      "cat": "denki",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326804
-    },
-    {
-      "t": "【令和8年熊本地震】八代市公共下水道・農業集落排水・公共浄化槽等に関する状況について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326861/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326861
     },
     {
       "t": "指定給水装置工事事業者一覧",
@@ -1098,6 +1008,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326923
+    },
+    {
+      "t": "令和８年熊本地震により被災した合併処理浄化槽の補助制度",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00324966/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 324966
     },
     {
       "t": "井戸水対策チーム事務所の開設について",
@@ -1180,16 +1100,6 @@
       "n": 326847
     },
     {
-      "t": "避難所への報道取材に関するご協力のお願い",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326820/index.html",
-      "ex": "",
-      "cat": "hinan",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326820
-    },
-    {
       "t": "福祉避難所について（開設状況とご相談方法）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326920/index.html",
       "ex": "",
@@ -1198,6 +1108,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326920
+    },
+    {
+      "t": "避難所への報道取材に関するご協力のお願い",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326820/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 326820
     },
     {
       "t": "令和８年熊本地震に係る賃貸型応急住宅（みなし仮設）のお知らせ",
@@ -1610,16 +1530,6 @@
       "n": 326879
     },
     {
-      "t": "【熊本地震被災地支援】民間団体による支援プロジェクトのご案内",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326894/index.html",
-      "ex": "",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326894
-    },
-    {
       "t": "日本赤十字社の「令和８年熊本地震災害義援金」受付が始まりました",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326872/index.html",
       "ex": "",
@@ -1720,6 +1630,16 @@
       "n": 322575
     },
     {
+      "t": "令和８年熊本地震に伴う「第36回みなと八代フェスティバル2026」の中止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326913/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326913
+    },
+    {
       "t": "中小企業への支援策（国・県の融資制度及び相談窓口等）について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326774/index.html",
       "ex": "",
@@ -1788,16 +1708,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326889
-    },
-    {
-      "t": "熊本地震にかかるペットの健康相談会の実施について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326912/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326912
     },
     {
       "t": "被災された皆様の健康調査について",
