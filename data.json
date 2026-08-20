@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-20T03:17:58.884Z",
-  "checked": "2026-08-20T03:17:58.884Z",
+  "updated": "2026-08-20T05:05:59.151Z",
+  "checked": "2026-08-20T05:05:59.151Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 130
+      "count": 133
     },
     "kinkyu": {
       "ok": true,
@@ -630,6 +630,16 @@
       "n": 326941
     },
     {
+      "t": "被災者向け くらしとお金の相談会",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326953/index.html",
+      "ex": "",
+      "cat": "soudan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326953
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -680,14 +690,14 @@
       "n": 326898
     },
     {
-      "t": "井戸に関わる り災証明・被災証明について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326903/index.html",
+      "t": "井戸に関するQ&A（り災証明関連）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326958/index.html",
       "ex": "",
       "cat": "risai",
       "urgent": true,
       "pin": false,
       "src": "八代市",
-      "n": 326903
+      "n": 326958
     },
     {
       "t": "オンライン申請された り災証明・被災証明の発送について",
@@ -760,6 +770,16 @@
       "n": 326800
     },
     {
+      "t": "8月の休日窓口開庁について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00323991/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 323991
+    },
+    {
       "t": "令和８年熊本地震による証明書等の交付手数料の免除について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326862/index.html",
       "ex": "",
@@ -808,6 +828,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326856
+    },
+    {
+      "t": "令和８年８月23日以降の休日当番医の変更について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326854/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326854
     },
     {
       "t": "令和８年熊本地震によって被災された方の定期予防接種のお知らせ",
@@ -1800,21 +1830,21 @@
       "n": 0
     },
     {
-      "t": "令和8年熊本地震による被災世帯に対する生活福祉資金（緊急小口資金）特例貸付について",
-      "u": "https://www.yatsushiro-shakyo.jp/oshirase_fukushishikin.html",
+      "t": "災害ボランティア関係「ボランティア募集（第３段）開始",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
       "ex": "",
-      "cat": "okane",
-      "urgent": false,
+      "cat": "volunteer",
+      "urgent": true,
       "pin": false,
       "src": "社協",
       "n": 0
     },
     {
-      "t": "災害ボランティア関係「専用ダイヤル」へお願いいたします（重要）",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
+      "t": "令和8年熊本地震による被災世帯に対する生活福祉資金（緊急小口資金）特例貸付について",
+      "u": "https://www.yatsushiro-shakyo.jp/oshirase_fukushishikin.html",
       "ex": "",
-      "cat": "volunteer",
-      "urgent": true,
+      "cat": "okane",
+      "urgent": false,
       "pin": false,
       "src": "社協",
       "n": 0
