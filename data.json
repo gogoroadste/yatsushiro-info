@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-20T09:26:08.442Z",
-  "checked": "2026-08-20T09:26:08.442Z",
+  "updated": "2026-08-20T09:53:49.313Z",
+  "checked": "2026-08-20T09:53:49.313Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 124
+      "count": 125
     },
     "kinkyu": {
       "ok": true,
@@ -518,6 +518,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326930
+    },
+    {
+      "t": "支援物資の受入れの停止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326883/index.html",
+      "ex": "",
+      "cat": "shien",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 326883
     },
     {
       "t": "支援物資等の受入窓口 問合せ先一覧",
