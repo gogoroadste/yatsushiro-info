@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21T03:38:32.511Z",
-  "checked": "2026-08-21T03:38:32.511Z",
+  "updated": "2026-08-21T05:08:19.281Z",
+  "checked": "2026-08-21T05:08:19.281Z",
   "ok": true,
   "sources": {
     "city": {
@@ -880,6 +880,16 @@
       "n": 326948
     },
     {
+      "t": "【重要】 地震発生に伴う農業委員会の一部業務の再開について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326851/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326851
+    },
+    {
       "t": "災害廃棄物仮置場の設置について（新たに北新地グラウンド仮置場開設します）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
@@ -1190,16 +1200,6 @@
       "n": 326747
     },
     {
-      "t": "インスタントハウスの設置希望者募集について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326871/index.html",
-      "ex": "",
-      "cat": "hinan",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326871
-    },
-    {
       "t": "被災者への入浴支援事業について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326794/index.html",
       "ex": "",
@@ -1230,14 +1230,14 @@
       "n": 326893
     },
     {
-      "t": "学校体育施設の一般利用の制限について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326744/index.html",
+      "t": "【重要】令和８年熊本地震による学校体育施設の貸出停止の継続について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326967/index.html",
       "ex": "",
       "cat": "shisetsu",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 326744
+      "n": 326967
     },
     {
       "t": "乳幼児健診などの中止のお知らせ",
