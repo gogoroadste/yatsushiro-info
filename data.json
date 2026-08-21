@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-21T05:25:21.328Z",
-  "checked": "2026-08-21T05:25:21.328Z",
+  "updated": "2026-08-21T07:31:04.824Z",
+  "checked": "2026-08-21T07:31:04.824Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 125
+      "count": 124
     },
     "kinkyu": {
       "ok": true,
@@ -540,10 +540,10 @@
       "n": 326786
     },
     {
-      "t": "令和８年熊本地震に係る「被災者支援に関する各種制度」について",
+      "t": "令和８年熊本地震関連「被災者応援ガイドブック」について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326858/index.html",
       "ex": "",
-      "cat": "okane",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市",
@@ -928,16 +928,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326844
-    },
-    {
-      "t": "【災害ごみ】災害ごみ仮置場の8月の開設状況について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00324753/index.html",
-      "ex": "",
-      "cat": "gomi",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 324753
     },
     {
       "t": "令和８年熊本地震に伴う八代市公共交通（バス・乗合タクシー）の運休について",
