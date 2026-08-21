@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-21T12:00:36.878Z",
-  "checked": "2026-08-21T12:00:36.878Z",
+  "updated": "2026-08-21T12:04:40.368Z",
+  "checked": "2026-08-21T12:04:40.368Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 124
+      "count": 128
     },
     "kinkyu": {
       "ok": true,
@@ -1450,6 +1450,16 @@
       "n": 324614
     },
     {
+      "t": "【図書館】返却ポスト利用再開のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326962/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326962
+    },
+    {
       "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326766/index.html",
       "ex": "",
@@ -1538,6 +1548,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326872
+    },
+    {
+      "t": "令和８年度に企業版ふるさと納税の支援をいただいた企業のご紹介",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326702/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326702
     },
     {
       "t": "令和8年熊本地震に伴う「第39回やつしろ全国花火競技大会」の中止について",
@@ -1640,6 +1660,16 @@
       "n": 326913
     },
     {
+      "t": "宇崎竜童 弾き語りライブ2026 公演中止とチケット払戻しのお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326886/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326886
+    },
+    {
       "t": "中小企業への支援策（国・県の融資制度及び相談窓口等）について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326774/index.html",
       "ex": "",
@@ -1658,6 +1688,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326866
+    },
+    {
+      "t": "令和8年熊本地震に伴う中小企業向け金融円滑化特別資金及び小規模事業者おうえん資金の取扱の開始について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326965/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326965
     },
     {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
