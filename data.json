@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-23T07:57:42.964Z",
-  "checked": "2026-08-23T07:57:42.964Z",
+  "updated": "2026-08-23T09:01:07.730Z",
+  "checked": "2026-08-23T09:01:07.730Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 133
+      "count": 134
     },
     "kinkyu": {
       "ok": true,
@@ -578,6 +578,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326902
+    },
+    {
+      "t": "広報やつしろ 災害臨時号 vol.1・2要約版（令和8年熊本地震）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326972/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326972
     },
     {
       "t": "【1階会議室Ｄに移動しました】被災者支援に関する災害相談窓口の設置について",
