@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-23T00:09:41.378Z",
-  "checked": "2026-08-23T00:09:41.378Z",
+  "updated": "2026-08-23T03:29:13.072Z",
+  "checked": "2026-08-23T03:29:13.072Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 129
+      "count": 131
     },
     "kinkyu": {
       "ok": true,
@@ -648,6 +648,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326953
+    },
+    {
+      "t": "障がいのある方へ 支援のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326931/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326931
     },
     {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
@@ -1780,6 +1790,16 @@
       "n": 326947
     },
     {
+      "t": "令和８年度８月補正予算（８月２１日専決分）の概要について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326964/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326964
+    },
+    {
       "t": "ボランティアセンター",
       "u": "https://www.yatsushiro-shakyo.jp/volunteer.html",
       "ex": "",
@@ -1830,6 +1850,16 @@
       "n": 0
     },
     {
+      "t": "令和８年熊本地震に係る災害派遣について（8.22）",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260823_01.pdf",
+      "ex": "8月23日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊",
+      "n": 0
+    },
+    {
       "t": "令和８年熊本地震に係る災害派遣について（8.21）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260822_01.pdf",
       "ex": "8月22日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
@@ -1853,16 +1883,6 @@
       "t": "令和８年熊本地震に係る災害派遣について（8.19）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260820_01.pdf",
       "ex": "8月20日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "自衛隊",
-      "n": 0
-    },
-    {
-      "t": "令和８年熊本地震に係る災害派遣について（8.18）",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260819_01.pdf",
-      "ex": "8月19日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
