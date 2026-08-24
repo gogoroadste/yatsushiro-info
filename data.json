@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-24T08:16:11.534Z",
-  "checked": "2026-08-24T08:16:11.534Z",
+  "updated": "2026-08-24T10:21:38.181Z",
+  "checked": "2026-08-24T10:21:38.181Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 138
+      "count": 141
     },
     "kinkyu": {
       "ok": true,
@@ -940,6 +940,16 @@
       "n": 324914
     },
     {
+      "t": "令和８年熊本地震に係る被災者生活再建支援金について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326937/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326937
+    },
+    {
       "t": "災害廃棄物仮置場の設置について（新たに北新地グラウンド仮置場開設します）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
@@ -998,6 +1008,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326748
+    },
+    {
+      "t": "【熊本地震関連】鹿児島本線（宇土駅～八代駅間）におけるバス代行について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326977/index.html",
+      "ex": "",
+      "cat": "kotsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326977
     },
     {
       "t": "給水所情報(毎日更新)",
@@ -1388,6 +1408,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326935
+    },
+    {
+      "t": "応急給食の提供について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326980/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326980
     },
     {
       "t": "令和8年熊本地震に伴う「八代市西松江城老人憩いの家」臨時休館のお知らせ",
