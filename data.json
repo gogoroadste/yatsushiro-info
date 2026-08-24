@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-24T05:34:17.602Z",
-  "checked": "2026-08-24T05:34:17.602Z",
+  "updated": "2026-08-24T08:08:02.577Z",
+  "checked": "2026-08-24T08:08:02.577Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 133
+      "count": 138
     },
     "kinkyu": {
       "ok": true,
@@ -980,6 +980,16 @@
       "n": 326844
     },
     {
+      "t": "【災害ごみ仮置場】渋滞状況確認カメラの設置について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326970/index.html",
+      "ex": "",
+      "cat": "gomi",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326970
+    },
+    {
       "t": "令和８年熊本地震に伴う八代市公共交通（バス・乗合タクシー）の運休について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326748/index.html",
       "ex": "",
@@ -1080,6 +1090,26 @@
       "n": 324966
     },
     {
+      "t": "令和８年熊本地震により被災された方への下水道使用料等の減免について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326905/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326905
+    },
+    {
+      "t": "令和８年熊本地震に伴う水道料金の免除について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326971/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326971
+    },
+    {
       "t": "井戸水対策チーム事務所の開設について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326949/index.html",
       "ex": "",
@@ -1098,6 +1128,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326901
+    },
+    {
+      "t": "【注意喚起】井戸の掘削に関する業者について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326960/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326960
     },
     {
       "t": "避難所開設状況",
@@ -1818,6 +1858,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326964
+    },
+    {
+      "t": "政府への要望活動（令和８年熊本地震に関する緊急要望）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326975/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326975
     },
     {
       "t": "ボランティアセンター",
