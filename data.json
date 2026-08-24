@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-24T00:09:30.429Z",
-  "checked": "2026-08-24T00:09:30.429Z",
+  "updated": "2026-08-24T03:31:44.361Z",
+  "checked": "2026-08-24T03:31:44.361Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 134
+      "count": 133
     },
     "kinkyu": {
       "ok": true,
@@ -1680,26 +1680,6 @@
       "n": 326647
     },
     {
-      "t": "【中止】「第28回さわやかヤングステージ」中止のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326887/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326887
-    },
-    {
-      "t": "【中止】令和8年度「くまもと・みんなの川と海づくりデー」ボランティア清掃活動中止のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00322575/index.html",
-      "ex": "",
-      "cat": "volunteer",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 322575
-    },
-    {
       "t": "令和８年熊本地震に伴う「第36回みなと八代フェスティバル2026」の中止について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326913/index.html",
       "ex": "",
@@ -1718,6 +1698,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326886
+    },
+    {
+      "t": "スポーツ推進委員派遣事業の一時中断について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326976/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326976
     },
     {
       "t": "中小企業への支援策（国・県の融資制度及び相談窓口等）について",
@@ -1880,6 +1870,16 @@
       "n": 0
     },
     {
+      "t": "令和８年熊本地震に係る災害派遣について（8.23）",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260824_01.pdf",
+      "ex": "8月24日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊",
+      "n": 0
+    },
+    {
       "t": "令和８年熊本地震に係る災害派遣について（8.22）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260823_01.pdf",
       "ex": "8月23日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
@@ -1903,16 +1903,6 @@
       "t": "令和８年熊本地震に係る災害派遣について（8.20）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260821_01.pdf",
       "ex": "8月21日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "自衛隊",
-      "n": 0
-    },
-    {
-      "t": "令和８年熊本地震に係る災害派遣について（8.19）",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260820_01.pdf",
-      "ex": "8月20日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
