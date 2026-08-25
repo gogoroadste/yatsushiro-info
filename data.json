@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-25T12:10:37.727Z",
-  "checked": "2026-08-25T12:10:37.727Z",
+  "updated": "2026-08-25T14:28:50.047Z",
+  "checked": "2026-08-25T14:28:50.047Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 142
+      "count": 143
     },
     "kinkyu": {
       "ok": true,
@@ -750,6 +750,16 @@
       "n": 326973
     },
     {
+      "t": "休日における「り災証明・被災証明」申請窓口の開設について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326982/index.html",
+      "ex": "",
+      "cat": "risai",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 326982
+    },
+    {
       "t": "令和８年熊本地震に伴う本庁舎の窓口対応について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326790/index.html",
       "ex": "",
@@ -808,16 +818,6 @@
       "pin": false,
       "src": "八代市",
       "n": 323991
-    },
-    {
-      "t": "休日における「り災証明・被災証明」申請窓口の開設について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326982/index.html",
-      "ex": "",
-      "cat": "risai",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326982
     },
     {
       "t": "令和８年熊本地震による証明書等の交付手数料の免除について",
@@ -880,16 +880,6 @@
       "n": 326854
     },
     {
-      "t": "令和８年熊本地震によって被災された方の定期予防接種のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326803/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326803
-    },
-    {
       "t": "被災されたストーマ保持者に対する支援について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326885/index.html",
       "ex": "",
@@ -938,6 +928,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326851
+    },
+    {
+      "t": "令和８年熊本地震によって被災された方の定期予防接種のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326803/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326803
     },
     {
       "t": "令和８年熊本地震による八代市災害援護資金の貸付について",
@@ -1040,36 +1040,6 @@
       "n": 326773
     },
     {
-      "t": "配水池の水位低下に伴う夜間の給水量制限（２１時から翌６時まで）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326873/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326873
-    },
-    {
-      "t": "上水道（旧八代市の地域）における断水及び給水のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326917/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326917
-    },
-    {
-      "t": "【第５報】試験通水の実施について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326881/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326881
-    },
-    {
       "t": "八代市上水道の被災状況と今後の対応について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326789/index.html",
       "ex": "",
@@ -1138,6 +1108,36 @@
       "pin": false,
       "src": "八代市",
       "n": 326971
+    },
+    {
+      "t": "上水道（旧八代市の地域）における断水解消及び給水制限解除のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326917/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 326917
+    },
+    {
+      "t": "令和８年熊本地震 水道の宅内配管工事コールセンターの開設について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326979/index.html",
+      "ex": "",
+      "cat": "hinan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 326979
+    },
+    {
+      "t": "八代市公共下水道・農業集落排水・公共浄化槽等に関する状況について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326921/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326921
     },
     {
       "t": "井戸水対策チーム事務所の開設について",
@@ -1908,6 +1908,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326975
+    },
+    {
+      "t": "多言語翻訳IP無線機を貸し出します",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326968/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326968
     },
     {
       "t": "ボランティアセンター",
