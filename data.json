@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-24T23:58:50.856Z",
-  "checked": "2026-08-24T23:58:50.856Z",
+  "updated": "2026-08-25T03:14:56.541Z",
+  "checked": "2026-08-25T03:14:56.541Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 141
+      "count": 140
     },
     "kinkyu": {
       "ok": true,
@@ -1140,16 +1140,6 @@
       "n": 326949
     },
     {
-      "t": "【熊本地震】井戸水が出ないなどお困りの方へ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326901/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326901
-    },
-    {
       "t": "【注意喚起】井戸の掘削に関する業者について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326960/index.html",
       "ex": "",
@@ -1950,6 +1940,16 @@
       "n": 0
     },
     {
+      "t": "令和８年熊本地震に係る災害派遣について（8.24）",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260825_01.pdf",
+      "ex": "8月25日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊",
+      "n": 0
+    },
+    {
       "t": "令和８年熊本地震に係る災害派遣について（8.23）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260824_01.pdf",
       "ex": "8月24日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
@@ -1973,16 +1973,6 @@
       "t": "令和８年熊本地震に係る災害派遣について（8.21）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260822_01.pdf",
       "ex": "8月22日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "自衛隊",
-      "n": 0
-    },
-    {
-      "t": "令和８年熊本地震に係る災害派遣について（8.20）",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260821_01.pdf",
-      "ex": "8月21日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
