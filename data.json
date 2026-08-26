@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-26T03:42:10.732Z",
-  "checked": "2026-08-26T03:42:10.732Z",
+  "updated": "2026-08-26T05:17:10.804Z",
+  "checked": "2026-08-26T05:17:10.804Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 145
+      "count": 146
     },
     "kinkyu": {
       "ok": true,
@@ -678,6 +678,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326987
+    },
+    {
+      "t": "被災された事業者・労働者の皆様へ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326957/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326957
     },
     {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
