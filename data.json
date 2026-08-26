@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-26T00:02:52.641Z",
-  "checked": "2026-08-26T00:02:52.641Z",
+  "updated": "2026-08-26T03:34:02.083Z",
+  "checked": "2026-08-26T03:34:02.083Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 143
+      "count": 145
     },
     "kinkyu": {
       "ok": true,
@@ -670,6 +670,16 @@
       "n": 326931
     },
     {
+      "t": "弁護士による無料法律相談",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326987/index.html",
+      "ex": "",
+      "cat": "soudan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326987
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -1131,13 +1141,13 @@
     },
     {
       "t": "八代市公共下水道・農業集落排水・公共浄化槽等に関する状況について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326921/index.html",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326988/index.html",
       "ex": "",
       "cat": "mizu",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 326921
+      "n": 326988
     },
     {
       "t": "井戸水対策チーム事務所の開設について",
@@ -1790,6 +1800,16 @@
       "n": 326976
     },
     {
+      "t": "「広報やつしろ9月号」発行中止のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326978/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326978
+    },
+    {
       "t": "中小企業への支援策（国・県の融資制度及び相談窓口等）について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326774/index.html",
       "ex": "",
@@ -1970,6 +1990,16 @@
       "n": 0
     },
     {
+      "t": "令和８年熊本地震に係る災害派遣について（8.25）",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260826_01.pdf",
+      "ex": "8月26日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊",
+      "n": 0
+    },
+    {
       "t": "令和８年熊本地震に係る災害派遣について（8.24）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260825_01.pdf",
       "ex": "8月25日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
@@ -1993,16 +2023,6 @@
       "t": "令和８年熊本地震に係る災害派遣について（8.22）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260823_01.pdf",
       "ex": "8月23日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "自衛隊",
-      "n": 0
-    },
-    {
-      "t": "令和８年熊本地震に係る災害派遣について（8.21）",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260822_01.pdf",
-      "ex": "8月22日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
