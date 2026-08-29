@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-29T06:14:12.807Z",
-  "checked": "2026-08-29T06:14:12.807Z",
+  "updated": "2026-08-29T06:18:16.827Z",
+  "checked": "2026-08-29T06:18:16.827Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 149
+      "count": 150
     },
     "kinkyu": {
       "ok": true,
@@ -998,6 +998,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326937
+    },
+    {
+      "t": "令和８年９月定例会に伴う請願・陳情書の取扱いについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326999/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326999
     },
     {
       "t": "災害廃棄物仮置場の設置について（新たに北新地グラウンド仮置場開設します）",
