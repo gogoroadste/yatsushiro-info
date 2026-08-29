@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-29T07:29:02.903Z",
-  "checked": "2026-08-29T07:29:02.903Z",
+  "updated": "2026-08-29T07:33:07.669Z",
+  "checked": "2026-08-29T07:33:07.669Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 150
+      "count": 147
     },
     "kinkyu": {
       "ok": true,
@@ -700,7 +700,7 @@
       "n": 326987
     },
     {
-      "t": "被災された事業者・労働者の皆様へ",
+      "t": "令和8年熊本地震に伴う労働・雇用行政に関するお知らせ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326957/index.html",
       "ex": "",
       "cat": "sonota",
@@ -920,16 +920,6 @@
       "n": 326854
     },
     {
-      "t": "被災されたストーマ保持者に対する支援について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326885/index.html",
-      "ex": "",
-      "cat": "karada",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326885
-    },
-    {
       "t": "（延期のお知らせ）計量器の定期検査について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326485/index.html",
       "ex": "",
@@ -1098,16 +1088,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326789
-    },
-    {
-      "t": "令和8年熊本地震 飲料水の現況調査",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326877/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326877
     },
     {
       "t": "指定給水装置工事事業者一覧",
@@ -1738,16 +1718,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326870
-    },
-    {
-      "t": "献血中止について（令和8年8月実施分）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326573/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326573
     },
     {
       "t": "【令和8年熊本地震の影響により、受付中止】イースタン・ビーナス 秋の長崎・釜山4日間クルーズに乗船しませんか（八代市民・熊本県民クルーズ実施）",
