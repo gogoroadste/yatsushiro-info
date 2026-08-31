@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-31T01:01:08.844Z",
-  "checked": "2026-08-31T01:01:08.844Z",
+  "updated": "2026-08-31T05:19:11.982Z",
+  "checked": "2026-08-31T05:19:11.982Z",
   "ok": true,
   "sources": {
     "city": {
@@ -710,6 +710,16 @@
       "n": 326957
     },
     {
+      "t": "建築士による電話相談窓口の開設について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326997/index.html",
+      "ex": "",
+      "cat": "soudan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 326997
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -1000,7 +1010,7 @@
       "n": 326999
     },
     {
-      "t": "災害廃棄物仮置場の設置について（新たに北新地グラウンド仮置場開設します）",
+      "t": "災害廃棄物仮置場の設置について（新たに北新地グラウンド仮置場を開設しました）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
       "cat": "gomi",
@@ -1348,16 +1358,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326919
-    },
-    {
-      "t": "住宅再建に向けた電話相談窓口の開設について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326997/index.html",
-      "ex": "",
-      "cat": "soudan",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326997
     },
     {
       "t": "被災者への入浴支援事業について",
