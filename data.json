@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-01T01:35:23.399Z",
-  "checked": "2026-09-01T01:35:23.399Z",
+  "updated": "2026-09-01T04:55:09.586Z",
+  "checked": "2026-09-01T04:55:09.586Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 148
+      "count": 149
     },
     "kinkyu": {
       "ok": true,
@@ -860,16 +860,6 @@
       "n": 326800
     },
     {
-      "t": "8月の休日窓口開庁について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00323991/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 323991
-    },
-    {
       "t": "令和８年熊本地震による証明書等の交付手数料の免除について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326862/index.html",
       "ex": "",
@@ -918,16 +908,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326856
-    },
-    {
-      "t": "令和８年８月23日以降の休日当番医の変更について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326854/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326854
     },
     {
       "t": "（延期のお知らせ）計量器の定期検査について",
@@ -1230,7 +1210,7 @@
       "n": 326798
     },
     {
-      "t": "📌災害時における避難・車中泊可能な公園のご案内",
+      "t": "📌【順次閉鎖します】災害時における避難・車中泊可能な公園のご案内",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326775/index.html",
       "ex": "",
       "cat": "hinan",
@@ -1358,6 +1338,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326919
+    },
+    {
+      "t": "令和８年熊本地震 自宅敷地内への建設型応急住宅について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326998/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326998
     },
     {
       "t": "被災者への入浴支援事業について",
@@ -1540,7 +1530,7 @@
       "n": 326795
     },
     {
-      "t": "⚠️一部公園の10月分利用予約の受付開始について（球磨川河川緑地・北部中央公園以外）",
+      "t": "⚠️一部公園の10月分利用予約の受付開始について（球磨川河川緑地・北部中央公園・東片自然公園・緑公園・鏡ヶ池公園以外）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326995/index.html",
       "ex": "",
       "cat": "sonota",
@@ -1618,6 +1608,16 @@
       "pin": false,
       "src": "八代市",
       "n": 324614
+    },
+    {
+      "t": "【図書館 せんちょう分館・かがみ分館】9月1日（火曜日）より開館のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326974/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326974
     },
     {
       "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
@@ -1970,6 +1970,16 @@
       "n": 326968
     },
     {
+      "t": "【熊本地震に関するお知らせ】医療機関における胃がん検診の再開について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326956/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326956
+    },
+    {
       "t": "ボランティアセンター",
       "u": "https://www.yatsushiro-shakyo.jp/volunteer.html",
       "ex": "",
@@ -2040,6 +2050,16 @@
       "n": 0
     },
     {
+      "t": "令和８年熊本地震に係る災害派遣について（8.31）",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260901_01.pdf",
+      "ex": "9月1日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊",
+      "n": 0
+    },
+    {
       "t": "令和８年熊本地震に係る災害派遣について（8.30）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260831_01.pdf",
       "ex": "8月31日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
@@ -2063,16 +2083,6 @@
       "t": "令和８年熊本地震に係る災害派遣について（8.28）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260829_01.pdf",
       "ex": "8月29日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "自衛隊",
-      "n": 0
-    },
-    {
-      "t": "令和８年熊本地震に係る災害派遣について（8.27）",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260828_02.pdf",
-      "ex": "8月28日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
