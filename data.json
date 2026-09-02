@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-02T05:51:29.242Z",
-  "checked": "2026-09-02T05:51:29.242Z",
+  "updated": "2026-09-02T09:54:47.206Z",
+  "checked": "2026-09-02T09:54:47.206Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 151
+      "count": 153
     },
     "kinkyu": {
       "ok": true,
@@ -13,7 +13,7 @@
     },
     "shakyo": {
       "ok": true,
-      "count": 7
+      "count": 6
     },
     "mod": {
       "ok": true,
@@ -520,11 +520,11 @@
       "n": 326891
     },
     {
-      "t": "【令和８年熊本地震】支援物資「配達サービス」の活用について",
+      "t": "【令和８年熊本地震】水の「配達サービス」の活用について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326930/index.html",
       "ex": "",
-      "cat": "shien",
-      "urgent": true,
+      "cat": "sonota",
+      "urgent": false,
       "pin": false,
       "src": "八代市",
       "n": 326930
@@ -940,7 +940,7 @@
       "n": 326867
     },
     {
-      "t": "災害弔慰金・災害障がい見舞金について",
+      "t": "災害弔慰金・災害障がい見舞金・災害見舞金（重傷者）について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326948/index.html",
       "ex": "",
       "cat": "okane",
@@ -1078,6 +1078,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327001
+    },
+    {
+      "t": "令和８年熊本地震に伴う「タクシー配車アプリ」の利用について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327014/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327014
     },
     {
       "t": "給水所情報(毎日更新)",
@@ -1730,6 +1740,16 @@
       "n": 326702
     },
     {
+      "t": "９月４日（金曜日）と９月５日（土曜日）の災害ボランティアセンターの活動中止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327020/index.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 327020
+    },
+    {
       "t": "令和8年熊本地震に伴う「第39回やつしろ全国花火競技大会」の中止について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326870/index.html",
       "ex": "",
@@ -2005,16 +2025,6 @@
       "ex": "",
       "cat": "volunteer",
       "urgent": false,
-      "pin": false,
-      "src": "社協",
-      "n": 0
-    },
-    {
-      "t": "災害ボランティア関係「個人ボランティア募集（第４弾）」開始",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
-      "ex": "",
-      "cat": "volunteer",
-      "urgent": true,
       "pin": false,
       "src": "社協",
       "n": 0
