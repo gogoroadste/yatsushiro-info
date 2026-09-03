@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-03T22:01:04.412Z",
-  "checked": "2026-09-03T22:01:04.412Z",
+  "updated": "2026-09-03T23:23:24.322Z",
+  "checked": "2026-09-03T23:23:24.322Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 155
+      "count": 157
     },
     "kinkyu": {
       "ok": true,
@@ -1498,6 +1498,26 @@
       "pin": false,
       "src": "八代市",
       "n": 326980
+    },
+    {
+      "t": "応急給食（9月7日～9月11日）の献立について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327031/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327031
+    },
+    {
+      "t": "【お知らせ】通常給食の再開予定について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327030/index.html",
+      "ex": "",
+      "cat": "kodomo",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327030
     },
     {
       "t": "令和8年熊本地震に伴う「八代市西松江城老人憩いの家」臨時休館のお知らせ",
