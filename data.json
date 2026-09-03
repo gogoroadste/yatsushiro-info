@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T09:03:23.829Z",
-  "checked": "2026-09-03T09:03:23.829Z",
+  "updated": "2026-09-03T11:05:17.911Z",
+  "checked": "2026-09-03T11:05:17.911Z",
   "ok": true,
   "sources": {
     "city": {
@@ -13,7 +13,7 @@
     },
     "shakyo": {
       "ok": true,
-      "count": 6
+      "count": 7
     },
     "mod": {
       "ok": true,
@@ -2045,6 +2045,16 @@
       "ex": "",
       "cat": "volunteer",
       "urgent": false,
+      "pin": false,
+      "src": "社協",
+      "n": 0
+    },
+    {
+      "t": "災害ボランティア関係「個人ボランティア募集（第５弾）」開始",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": true,
       "pin": false,
       "src": "社協",
       "n": 0
