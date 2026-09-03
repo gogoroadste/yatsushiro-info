@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-03T06:04:17.869Z",
-  "checked": "2026-09-03T06:04:17.869Z",
+  "updated": "2026-09-03T08:55:15.490Z",
+  "checked": "2026-09-03T08:55:15.490Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 153
+      "count": 155
     },
     "kinkyu": {
       "ok": true,
@@ -1000,7 +1000,17 @@
       "n": 326999
     },
     {
-      "t": "災害廃棄物仮置場の設置について（新たに北新地グラウンド仮置場を開設しました）",
+      "t": "【重要】熊本地震に伴う農業者年金の保険料の取り扱いについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327019/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327019
+    },
+    {
+      "t": "災害廃棄物仮置場の設置について【明日9月4日（金曜日）は通常通り開設します】",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
       "cat": "gomi",
@@ -1868,6 +1878,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326573
+    },
+    {
+      "t": "令和8年 八代妙見祭の中止について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327025/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327025
     },
     {
       "t": "中小企業への支援策（国・県の融資制度及び相談窓口等）について",
