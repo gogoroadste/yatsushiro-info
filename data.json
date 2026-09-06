@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-06T01:19:14.143Z",
-  "checked": "2026-09-06T01:19:14.143Z",
+  "updated": "2026-09-06T05:17:16.448Z",
+  "checked": "2026-09-06T05:17:16.448Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 159
+      "count": 160
     },
     "kinkyu": {
       "ok": true,
@@ -1530,6 +1530,16 @@
       "n": 327030
     },
     {
+      "t": "みらいろパーク（道の駅ウェルネスあらお敷地内）の無料開放",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327038/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327038
+    },
+    {
       "t": "鏡文化センターの休館及び旧八代市厚生会館に係る市民対話の延期について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326771/index.html",
       "ex": "",
@@ -2090,8 +2100,8 @@
       "n": 0
     },
     {
-      "t": "災害ボランティア関係「9/5（土）、9/6（日）ボランティア活動の中止」について",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_oshirase_ame_katudou_chushi.html",
+      "t": "災害ボランティア関係「9/7（月） ボランティア活動の再開」について",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
       "ex": "",
       "cat": "volunteer",
       "urgent": true,
@@ -2100,8 +2110,8 @@
       "n": 0
     },
     {
-      "t": "災害ボランティア関係「個人ボランティア募集（第５弾）」開始",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
+      "t": "災害ボランティア関係「9/5（土）、9/6（日）ボランティア活動の中止」について",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_oshirase_ame_katudou_chushi.html",
       "ex": "",
       "cat": "volunteer",
       "urgent": true,
