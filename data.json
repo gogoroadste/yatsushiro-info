@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-06T01:15:08.706Z",
-  "checked": "2026-09-06T01:15:08.706Z",
+  "updated": "2026-09-06T01:19:14.143Z",
+  "checked": "2026-09-06T01:19:14.143Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 157
+      "count": 159
     },
     "kinkyu": {
       "ok": true,
@@ -640,16 +640,6 @@
       "n": 326764
     },
     {
-      "t": "災害後の住宅修理トラブルに注意！",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326900/index.html",
-      "ex": "",
-      "cat": "sumai",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326900
-    },
-    {
       "t": "令和８年熊本地震に係る住まいの相談窓口の開設",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326934/index.html",
       "ex": "",
@@ -1130,16 +1120,6 @@
       "n": 32223
     },
     {
-      "t": "手押しポンプの利用が可能です",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326923/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326923
-    },
-    {
       "t": "令和８年熊本地震により被災した合併処理浄化槽の補助制度",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324966/index.html",
       "ex": "",
@@ -1218,6 +1198,26 @@
       "pin": false,
       "src": "八代市",
       "n": 326960
+    },
+    {
+      "t": "手押しポンプの利用が可能です",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326923/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326923
+    },
+    {
+      "t": "ミズムスビ様から防災井戸の提供について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327037/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327037
     },
     {
       "t": "避難所開設状況",
@@ -1378,6 +1378,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326940
+    },
+    {
+      "t": "災害後の住宅修理トラブルに注意！",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326900/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326900
     },
     {
       "t": "被災者への入浴支援事業について",
@@ -2058,6 +2068,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327029
+    },
+    {
+      "t": "令和８年度９月補正予算（９月４日専決分）の概要について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327013/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327013
     },
     {
       "t": "ボランティアセンター",
