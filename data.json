@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-07T01:28:30.240Z",
-  "checked": "2026-09-07T01:28:30.240Z",
+  "updated": "2026-09-07T04:59:28.179Z",
+  "checked": "2026-09-07T04:59:28.179Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 160
+      "count": 156
     },
     "kinkyu": {
       "ok": true,
@@ -658,16 +658,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326941
-    },
-    {
-      "t": "被災者向け くらしとお金の相談会",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326953/index.html",
-      "ex": "",
-      "cat": "soudan",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326953
     },
     {
       "t": "障がいのある方へ 支援のお知らせ",
@@ -1430,16 +1420,6 @@
       "n": 326967
     },
     {
-      "t": "乳幼児健診などの中止のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326751/index.html",
-      "ex": "",
-      "cat": "kodomo",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326751
-    },
-    {
       "t": "親子安心ステーションの開設について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326821/index.html",
       "ex": "",
@@ -1458,16 +1438,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326860
-    },
-    {
-      "t": "「こどもの居場所」利用者募集",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326880/index.html",
-      "ex": "",
-      "cat": "kodomo",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326880
     },
     {
       "t": "八代市内における「こどもの居場所」開設状況について",
@@ -1538,6 +1508,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327038
+    },
+    {
+      "t": "母子保健事業一部再開のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326751/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326751
     },
     {
       "t": "鏡文化センターの休館及び旧八代市厚生会館に係る市民対話の延期について",
@@ -1720,7 +1700,7 @@
       "n": 326782
     },
     {
-      "t": "【8月4日更新】炊き出し支援をご検討いただいている皆様へ",
+      "t": "炊き出し支援をご検討いただいている皆様へ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326785/index.html",
       "ex": "",
       "cat": "shien",
@@ -1760,16 +1740,6 @@
       "n": 326874
     },
     {
-      "t": "「こどもの居場所」運営ボランティアの募集について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326879/index.html",
-      "ex": "",
-      "cat": "kodomo",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326879
-    },
-    {
       "t": "日本赤十字社の「令和８年熊本地震災害義援金」受付が始まりました",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326872/index.html",
       "ex": "",
@@ -1788,16 +1758,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326702
-    },
-    {
-      "t": "９月５日（土曜日）と９月６日（日曜日）の災害ボランティアセンターの活動中止について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327036/index.html",
-      "ex": "",
-      "cat": "volunteer",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 327036
     },
     {
       "t": "令和8年熊本地震に伴う「第39回やつしろ全国花火競技大会」の中止について",
@@ -2170,6 +2130,16 @@
       "n": 0
     },
     {
+      "t": "令和８年熊本地震に係る災害派遣について（9.6）",
+      "u": "https://www.mod.go.jp/js/pdf/2026/p20260907_01.pdf",
+      "ex": "9月7日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "自衛隊",
+      "n": 0
+    },
+    {
       "t": "令和８年熊本地震に係る災害派遣について（9.5）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260906_01.pdf",
       "ex": "9月6日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
@@ -2193,16 +2163,6 @@
       "t": "令和８年熊本地震に係る災害派遣について（9.3）",
       "u": "https://www.mod.go.jp/js/pdf/2026/p20260904_01.pdf",
       "ex": "9月4日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "自衛隊",
-      "n": 0
-    },
-    {
-      "t": "令和８年熊本地震に係る災害派遣について（9.2）",
-      "u": "https://www.mod.go.jp/js/pdf/2026/p20260903_01.pdf",
-      "ex": "9月3日発表 ／ 熊本県全体の活動報告（PDF・速報値）",
       "cat": "shien",
       "urgent": false,
       "pin": false,
