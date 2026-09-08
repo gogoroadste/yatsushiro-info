@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-07T23:10:41.713Z",
-  "checked": "2026-09-07T23:10:41.713Z",
+  "updated": "2026-09-08T00:31:12.445Z",
+  "checked": "2026-09-08T00:31:12.445Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 156
+      "count": 157
     },
     "kinkyu": {
       "ok": true,
@@ -1918,6 +1918,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326992
+    },
+    {
+      "t": "【９月１１日】令和8年熊本地震 小規模事業者持続化補助金（災害支援枠）及び金融支援策説明会のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327041/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327041
     },
     {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
