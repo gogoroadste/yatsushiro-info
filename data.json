@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-10T10:13:26.309Z",
-  "checked": "2026-09-10T10:13:26.309Z",
+  "updated": "2026-09-10T11:19:23.062Z",
+  "checked": "2026-09-10T11:19:23.062Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 162
+      "count": 163
     },
     "kinkyu": {
       "ok": true,
@@ -2108,6 +2108,16 @@
       "pin": false,
       "src": "八代市",
       "n": 314856
+    },
+    {
+      "t": "震災時だからこそ、互いを思いやる心を",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327044/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327044
     },
     {
       "t": "ボランティアセンター",
