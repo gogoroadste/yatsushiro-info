@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-10T06:15:00.081Z",
-  "checked": "2026-09-10T06:15:00.081Z",
+  "updated": "2026-09-10T10:04:47.416Z",
+  "checked": "2026-09-10T10:04:47.416Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 159
+      "count": 162
     },
     "kinkyu": {
       "ok": true,
@@ -720,6 +720,16 @@
       "n": 327053
     },
     {
+      "t": "被災された皆様へ ～こころを守るために～",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327021/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327021
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -1218,6 +1228,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327037
+    },
+    {
+      "t": "被災した井戸等の修理を支援する制度について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327065/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327065
     },
     {
       "t": "避難所開設状況",
@@ -2078,6 +2098,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327013
+    },
+    {
+      "t": "防災行政情報配信サービスの登録をお願いします。",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00314856/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 314856
     },
     {
       "t": "ボランティアセンター",
