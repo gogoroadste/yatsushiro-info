@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-11T06:08:32.572Z",
-  "checked": "2026-09-11T06:08:32.572Z",
+  "updated": "2026-09-11T09:09:38.754Z",
+  "checked": "2026-09-11T09:09:38.754Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 164
+      "count": 165
     },
     "kinkyu": {
       "ok": true,
@@ -1928,6 +1928,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327067
+    },
+    {
+      "t": "中小企業者事業再建支援利子補給事業（令和８年熊本地震）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327069/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327069
     },
     {
       "t": "中小企業への支援策（国・県の融資制度及び相談窓口等）について",
