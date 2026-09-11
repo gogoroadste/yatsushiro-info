@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-11T00:26:12.727Z",
-  "checked": "2026-09-11T00:26:12.727Z",
+  "updated": "2026-09-11T01:08:16.031Z",
+  "checked": "2026-09-11T01:08:16.031Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 163
+      "count": 162
     },
     "kinkyu": {
       "ok": true,
@@ -1188,16 +1188,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326949
-    },
-    {
-      "t": "【熊本地震】井戸水が出ないなどお困りの方へ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326901/index.html",
-      "ex": "",
-      "cat": "mizu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326901
     },
     {
       "t": "【注意喚起】井戸の掘削に関する業者について",
