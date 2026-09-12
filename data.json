@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-11T23:42:57.262Z",
-  "checked": "2026-09-11T23:42:57.262Z",
+  "updated": "2026-09-12T01:17:11.286Z",
+  "checked": "2026-09-12T01:17:11.286Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 165
+      "count": 167
     },
     "kinkyu": {
       "ok": true,
@@ -1800,6 +1800,16 @@
       "n": 326702
     },
     {
+      "t": "災害ボランティア従事者への無料入浴支援について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327082/index.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 327082
+    },
+    {
       "t": "令和8年熊本地震に伴う「第39回やつしろ全国花火競技大会」の中止について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326870/index.html",
       "ex": "",
@@ -1988,6 +1998,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327041
+    },
+    {
+      "t": "小規模事業者持続化補助金＜一般型 災害支援枠（令和8年熊本地震）＞",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327068/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327068
     },
     {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
