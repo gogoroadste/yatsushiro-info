@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-14T01:26:16.193Z",
-  "checked": "2026-09-14T01:26:16.193Z",
+  "updated": "2026-09-14T06:17:20.447Z",
+  "checked": "2026-09-14T06:17:20.447Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 168
+      "count": 164
     },
     "kinkyu": {
       "ok": true,
@@ -770,16 +770,6 @@
       "n": 326898
     },
     {
-      "t": "井戸に関するQ&A（り災証明関連）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326958/index.html",
-      "ex": "",
-      "cat": "risai",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326958
-    },
-    {
       "t": "オンライン申請された り災証明・被災証明の発送について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326897/index.html",
       "ex": "",
@@ -908,16 +898,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326856
-    },
-    {
-      "t": "（延期のお知らせ）計量器の定期検査について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326485/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326485
     },
     {
       "t": "（令和8年熊本地震により被災された方へ）障害福祉サービス等の利用料が免除されます",
@@ -1380,16 +1360,6 @@
       "n": 326747
     },
     {
-      "t": "令和８年熊本地震に係る建設型応急住宅の入居者募集について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326919/index.html",
-      "ex": "",
-      "cat": "sumai",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326919
-    },
-    {
       "t": "令和８年熊本地震 自宅敷地内への建設型応急住宅について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326998/index.html",
       "ex": "",
@@ -1568,16 +1538,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326751
-    },
-    {
-      "t": "鏡文化センターの休館及び旧八代市厚生会館に係る市民対話の延期について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326771/index.html",
-      "ex": "",
-      "cat": "shisetsu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326771
     },
     {
       "t": "商工政策課所管施設（勤労者向け施設）の臨時休館（利用停止）および今後の利用再開について",
@@ -2000,14 +1960,14 @@
       "n": 326992
     },
     {
-      "t": "【９月１１日】令和8年熊本地震 小規模事業者持続化補助金（災害支援枠）及び金融支援策説明会のお知らせ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327041/index.html",
+      "t": "【参加企業募集】熊本市主催 「震災復興応援 合同企業説明会」",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327064/index.html",
       "ex": "",
-      "cat": "okane",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 327041
+      "n": 327064
     },
     {
       "t": "小規模事業者持続化補助金＜一般型 災害支援枠（令和8年熊本地震）＞",
@@ -2180,7 +2140,7 @@
       "n": 0
     },
     {
-      "t": "災害ボランティア関係「個人ボランティア募集（第６弾）」開始",
+      "t": "災害ボランティア関係「ボランティアに関する問い合わせ先」の追加情報",
       "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
       "ex": "",
       "cat": "volunteer",
