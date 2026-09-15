@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15T05:11:01.082Z",
-  "checked": "2026-09-15T05:11:01.082Z",
+  "updated": "2026-09-15T05:15:19.527Z",
+  "checked": "2026-09-15T05:15:19.527Z",
   "ok": true,
   "sources": {
     "city": {
@@ -1820,16 +1820,6 @@
       "n": 326627
     },
     {
-      "t": "熊響ファミリーコンサートチケット発売延期",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326728/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326728
-    },
-    {
       "t": "「第２１回八代市民体育祭」中止のお知らせ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326890/index.html",
       "ex": "",
@@ -2148,6 +2138,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327044
+    },
+    {
+      "t": "【令和8年熊本地震復興祈願】熊響ファミリーコンサート開催決定！",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326728/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326728
     },
     {
       "t": "ボランティアセンター",
