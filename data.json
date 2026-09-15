@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15T05:32:27.246Z",
-  "checked": "2026-09-15T05:32:27.246Z",
+  "updated": "2026-09-15T09:59:22.840Z",
+  "checked": "2026-09-15T09:59:22.840Z",
   "ok": true,
   "sources": {
     "city": {
@@ -1000,6 +1000,16 @@
       "n": 326792
     },
     {
+      "t": "令和８年熊本地震により被災された方の「介護保険料」の減免について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327066/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327066
+    },
+    {
       "t": "災害廃棄物仮置場の設置について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
@@ -1428,16 +1438,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326826
-    },
-    {
-      "t": "防衛省によるフェリー「はくおう2」宿泊支援のご案内",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326893/index.html",
-      "ex": "",
-      "cat": "shien",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326893
     },
     {
       "t": "令和８年熊本地震による学校体育施設の貸出停止の継続及び今後の予定について",
