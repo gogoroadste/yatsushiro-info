@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-16T01:48:11.442Z",
-  "checked": "2026-09-16T01:48:11.442Z",
+  "updated": "2026-09-16T05:03:10.619Z",
+  "checked": "2026-09-16T05:03:10.619Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 166
+      "count": 167
     },
     "kinkyu": {
       "ok": true,
@@ -1548,6 +1548,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326751
+    },
+    {
+      "t": "【被災地支援】山都町内スポーツ施設等の無料開放について（小・中学生の団体対象）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327096/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327096
     },
     {
       "t": "商工政策課所管施設（勤労者向け施設）の臨時休館（利用停止）および今後の利用再開について",
