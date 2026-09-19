@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-19T01:26:46.417Z",
-  "checked": "2026-09-19T01:26:46.417Z",
+  "updated": "2026-09-19T05:51:50.801Z",
+  "checked": "2026-09-19T05:51:50.801Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 167
+      "count": 171
     },
     "kinkyu": {
       "ok": true,
@@ -730,6 +730,26 @@
       "n": 327021
     },
     {
+      "t": "被災者支援 特別行政相談所について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327105/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327105
+    },
+    {
+      "t": "令和8年熊本地震に係る中小企業者向け特別相談窓口・相談会",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327056/index.html",
+      "ex": "",
+      "cat": "soudan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327056
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -808,6 +828,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326982
+    },
+    {
+      "t": "【「り災証明書」に係る住家被害認定調査（２次調査）の申請受付について】",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327117/index.html",
+      "ex": "",
+      "cat": "risai",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 327117
     },
     {
       "t": "令和８年熊本地震に伴う本庁舎の窓口対応について",
@@ -1370,7 +1400,7 @@
       "n": 326859
     },
     {
-      "t": "令和8年熊本地震に伴う住宅の応急修理について(申請受付開始)",
+      "t": "令和8年熊本地震に伴う住宅の応急修理について(申請受付中)",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326747/index.html",
       "ex": "",
       "cat": "sumai",
@@ -2158,6 +2188,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326728
+    },
+    {
+      "t": "（お知らせ）農林水産省九州農政局八代海岸保全事業所における令和８年熊本地震に係る対応状況について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327103/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327103
     },
     {
       "t": "ボランティアセンター",
