@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-20T07:08:10.154Z",
-  "checked": "2026-09-20T07:08:10.154Z",
+  "updated": "2026-09-20T07:12:29.549Z",
+  "checked": "2026-09-20T07:12:29.549Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 172
+      "count": 173
     },
     "kinkyu": {
       "ok": true,
@@ -1278,6 +1278,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327047
+    },
+    {
+      "t": "ご近所で助け合う生活用水の確保方法をご紹介します",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327104/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327104
     },
     {
       "t": "避難所開設状況",
