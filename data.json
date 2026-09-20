@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-20T01:48:55.759Z",
-  "checked": "2026-09-20T01:48:55.759Z",
+  "updated": "2026-09-20T05:18:46.024Z",
+  "checked": "2026-09-20T05:18:46.024Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 171
+      "count": 172
     },
     "kinkyu": {
       "ok": true,
@@ -1738,6 +1738,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327085
+    },
+    {
+      "t": "体育施設の利用再開に関するお知らせ（第二報）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327094/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327094
     },
     {
       "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
