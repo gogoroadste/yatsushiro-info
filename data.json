@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-23T01:57:32.890Z",
-  "checked": "2026-09-23T01:57:32.890Z",
+  "updated": "2026-09-23T06:06:50.026Z",
+  "checked": "2026-09-23T06:06:50.026Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 173
+      "count": 175
     },
     "kinkyu": {
       "ok": true,
@@ -1210,7 +1210,7 @@
       "n": 326979
     },
     {
-      "t": "濁水情報について",
+      "t": "濁水解消について（9月23日更新）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327084/index.html",
       "ex": "",
       "cat": "sonota",
@@ -1730,6 +1730,16 @@
       "n": 326974
     },
     {
+      "t": "【図書館本館】10月1日（木曜日）より開館のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327109/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327109
+    },
+    {
       "t": "体育施設の利用再開に関するお知らせ（第一報）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327034/index.html",
       "ex": "",
@@ -1820,7 +1830,7 @@
       "n": 326865
     },
     {
-      "t": "災害サポート・レンタカーの貸出がはじまります！",
+      "t": "災害サポート・レンタカー貸出中！",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326874/index.html",
       "ex": "",
       "cat": "shien",
@@ -2048,6 +2058,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327068
+    },
+    {
+      "t": "「営農再開ワンストップ相談窓口」を開設します",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327120/index.html",
+      "ex": "",
+      "cat": "soudan",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 327120
     },
     {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
