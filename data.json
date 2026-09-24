@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-24T01:06:21.119Z",
-  "checked": "2026-09-24T01:06:21.119Z",
+  "updated": "2026-09-24T05:29:38.418Z",
+  "checked": "2026-09-24T05:29:38.418Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 175
+      "count": 176
     },
     "kinkyu": {
       "ok": true,
@@ -1040,11 +1040,11 @@
       "n": 327066
     },
     {
-      "t": "災害廃棄物仮置場の設置について",
+      "t": "災害廃棄物仮置場の設置について（10月1日から、り災証明書等の提示が必要です）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324627/index.html",
       "ex": "",
       "cat": "gomi",
-      "urgent": false,
+      "urgent": true,
       "pin": false,
       "src": "八代市",
       "n": 324627
@@ -1088,6 +1088,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326989
+    },
+    {
+      "t": "【重要】災害ごみ仮置場の受入れには10月1日以降 り災証明書等が必要になります",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00324658/index.html",
+      "ex": "",
+      "cat": "gomi",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 324658
     },
     {
       "t": "令和８年熊本地震に伴う八代市公共交通（バス・乗合タクシー）の運行について",
@@ -2250,21 +2260,21 @@
       "n": 0
     },
     {
-      "t": "令和8年熊本地震による被災世帯に対する生活福祉資金（緊急小口資金）特例貸付について(10月1日からの受付会場変更について)",
-      "u": "https://www.yatsushiro-shakyo.jp/oshirase_fukushishikin.html",
+      "t": "災害ボランティア関係「個人ボランティア募集（第７弾）」開始",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
       "ex": "",
-      "cat": "okane",
-      "urgent": false,
+      "cat": "volunteer",
+      "urgent": true,
       "pin": false,
       "src": "社協",
       "n": 0
     },
     {
-      "t": "災害ボランティア関係「ボランティアに関する問い合わせ先」の追加情報",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
+      "t": "令和8年熊本地震による被災世帯に対する生活福祉資金（緊急小口資金）特例貸付について(10月1日からの受付会場変更について)",
+      "u": "https://www.yatsushiro-shakyo.jp/oshirase_fukushishikin.html",
       "ex": "",
-      "cat": "volunteer",
-      "urgent": true,
+      "cat": "okane",
+      "urgent": false,
       "pin": false,
       "src": "社協",
       "n": 0
