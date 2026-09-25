@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-25T05:33:05.963Z",
-  "checked": "2026-09-25T05:33:05.963Z",
+  "updated": "2026-09-25T06:04:45.101Z",
+  "checked": "2026-09-25T06:04:45.101Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 168
+      "count": 170
     },
     "kinkyu": {
       "ok": true,
@@ -1280,6 +1280,16 @@
       "n": 327104
     },
     {
+      "t": "令和８年熊本地震における被災井戸復旧のための井戸掘削業者の募集について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327140/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327140
+    },
+    {
       "t": "避難所開設状況",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326798/index.html",
       "ex": "",
@@ -1560,6 +1570,16 @@
       "n": 327096
     },
     {
+      "t": "【就学援助】令和8年熊本地震で被災された方へ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327095/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327095
+    },
+    {
       "t": "商工政策課所管施設（勤労者向け施設）の臨時休館（利用停止）および今後の利用再開について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326757/index.html",
       "ex": "",
@@ -1610,7 +1630,7 @@
       "n": 326995
     },
     {
-      "t": "コミュニティセンターの臨時休館（利用停止）及び受付中止について",
+      "t": "コミュニティセンターの貸出再開（一部）について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326816/index.html",
       "ex": "",
       "cat": "shisetsu",
