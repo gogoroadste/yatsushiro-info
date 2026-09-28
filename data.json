@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-28T00:57:51.845Z",
-  "checked": "2026-09-28T00:57:51.845Z",
+  "updated": "2026-09-28T01:20:00.902Z",
+  "checked": "2026-09-28T01:20:00.902Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 174
+      "count": 176
     },
     "kinkyu": {
       "ok": true,
@@ -1090,6 +1090,16 @@
       "n": 324658
     },
     {
+      "t": "災害廃棄物仮置場の9月28日（月曜日）の受け入れを中止します",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327144/index.html",
+      "ex": "",
+      "cat": "gomi",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327144
+    },
+    {
       "t": "令和８年熊本地震に伴う八代市公共交通（バス・乗合タクシー）の運行について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326748/index.html",
       "ex": "",
@@ -1288,6 +1298,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327140
+    },
+    {
+      "t": "【修理業者の方向け】被災した井戸の応急修理に関する手続きについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327121/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327121
     },
     {
       "t": "避難所開設状況",
