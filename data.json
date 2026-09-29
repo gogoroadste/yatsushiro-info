@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29T01:08:12.993Z",
-  "checked": "2026-09-29T01:08:12.993Z",
+  "updated": "2026-09-29T06:07:48.370Z",
+  "checked": "2026-09-29T06:07:48.370Z",
   "ok": true,
   "sources": {
     "city": {
@@ -1220,14 +1220,14 @@
       "n": 326979
     },
     {
-      "t": "濁水解消について（9月23日更新）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327084/index.html",
+      "t": "濁水情報について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327156/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 327084
+      "n": 327156
     },
     {
       "t": "熊本地震で被災した井戸の原因調査（洗浄等）の申し込みについて",
