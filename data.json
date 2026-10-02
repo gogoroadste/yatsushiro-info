@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-02T09:02:12.745Z",
-  "checked": "2026-10-02T09:02:12.745Z",
+  "updated": "2026-10-02T12:56:43.258Z",
+  "checked": "2026-10-02T12:56:43.258Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 179
+      "count": 180
     },
     "kinkyu": {
       "ok": true,
@@ -1498,6 +1498,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327162
+    },
+    {
+      "t": "「賃貸型応急住宅」に係る補修費（入居時修繕負担金）支援",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327179/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327179
     },
     {
       "t": "被災者への入浴支援事業について",
