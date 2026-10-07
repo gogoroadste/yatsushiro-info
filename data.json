@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T02:31:56.272Z",
-  "checked": "2026-10-07T02:31:56.272Z",
+  "updated": "2026-10-07T08:53:52.026Z",
+  "checked": "2026-10-07T08:53:52.026Z",
   "ok": true,
   "sources": {
     "city": {
@@ -870,6 +870,16 @@
       "n": 326906
     },
     {
+      "t": "延長窓口を再開します",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327150/index.html",
+      "ex": "",
+      "cat": "soudan",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327150
+    },
+    {
       "t": "令和８年熊本地震による証明書等の交付手数料の免除について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326862/index.html",
       "ex": "",
@@ -1090,16 +1100,6 @@
       "n": 324658
     },
     {
-      "t": "令和８年熊本地震に伴う八代市公共交通（バス・乗合タクシー）の運行について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326748/index.html",
-      "ex": "",
-      "cat": "kotsu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326748
-    },
-    {
       "t": "【熊本地震関連】肥薩おれんじ鉄道の運休区間におけるバス代行について（９月１日～増便）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327001/index.html",
       "ex": "",
@@ -1108,16 +1108,6 @@
       "pin": false,
       "src": "八代市",
       "n": 327001
-    },
-    {
-      "t": "令和８年熊本地震に伴う「タクシー配車アプリ」の利用について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327014/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 327014
     },
     {
       "t": "【熊本地震関連】九州新幹線運行再開に伴う振替輸送の実施およびバス運行ダイヤの見直しについて（９月１８日～）",
@@ -1478,6 +1468,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327179
+    },
+    {
+      "t": "令和8年熊本地震に係る建設型応急住宅の入居者3次募集について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327197/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327197
     },
     {
       "t": "被災者への入浴支援事業について",
@@ -2130,7 +2130,7 @@
       "n": 326975
     },
     {
-      "t": "多言語翻訳IP無線機を貸し出します",
+      "t": "【貸し出し終了】多言語翻訳IP無線機を貸し出します",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326968/index.html",
       "ex": "",
       "cat": "sonota",
