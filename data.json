@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-08T01:25:25.833Z",
-  "checked": "2026-10-08T01:25:25.833Z",
+  "updated": "2026-10-08T06:25:36.296Z",
+  "checked": "2026-10-08T06:25:36.296Z",
   "ok": true,
   "sources": {
     "city": {
@@ -2210,20 +2210,20 @@
       "n": 0
     },
     {
-      "t": "令和8年熊本地震による被災世帯に対する生活福祉資金（緊急小口資金）特例貸付について(受付期限10月30日(金)まで)",
-      "u": "https://www.yatsushiro-shakyo.jp/oshirase_fukushishikin.html",
+      "t": "災害ボランティア関係「個人ボランティア募集（第８弾）」開始",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
       "ex": "",
-      "cat": "okane",
+      "cat": "volunteer",
       "urgent": true,
       "pin": false,
       "src": "社協",
       "n": 0
     },
     {
-      "t": "災害ボランティア関係「個人ボランティア募集（第７弾）」開始",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
+      "t": "令和8年熊本地震による被災世帯に対する生活福祉資金（緊急小口資金）特例貸付について(受付期限10月30日(金)まで)",
+      "u": "https://www.yatsushiro-shakyo.jp/oshirase_fukushishikin.html",
       "ex": "",
-      "cat": "volunteer",
+      "cat": "okane",
       "urgent": true,
       "pin": false,
       "src": "社協",
