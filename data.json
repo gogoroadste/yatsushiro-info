@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-19T01:51:27.385Z",
-  "checked": "2026-10-19T01:51:27.385Z",
+  "updated": "2026-10-19T04:40:04.627Z",
+  "checked": "2026-10-19T04:40:04.627Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 177
+      "count": 176
     },
     "kinkyu": {
       "ok": true,
@@ -740,16 +740,6 @@
       "n": 327021
     },
     {
-      "t": "被災者支援 特別行政相談所について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327105/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 327105
-    },
-    {
       "t": "令和8年熊本地震に係る中小企業者向け特別相談窓口・相談会",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327056/index.html",
       "ex": "",
@@ -1270,7 +1260,7 @@
       "n": 326923
     },
     {
-      "t": "ミズムスビ様から防災井戸の提供について",
+      "t": "ミズムスビ様から井戸の提供について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327037/index.html",
       "ex": "",
       "cat": "mizu",
@@ -1328,6 +1318,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327121
+    },
+    {
+      "t": "【10月19日開始】生活用水確保用のホース等を無料で貸し出します",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327180/index.html",
+      "ex": "",
+      "cat": "mizu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327180
     },
     {
       "t": "避難所開設状況",
@@ -1451,13 +1451,13 @@
     },
     {
       "t": "令和８年熊本地震 自宅敷地内への建設型応急住宅について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326998/index.html",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327248/index.html",
       "ex": "",
       "cat": "sumai",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 326998
+      "n": 327248
     },
     {
       "t": "災害後の住宅修理トラブルに注意！",
@@ -1568,16 +1568,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326860
-    },
-    {
-      "t": "八代市内における「こどもの居場所」開設状況について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326918/index.html",
-      "ex": "",
-      "cat": "kodomo",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326918
     },
     {
       "t": "やつしろ子ども支援相談室便り「たんぽぽ」",
@@ -1870,16 +1860,6 @@
       "n": 327205
     },
     {
-      "t": "令和8年熊本地震に伴う「第39回やつしろ全国花火競技大会」の中止について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326870/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326870
-    },
-    {
       "t": "「第２１回八代市民体育祭」中止のお知らせ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326890/index.html",
       "ex": "",
@@ -1940,16 +1920,6 @@
       "n": 326978
     },
     {
-      "t": "土壌分析診断事業の一時休止",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326944/index.html",
-      "ex": "",
-      "cat": "sonota",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 326944
-    },
-    {
       "t": "令和8年 八代妙見祭の中止について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327025/index.html",
       "ex": "",
@@ -1958,6 +1928,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327025
+    },
+    {
+      "t": "【中止】令和8年度「エコエイト環境フェスタ2026」中止のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327198/index.html",
+      "ex": "",
+      "cat": "gomi",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327198
     },
     {
       "t": "中小企業者事業再建支援利子補給事業（令和８年熊本地震）",
@@ -2090,14 +2070,24 @@
       "n": 327093
     },
     {
-      "t": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」",
+      "t": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」※現地サポートセンターも開設されます※",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327174/index.html",
       "ex": "",
       "cat": "okane",
-      "urgent": false,
+      "urgent": true,
       "pin": false,
       "src": "八代市",
       "n": 327174
+    },
+    {
+      "t": "【令和８年熊本地震】いぐさ農家及び、苗の被害や肥料・農薬等のかかり増し経費が発生した方へ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327242/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327242
     },
     {
       "t": "外国人市民（がいこくじん しみん）のみなさんへ",
