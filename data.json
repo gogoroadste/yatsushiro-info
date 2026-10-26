@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-26T01:52:53.292Z",
-  "checked": "2026-10-26T01:52:53.292Z",
+  "updated": "2026-10-26T06:51:49.504Z",
+  "checked": "2026-10-26T06:51:49.504Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 158
+      "count": 161
     },
     "kinkyu": {
       "ok": true,
@@ -720,6 +720,26 @@
       "n": 327252
     },
     {
+      "t": "令和8年熊本地震における災害義援金の支給について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327216/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327216
+    },
+    {
+      "t": "R8熊本地震災害義援金（重傷者）の取り扱いについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327266/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327266
+    },
+    {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326836/index.html",
       "ex": "",
@@ -1208,6 +1228,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327180
+    },
+    {
+      "t": "水質検査に関する補助制度の改正について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327187/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327187
     },
     {
       "t": "避難所開設状況",
