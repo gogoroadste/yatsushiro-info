@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-27T23:23:23.368Z",
-  "checked": "2026-10-27T23:23:23.368Z",
+  "updated": "2026-10-28T01:43:12.434Z",
+  "checked": "2026-10-28T01:43:12.434Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 149
+      "count": 148
     },
     "kinkyu": {
       "ok": true,
@@ -788,16 +788,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326898
-    },
-    {
-      "t": "「熊本県行政書士会による令和8年熊本地震「り災証明書」無料申請支援について」",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326916/index.html",
-      "ex": "",
-      "cat": "risai",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326916
     },
     {
       "t": "【「り災証明書」に係る住家被害認定調査（２次調査）の申請受付について】",
