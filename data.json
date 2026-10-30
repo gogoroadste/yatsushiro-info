@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-29T23:33:08.371Z",
-  "checked": "2026-10-29T23:33:08.371Z",
+  "updated": "2026-10-30T00:14:40.577Z",
+  "checked": "2026-10-30T00:14:40.577Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 150
+      "count": 153
     },
     "kinkyu": {
       "ok": true,
@@ -1220,6 +1220,16 @@
       "n": 327083
     },
     {
+      "t": "公費解体、自費解体を予定している皆様へ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327312/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327312
+    },
+    {
       "t": "「賃貸型応急住宅」に係る補修費（入居時修繕負担金）支援",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327179/index.html",
       "ex": "",
@@ -1400,6 +1410,16 @@
       "n": 326957
     },
     {
+      "t": "【11月12日、11月13日】「仮設商店街」事業者向け説明会を開催します",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327313/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327313
+    },
+    {
       "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326766/index.html",
       "ex": "",
@@ -1458,6 +1478,16 @@
       "pin": false,
       "src": "八代市",
       "n": 326822
+    },
+    {
+      "t": "「八代市災害ボランティアセンター」の支援活動日の変更について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327309/index.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 327309
     },
     {
       "t": "ボランティア活動車両の高速道路無料措置について",
