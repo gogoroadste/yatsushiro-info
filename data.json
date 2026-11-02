@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02T05:57:31.547Z",
-  "checked": "2026-11-02T05:57:31.547Z",
+  "updated": "2026-11-02T10:05:41.954Z",
+  "checked": "2026-11-02T10:05:41.954Z",
   "ok": true,
   "sources": {
     "city": {
@@ -700,11 +700,11 @@
       "n": 326937
     },
     {
-      "t": "令和８年熊本地震による八代市災害援護資金の貸付について",
+      "t": "令和８年熊本地震による八代市災害援護資金の貸付について申請期限が延長されました",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00324914/index.html",
       "ex": "",
       "cat": "okane",
-      "urgent": false,
+      "urgent": true,
       "pin": false,
       "src": "八代市",
       "n": 324914
