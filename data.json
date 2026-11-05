@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-05T00:06:48.470Z",
-  "checked": "2026-11-05T00:06:48.470Z",
+  "updated": "2026-11-05T02:47:44.559Z",
+  "checked": "2026-11-05T02:47:44.559Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 153
+      "count": 152
     },
     "kinkyu": {
       "ok": true,
@@ -1180,16 +1180,6 @@
       "n": 326747
     },
     {
-      "t": "令和８年熊本地震 自宅敷地内への建設型応急住宅について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327248/index.html",
-      "ex": "",
-      "cat": "sumai",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 327248
-    },
-    {
       "t": "災害後の住宅修理トラブルに注意！",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326900/index.html",
       "ex": "",
@@ -1238,16 +1228,6 @@
       "pin": false,
       "src": "八代市",
       "n": 327179
-    },
-    {
-      "t": "令和8年熊本地震に係る建設型応急住宅の入居者3次募集について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327197/index.html",
-      "ex": "",
-      "cat": "sumai",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 327197
     },
     {
       "t": "令和8年熊本地震に伴う八代市中小企業等利子補給補助金",
@@ -1720,7 +1700,17 @@
       "n": 326755
     },
     {
-      "t": "⚠️一部公園の10月分利用予約の受付開始について（球磨川河川緑地・北部中央公園・東片自然公園・緑公園・鏡ヶ池公園以外）",
+      "t": "博物館カフェの営業再開のお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327160/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327160
+    },
+    {
+      "t": "⚠️一部公園の利用予約について（球磨川河川緑地・北部中央公園・東片自然公園・緑公園・鏡ヶ池公園・新八代駅がめさん公園・龍峯やまびこ公園の一部 以外）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326995/index.html",
       "ex": "",
       "cat": "sonota",
