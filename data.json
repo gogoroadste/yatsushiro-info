@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-06T03:02:16.987Z",
-  "checked": "2026-11-06T03:02:16.987Z",
+  "updated": "2026-11-06T08:35:09.989Z",
+  "checked": "2026-11-06T08:35:09.989Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 152
+      "count": 153
     },
     "kinkyu": {
       "ok": true,
@@ -1228,6 +1228,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327179
+    },
+    {
+      "t": "令和８年熊本地震 自宅敷地内への建設型応急住宅について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327329/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327329
     },
     {
       "t": "令和8年熊本地震に伴う八代市中小企業等利子補給補助金",
