@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-11T02:52:23.778Z",
-  "checked": "2026-11-11T02:52:23.778Z",
+  "updated": "2026-11-11T06:18:30.568Z",
+  "checked": "2026-11-11T06:18:30.568Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 153
+      "count": 154
     },
     "kinkyu": {
       "ok": true,
@@ -620,16 +620,6 @@
       "n": 327053
     },
     {
-      "t": "令和８年熊本地震に係る住まいの相談窓口の開設",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326934/index.html",
-      "ex": "",
-      "cat": "soudan",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326934
-    },
-    {
       "t": "災害に伴う人権相談について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326996/index.html",
       "ex": "",
@@ -808,6 +798,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327184
+    },
+    {
+      "t": "令和8年熊本地震による り災証明・被災証明の新規申請期限について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327314/index.html",
+      "ex": "",
+      "cat": "risai",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 327314
     },
     {
       "t": "令和８年熊本地震に係る「市・県民税（個人住民税）」の減免について",
@@ -1240,6 +1240,16 @@
       "n": 327329
     },
     {
+      "t": "令和8年熊本地震に係る建設型応急住宅入居者の随時募集について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327345/index.html",
+      "ex": "",
+      "cat": "sumai",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327345
+    },
+    {
       "t": "令和8年熊本地震に伴う八代市中小企業等利子補給補助金",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327069/index.html",
       "ex": "",
@@ -1490,7 +1500,7 @@
       "n": 326865
     },
     {
-      "t": "災害サポート・レンタカー貸出中！",
+      "t": "災害サポート・レンタカーの支援を拡充します（乗用車の長期貸出を開始）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326874/index.html",
       "ex": "",
       "cat": "shien",
