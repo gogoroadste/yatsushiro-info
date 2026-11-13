@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-13T08:11:56.439Z",
-  "checked": "2026-11-13T08:11:56.439Z",
+  "updated": "2026-11-13T12:12:08.832Z",
+  "checked": "2026-11-13T12:12:08.832Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 154
+      "count": 155
     },
     "kinkyu": {
       "ok": true,
@@ -1340,34 +1340,44 @@
       "n": 327120
     },
     {
-      "t": "①早期営農再開支援事業（令和８年熊本地震）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327143/index.html",
-      "ex": "",
-      "cat": "shisetsu",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 327143
-    },
-    {
-      "t": "②梨産地復旧支援事業（令和8年熊本地震）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327131/index.html",
+      "t": "【11月10日更新：追加要望】令和８年熊本地震災害復旧関連事業に係る追加要望の受付について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327362/index.html",
       "ex": "",
       "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 327131
+      "n": 327362
     },
     {
-      "t": "③八代市いぐさ畳表加工再開支援事業（令和８年熊本地震）",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327133/index.html",
+      "t": "【11月10日更新：追加要望】①早期営農再開支援事業（令和８年熊本地震）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327361/index.html",
       "ex": "",
       "cat": "shisetsu",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 327133
+      "n": 327361
+    },
+    {
+      "t": "【11月10日更新：追加要望】②梨産地復旧支援事業（令和8年熊本地震）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327363/index.html",
+      "ex": "",
+      "cat": "sonota",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327363
+    },
+    {
+      "t": "【11月10日更新：追加要望】③八代市いぐさ畳表加工再開支援事業（令和８年熊本地震）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327365/index.html",
+      "ex": "",
+      "cat": "shisetsu",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327365
     },
     {
       "t": "【令和８年熊本地震】いぐさ農家及び、苗の被害や肥料・農薬等のかかり増し経費が発生した方へ",
@@ -1400,7 +1410,7 @@
       "n": 327056
     },
     {
-      "t": "令和8年熊本地震に伴う労働・雇用行政に関するお知らせ",
+      "t": "【事業者向け】令和8年熊本地震に伴う労働・雇用行政に関するお知らせ",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326957/index.html",
       "ex": "",
       "cat": "sonota",
@@ -1410,14 +1420,14 @@
       "n": 326957
     },
     {
-      "t": "【11月12日、11月13日】「仮設商店街」事業者向け説明会を開催します",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327313/index.html",
+      "t": "【失業者・求職者向け】令和8年熊本地震に伴う労働に関するお知らせ",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327372/index.html",
       "ex": "",
-      "cat": "sumai",
+      "cat": "sonota",
       "urgent": false,
       "pin": false,
       "src": "八代市",
-      "n": 327313
+      "n": 327372
     },
     {
       "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
