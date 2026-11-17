@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-17T02:12:01.860Z",
-  "checked": "2026-11-17T02:12:01.860Z",
+  "updated": "2026-11-17T09:03:30.604Z",
+  "checked": "2026-11-17T09:03:30.604Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 147
+      "count": 148
     },
     "kinkyu": {
       "ok": true,
@@ -1418,6 +1418,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327099
+    },
+    {
+      "t": "八代市令和８年熊本地震ボランティア活動助成事業の募集について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327387/index.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327387
     },
     {
       "t": "八代市災害ボランティアセンターを開設します",
