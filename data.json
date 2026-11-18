@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T19:35:22.846Z",
-  "checked": "2026-11-17T19:35:22.846Z",
+  "updated": "2026-11-18T01:03:12.170Z",
+  "checked": "2026-11-18T01:03:12.170Z",
   "ok": true,
   "sources": {
     "city": {
@@ -13,7 +13,7 @@
     },
     "shakyo": {
       "ok": true,
-      "count": 8
+      "count": 9
     },
     "mod": {
       "ok": false,
@@ -1975,6 +1975,16 @@
       "ex": "",
       "cat": "volunteer",
       "urgent": false,
+      "pin": false,
+      "src": "社協",
+      "n": 0
+    },
+    {
+      "t": "「令和8年熊本地震災害義援金」の受付期限が延長されました",
+      "u": "https://www.yatsushiro-shakyo.jp/oshirase_nisseki_R08kumamotojishin2.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": true,
       "pin": false,
       "src": "社協",
       "n": 0
