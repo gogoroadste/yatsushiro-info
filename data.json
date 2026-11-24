@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T01:59:47.918Z",
-  "checked": "2026-11-24T01:59:47.918Z",
+  "updated": "2026-11-24T05:31:07.968Z",
+  "checked": "2026-11-24T05:31:07.968Z",
   "ok": true,
   "sources": {
     "city": {
@@ -13,7 +13,7 @@
     },
     "shakyo": {
       "ok": true,
-      "count": 9
+      "count": 10
     },
     "mod": {
       "ok": false,
@@ -1985,6 +1985,16 @@
       "ex": "",
       "cat": "volunteer",
       "urgent": false,
+      "pin": false,
+      "src": "社協",
+      "n": 0
+    },
+    {
+      "t": "【熊本地震で被災された八代市の皆様へ】支援物資配付会のお知らせです",
+      "u": "https://www.yatsushiro-shakyo.jp/oshirase_bussi_haifukai.html",
+      "ex": "",
+      "cat": "shien",
+      "urgent": true,
       "pin": false,
       "src": "社協",
       "n": 0
