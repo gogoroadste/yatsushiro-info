@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-24T05:39:48.245Z",
-  "checked": "2026-11-24T05:39:48.245Z",
+  "updated": "2026-11-24T11:54:17.559Z",
+  "checked": "2026-11-24T11:54:17.559Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 149
+      "count": 150
     },
     "kinkyu": {
       "ok": true,
@@ -700,6 +700,16 @@
       "n": 324914
     },
     {
+      "t": "令和８年熊本地震に伴う自治体・企業様からの物資のご提供について（お願い）",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
+      "ex": "",
+      "cat": "shien",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 326767
+    },
+    {
       "t": "【令和８年熊本地震】水の「配達サービス」の活用について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326930/index.html",
       "ex": "",
@@ -708,16 +718,6 @@
       "pin": false,
       "src": "八代市",
       "n": 326930
-    },
-    {
-      "t": "支援物資の受入れの停止について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326883/index.html",
-      "ex": "",
-      "cat": "shien",
-      "urgent": true,
-      "pin": false,
-      "src": "八代市",
-      "n": 326883
     },
     {
       "t": "支援物資等の受入窓口 問合せ先一覧",
@@ -1378,6 +1378,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327372
+    },
+    {
+      "t": "【12月11日〆切】仮設施設整備支援事業（仮設店舗）に関する入居希望申込みについて",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327422/index.html",
+      "ex": "",
+      "cat": "mise",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327422
     },
     {
       "t": "【令和8年熊本地震】企業版ふるさと納税による支援寄付金の受付について",
