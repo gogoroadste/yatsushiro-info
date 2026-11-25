@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-25T00:52:07.132Z",
-  "checked": "2026-11-25T00:52:07.132Z",
+  "updated": "2026-11-25T04:56:40.374Z",
+  "checked": "2026-11-25T04:56:40.374Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 150
+      "count": 151
     },
     "kinkyu": {
       "ok": true,
@@ -820,6 +820,16 @@
       "n": 326792
     },
     {
+      "t": "令和８年熊本地震による国民健康保険一部負担金の還付申請について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327404/index.html",
+      "ex": "",
+      "cat": "karada",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327404
+    },
+    {
       "t": "令和８年熊本地震により被災された方の「介護保険料」の減免について",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327066/index.html",
       "ex": "",
@@ -1511,13 +1521,13 @@
     },
     {
       "t": "炊き出し支援をご検討いただいている皆様へ",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00326785/index.html",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327440/index.html",
       "ex": "",
       "cat": "shien",
       "urgent": true,
       "pin": false,
       "src": "八代市",
-      "n": 326785
+      "n": 327440
     },
     {
       "t": "避難所開設状況",
