@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T02:20:20.064Z",
-  "checked": "2026-11-26T02:20:20.064Z",
+  "updated": "2026-11-26T05:31:47.404Z",
+  "checked": "2026-11-26T05:31:47.404Z",
   "ok": true,
   "sources": {
     "city": {
@@ -1860,6 +1860,16 @@
       "n": 0
     },
     {
+      "t": "重要！災害ボランティア関係「個人ボランティア募集（第12弾）」開始",
+      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
+      "ex": "",
+      "cat": "volunteer",
+      "urgent": true,
+      "pin": false,
+      "src": "社協",
+      "n": 0
+    },
+    {
       "t": "【熊本地震で被災された八代市の皆様へ】支援物資配付会のお知らせです",
       "u": "https://www.yatsushiro-shakyo.jp/oshirase_bussi_haifukai.html",
       "ex": "",
@@ -1874,16 +1884,6 @@
       "u": "https://www.yatsushiro-shakyo.jp/oshirase_nisseki_R08kumamotojishin2.html",
       "ex": "",
       "cat": "okane",
-      "urgent": true,
-      "pin": false,
-      "src": "社協",
-      "n": 0
-    },
-    {
-      "t": "災害ボランティア関係「個人ボランティア募集（第11弾）」開始",
-      "u": "https://www.yatsushiro-shakyo.jp/homepage_new/R08_saigai_vc_home.html",
-      "ex": "",
-      "cat": "volunteer",
       "urgent": true,
       "pin": false,
       "src": "社協",
