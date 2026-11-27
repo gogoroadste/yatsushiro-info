@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-27T02:35:49.297Z",
-  "checked": "2026-11-27T02:35:49.297Z",
+  "updated": "2026-11-27T08:31:44.610Z",
+  "checked": "2026-11-27T08:31:44.610Z",
   "ok": true,
   "sources": {
     "city": {
       "ok": true,
-      "count": 136
+      "count": 137
     },
     "kinkyu": {
       "ok": true,
@@ -640,16 +640,6 @@
       "n": 327252
     },
     {
-      "t": "令和8年熊本地震における災害義援金の支給について",
-      "u": "https://www.city.yatsushiro.lg.jp/kiji00327216/index.html",
-      "ex": "",
-      "cat": "okane",
-      "urgent": false,
-      "pin": false,
-      "src": "八代市",
-      "n": 327216
-    },
-    {
       "t": "R8熊本地震災害義援金（重傷者）の取り扱いについて",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00327266/index.html",
       "ex": "",
@@ -690,6 +680,16 @@
       "n": 324914
     },
     {
+      "t": "令和8年熊本地震における災害義援金の支給（第2次配分）について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327216/index.html",
+      "ex": "",
+      "cat": "okane",
+      "urgent": false,
+      "pin": false,
+      "src": "八代市",
+      "n": 327216
+    },
+    {
       "t": "令和８年熊本地震に伴う自治体・企業様からの物資のご提供について（お願い）",
       "u": "https://www.city.yatsushiro.lg.jp/kiji00326767/index.html",
       "ex": "",
@@ -728,6 +728,16 @@
       "pin": false,
       "src": "八代市",
       "n": 327231
+    },
+    {
+      "t": "支援物資配布会の開催について",
+      "u": "https://www.city.yatsushiro.lg.jp/kiji00327455/index.html",
+      "ex": "",
+      "cat": "shien",
+      "urgent": true,
+      "pin": false,
+      "src": "八代市",
+      "n": 327455
     },
     {
       "t": "令和8年熊本地震における『り災証明書』の窓口申請について",
